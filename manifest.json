@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-02T18:43:43.391Z",
+ "published": "2026-11-02T18:54:25.052Z",
  "notes": "",
  "studio": {
-  "version": "v7.4",
-  "file": "studio/EffectStudio-v7.4-3260bf7d0d.zip",
-  "zipSha": "3260bf7d0debf326668c5510d9c040bb68a801b20c5df20b105bfc6e3e8b4cd4",
-  "size": 68651,
+  "version": "v7.5",
+  "file": "studio/EffectStudio-v7.5-3d620a948d.zip",
+  "zipSha": "3d620a948deed07a527093c2f7cefeb7b6bc7839a1cd5019b95451c51ce879a6",
+  "size": 69344,
   "files": [
    {
     "path": "server.js",
-    "sha": "cbe924390fcffb8b3bf9ec4414d5740f5e99606a160bb813593728f6bf028167"
+    "sha": "2c75491f8dcd32916a68524e6af0f196f1fa634ff7be0aa0f4a53e780dbf169d"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "388719c01d5a48ecd892cf73599d44f6edda70c58f3ef4a12725d353bef3dff3"
+    "sha": "25460de32c65901a0d4e5ccc7ba5cc06cf79dc90f9895fd332116047dab358ec"
    },
    {
     "path": "public/thumb.html",
