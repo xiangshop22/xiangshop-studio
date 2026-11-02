@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-02T18:19:59.893Z",
- "notes": "",
+ "published": "2026-11-02T18:41:02.492Z",
+ "notes": "我草，人都麻了",
  "studio": {
-  "version": "v7.3",
-  "file": "studio/EffectStudio-v7.3-cb4f1677ab.zip",
-  "zipSha": "cb4f1677ab58200d7d597717fbff5450a75501a1921ca119ce4dc9a9d91e580a",
-  "size": 68165,
+  "version": "v7.4",
+  "file": "studio/EffectStudio-v7.4-3260bf7d0d.zip",
+  "zipSha": "3260bf7d0debf326668c5510d9c040bb68a801b20c5df20b105bfc6e3e8b4cd4",
+  "size": 68651,
   "files": [
    {
     "path": "server.js",
-    "sha": "d5a6e0a75084dfbb6767f48ad71f0336cd68c9d20eebc3d3a927d56c08a7d522"
+    "sha": "cbe924390fcffb8b3bf9ec4414d5740f5e99606a160bb813593728f6bf028167"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "814095c22e6cbe0b39ec45f55ace37799645e230025c6c0e51cc2f58dbbe94df"
+    "sha": "388719c01d5a48ecd892cf73599d44f6edda70c58f3ef4a12725d353bef3dff3"
    },
    {
     "path": "public/thumb.html",
