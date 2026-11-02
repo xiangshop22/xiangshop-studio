@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "published": "2026-11-02T17:49:35.468Z",
- "notes": "修复一些已知问题",
+ "published": "2026-11-02T17:52:57.244Z",
+ "notes": "修复一些已知问题，我艹，小BUG真的好烦。",
  "studio": {
   "version": "v7.2",
   "file": "studio/EffectStudio-v7.2-5d4f09f76e.zip",
