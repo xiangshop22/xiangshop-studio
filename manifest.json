@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-02T19:19:27.069Z",
- "notes": "",
+ "published": "2026-11-04T18:24:46.098Z",
+ "notes": "更新了logo，然后增加了联系我这个选项，后续有需要的效果卡片，BUG等等都可以联系我。",
  "studio": {
-  "version": "v7.7",
-  "file": "studio/EffectStudio-v7.7-a545decd50.zip",
-  "zipSha": "a545decd50ec47ed7c535c41ae9da759ae72dacfe9940cc6a8746bd4c4351324",
-  "size": 69346,
+  "version": "v7.8",
+  "file": "studio/EffectStudio-v7.8-2f03ed326f.zip",
+  "zipSha": "2f03ed326f818e833db0b396416184656be312c62f5db686408725835d188861",
+  "size": 88187,
   "files": [
    {
     "path": "server.js",
-    "sha": "cfb9fdcf6617598c642c3914557556638fa468a6b103acef3f37ed657460eeb9"
+    "sha": "66815285591f40c4b287cf947f3e2bc0c801620aea85e8a05d19cc2ddd7e83a2"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,11 @@
    },
    {
     "path": "public/index.html",
-    "sha": "deb18eebb6db9ed0acb86d421a93dcd6ca4a8ceb4cfad5e46fa6aff94e66b408"
+    "sha": "e77065cd44de82b3d778483a56018cd611615c190fa37585416db80b1f537edf"
+   },
+   {
+    "path": "public/logo.png",
+    "sha": "34a8a8e06f01304bc012ce26ff0722cc99c34cfa272c5513029020efb7bdb3e7"
    },
    {
     "path": "public/thumb.html",
@@ -55,6 +59,10 @@
    {
     "path": "tools/nodeok.js",
     "sha": "f92663f958c8890b8e2f838e84b6d3a4ad466d580849492f0dd1c3e09f5ea1d1"
+   },
+   {
+    "path": "tools/pack-for-others.js",
+    "sha": "4e901325d7293c5621144951e654caca14c6efbe1e1b570cf58c2bde93acf6e1"
    },
    {
     "path": "tools/publish.js",
