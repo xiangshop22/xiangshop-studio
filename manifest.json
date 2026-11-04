@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "published": "2026-11-04T18:54:01.185Z",
- "notes": "更新仓库",
+ "published": "2026-11-04T18:57:35.300Z",
+ "notes": "已知问题",
  "studio": {
   "version": "v7.9",
-  "file": "studio/EffectStudio-v7.9-a7304f0308.zip",
-  "zipSha": "a7304f030899691313d0609e689a36862e08adb6af1991f34bba25205479bedd",
-  "size": 90407,
+  "file": "studio/EffectStudio-v7.9-a22e4cc987.zip",
+  "zipSha": "a22e4cc9871f74130977004f751162ffd15337bd0235744a3a80a4a7662b5de4",
+  "size": 90871,
   "files": [
    {
     "path": "server.js",
@@ -30,7 +30,7 @@
    },
    {
     "path": "update.json",
-    "sha": "e4a386786cdbb5d86425ee32f4ed2019c6689ec2bcba84c4324ab0ffe9e4bb1b"
+    "sha": "a2c972fb1cec0cf4e879c16f7eecc4c89ed32187680099fff0d707b18bc7dbba"
    },
    {
     "path": "发布更新.bat",
@@ -66,7 +66,7 @@
    },
    {
     "path": "tools/publish.js",
-    "sha": "d968df9d636c871a20872d59f684396445b4615e4160ab0d866737110e7e5f9a"
+    "sha": "6c4fc8d2c8e04f4203aa47df82cfc0f6a9e0be2bf56b46003634cf578626c388"
    },
    {
     "path": "tools/setup-node.ps1",
