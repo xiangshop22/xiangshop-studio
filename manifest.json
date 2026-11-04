@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "published": "2026-11-04T19:11:32.377Z",
+ "published": "2026-11-04T19:14:09.471Z",
  "notes": "",
  "studio": {
   "version": "v8.0",
-  "file": "studio/EffectStudio-v8.0-feabd18af6.zip",
-  "zipSha": "feabd18af6b7b73602758911cdfa813f6fd978e2b5fce044f9fe795da260cbee",
-  "size": 97817,
+  "file": "studio/EffectStudio-v8.0-0f37b11978.zip",
+  "zipSha": "0f37b11978b325f7f93f1379ffbe79834f70a689f8ce8a2908bc053707b122b5",
+  "size": 98172,
   "files": [
    {
     "path": "server.js",
@@ -54,7 +54,7 @@
    },
    {
     "path": "tools/github-setup.js",
-    "sha": "71a29e7ae4e82bcf2fcb4f7d1e84115714fb5ca2360022bb81560646ac937fc0"
+    "sha": "3aab5215748c7d65729159c4e0d280b43e6670f56ed79235d4337e6191af86d4"
    },
    {
     "path": "tools/launcher.js",
@@ -70,7 +70,7 @@
    },
    {
     "path": "tools/publish.js",
-    "sha": "6c4fc8d2c8e04f4203aa47df82cfc0f6a9e0be2bf56b46003634cf578626c388"
+    "sha": "224d3215e97444090cda39d2167349618915938b0a18b30084eb4b71f993919d"
    },
    {
     "path": "tools/setup-node.ps1",
