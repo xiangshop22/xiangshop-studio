@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "published": "2026-11-04T19:01:34.027Z",
- "notes": "端口修改",
+ "published": "2026-11-04T19:04:08.787Z",
+ "notes": "测试",
  "studio": {
   "version": "v7.9",
-  "file": "studio/EffectStudio-v7.9-f5e913061b.zip",
-  "zipSha": "f5e913061b804319f28d07eb5532643210b37bf8bd88ecee0101f9086edf3f0c",
-  "size": 90874,
+  "file": "studio/EffectStudio-v7.9-bc804f44ac.zip",
+  "zipSha": "bc804f44ace3920983251762cbe780dccd530d7a687494c40c0cad251bf23308",
+  "size": 90871,
   "files": [
    {
     "path": "server.js",
@@ -30,7 +30,7 @@
    },
    {
     "path": "update.json",
-    "sha": "6cf35daaf9cfa6e5439ed9764bcfe58d5015fc1c59e375200902656bb1f068be"
+    "sha": "05c0d8df28ebf81d62b643feb641f7e789c883962aa820ef3e507e86ae30af1a"
    },
    {
     "path": "发布更新.bat",
