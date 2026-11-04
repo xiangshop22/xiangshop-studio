@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-04T18:24:46.098Z",
- "notes": "更新了logo，然后增加了联系我这个选项，后续有需要的效果卡片，BUG等等都可以联系我。",
+ "published": "2026-11-04T18:35:44.014Z",
+ "notes": "系统优化了更新线路，啊也就是所谓的更新了一些已知问题，哈哈哈",
  "studio": {
-  "version": "v7.8",
-  "file": "studio/EffectStudio-v7.8-2f03ed326f.zip",
-  "zipSha": "2f03ed326f818e833db0b396416184656be312c62f5db686408725835d188861",
-  "size": 88187,
+  "version": "v7.9",
+  "file": "studio/EffectStudio-v7.9-a7304f0308.zip",
+  "zipSha": "a7304f030899691313d0609e689a36862e08adb6af1991f34bba25205479bedd",
+  "size": 90407,
   "files": [
    {
     "path": "server.js",
-    "sha": "66815285591f40c4b287cf947f3e2bc0c801620aea85e8a05d19cc2ddd7e83a2"
+    "sha": "909e1c7a916a39fb14b769a83e189ab746ccb135145e337c51bf7dddbdb66c30"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "e77065cd44de82b3d778483a56018cd611615c190fa37585416db80b1f537edf"
+    "sha": "e74d4400f6a2f0dc74e3fc0e0405e3f65f409344f05789f459ca2c6767ba115d"
    },
    {
     "path": "public/logo.png",
@@ -62,11 +62,11 @@
    },
    {
     "path": "tools/pack-for-others.js",
-    "sha": "4e901325d7293c5621144951e654caca14c6efbe1e1b570cf58c2bde93acf6e1"
+    "sha": "fe20366c0428e9b80d7413865455033c2570e779e17ea139072e39d4c4e7ed33"
    },
    {
     "path": "tools/publish.js",
-    "sha": "f4f5d5b53e2652608efd6fb98d6187f6616cf1cd6904b9ae42ae6b44c5266522"
+    "sha": "d968df9d636c871a20872d59f684396445b4615e4160ab0d866737110e7e5f9a"
    },
    {
     "path": "tools/setup-node.ps1",
