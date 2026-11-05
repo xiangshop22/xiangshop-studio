@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-05T09:08:57.968Z",
- "notes": "新增 Ctrl+Z 撤销 / 重做；XYZ 角度只用右键控制；参数最上面新增「持续时间」，一键设置整个效果的时长；播放器下新增「关键帧之外：回到默认 / 保持首尾」切换。新增了两张卡片",
+ "published": "2026-11-05T17:08:16.742Z",
+ "notes": "1、系统升级，增加了“保存预设”的功能，做好的动画无需再次调整，下次替换素材即可。2、新增了三张卡片。4、优化了系统逻辑，避免系统臃肿！5、后面要等两两天更新了，Pro周额度已经干光了！",
  "studio": {
-  "version": "v8.1",
-  "file": "studio/EffectStudio-v8.1-d4f40b4f36.zip",
-  "zipSha": "d4f40b4f36278f4028cd16f108cf4c6cb2712bd6720734a6f2b028524d5c0738",
-  "size": 104900,
+  "version": "v9.0",
+  "file": "studio/EffectStudio-v9.0-83302aa1ee.zip",
+  "zipSha": "83302aa1eec65475973c6c595983a633574d8a15a39cea8321a0f0cd4a89d3ec",
+  "size": 107275,
   "files": [
    {
     "path": "server.js",
-    "sha": "7df8b1d44a1cd09e607675ba900a3b80448d8da7b1daffda4432a946c8ee7e5e"
+    "sha": "2946810415bfef91b90006b4ec9d76a18b8bcb5cc4e605fbf51a334d851c4e65"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "3373273a0780cda9364f48d37928f4153c5a649af98ba94c850c41636c62c0c1"
+    "sha": "133ace9ef9f90b01c00e9eae529c21631431f91a1c0b0918a97a8aa263706a48"
    },
    {
     "path": "public/logo.png",
@@ -78,7 +78,7 @@
    },
    {
     "path": "tools/update.js",
-    "sha": "775ca494d9b869f2875af4e39e29e557aa294e296e87e4dc89ef7bee9f7a8aac"
+    "sha": "223b085cfe8d12815b6ded32b79922e439419fed1166c66612cfb90916c6b61f"
    },
    {
     "path": "tools/zip.js",
@@ -712,6 +712,36 @@
     {
      "path": "people-fill/effect.json",
      "sha": "aeaf5efaf7c6bfbbbd004b4f71d2239b220eb9c8cc7b009a9b90033a33de8d01"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "991bf6d3f539215a258c94fff31f45ccce26cf34802f5d6e71a50a5c82a5d247"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "83148ca3f7f0a4fc459127e9618caac2ebbca45171b5962a237cd0bebb896416"
+    }
+   ]
+  },
+  {
+   "id": "photo-stack-slide",
+   "name": "照片堆叠滑入",
+   "description": "一叠照片带着阴影、错开着从画外滑进来：后面的先到，最上面那张晚一步再加速追上，快对齐时错开收小，由快到慢缓停；数量、入画 / 出画方向、整体角度都能调",
+   "file": "effects/photo-stack-slide-90b837818a.zip",
+   "zipSha": "90b837818abe903be1b589a699c6ff3f1a29b0ad1140fdfd0f3b4930d3401452",
+   "size": 49531,
+   "files": [
+    {
+     "path": "photo-stack-slide/effect.html",
+     "sha": "e089c0cfdc9e0d4c5aa503c38412147af6bbca22f54fa9239a0f79613981038a"
+    },
+    {
+     "path": "photo-stack-slide/effect.json",
+     "sha": "39ac236d99e3d546c629a3baea7a3d1910821ccf6a59614c11f1719ac364e137"
     },
     {
      "path": "_shared/fx-cards.js",
