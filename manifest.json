@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "published": "2026-11-05T19:17:17.874Z",
- "notes": "更新功能：1、系统升级，上传照片或视频后自动弹出「调整大小和位置」窗口，滚轮缩放、左键拖动、双击回到铺满。每张照片和视频卡下面多了「✥ 调整大小和位置」按钮。2、自己做好的效果，均可用保存为预设，便于下次使用3、新增了一个图片堆叠效果。",
+ "published": "2026-11-05T19:26:35.853Z",
+ "notes": "把保存预设的位置放到“导出”前面，这样就不会忘记了，点击保存预设后，后面直接套换素材即可。爽歪歪！一次做好，，无限使用！",
  "studio": {
   "version": "v10.0",
-  "file": "studio/EffectStudio-v10.0-bf60cf5dfa.zip",
-  "zipSha": "bf60cf5dfaec09051800f8a69106ddd716f4c382ed1ad7dd03cf429ec7ad6834",
-  "size": 107278,
+  "file": "studio/EffectStudio-v10.0-4d0aea9edb.zip",
+  "zipSha": "4d0aea9edb03cc3c35ac6c48ebb44e5ba590deb1a61d49c6ec17bc73b3704b47",
+  "size": 107285,
   "files": [
    {
     "path": "server.js",
@@ -38,7 +38,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "e04d218fb37fec972d7cbabc61f6c01bf12261d89ef1e1d58d26ddee729aa579"
+    "sha": "bf0cbca7f9d34554d128ab4860d69d6cf3e237213ea1d7c20e0788f8f07cfeb7"
    },
    {
     "path": "public/logo.png",
