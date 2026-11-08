@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-08T18:15:19.646Z",
- "notes": "增加预合成功能,增加窗口可调功能.",
+ "published": "2026-11-08T20:13:23.860Z",
+ "notes": "增加了小林说的卡片动效，增加了素材叠加功能，更新了一些BUG",
  "studio": {
-  "version": "v10.1",
-  "file": "studio/EffectStudio-v10.1-b9cde6b2d4.zip",
-  "zipSha": "b9cde6b2d418af98cb438b3f7f46e13c7d8ac68d9d4816e4bb6ca14772ee10f7",
-  "size": 124822,
+  "version": "v11.1",
+  "file": "studio/EffectStudio-v11.1-f25cde50d6.zip",
+  "zipSha": "f25cde50d672cb6137a14189f1183dc4b18ff69f456117c2b89eb76e575d70e3",
+  "size": 126479,
   "files": [
    {
     "path": "server.js",
-    "sha": "502a524e92c9aa5d70adac5dfd635e1ad3d3b3285c6b5500f24aad64f86dc289"
+    "sha": "55a2e3229d5311d44ddb22a24ebb16a8aa980555358bf2a7e1c796ddd9752431"
    },
    {
     "path": "start.bat",
@@ -41,8 +41,12 @@
     "sha": "2207d54f6e757a2c2e3b7bf63678f326221f9bf210f913cedf31e884d6ee51f1"
    },
    {
+    "path": "public/ghost.html",
+    "sha": "7a6c0fcd3c3aff9c767dab79d933c5f4fb39b76bb1e80321ac2bc521488f1534"
+   },
+   {
     "path": "public/index.html",
-    "sha": "caac4044f969562f076df40f71254b282590fe120c2857e5a5cee37dacfc9767"
+    "sha": "cad74e902b432c7daf17a4d5ab5b9fca624aefc889602a374f14a75cb317dba4"
    },
    {
     "path": "public/logo.png",
@@ -95,9 +99,9 @@
    "id": "balance-scale",
    "name": "老人与小孩天平",
    "description": "天平左边老人、右边小孩，按比重倾斜并回摆到平衡",
-   "file": "effects/balance-scale-1708ac2463.zip",
-   "zipSha": "1708ac2463a86e0a533a5b15d087383e66c784c4acbbf83f6c40f43c93fc806b",
-   "size": 48449,
+   "file": "effects/balance-scale-2963c99c1e.zip",
+   "zipSha": "2963c99c1e0f52384cd858b2cae8cbe327e10671981504fb6f6011ec1a4d4939",
+   "size": 79406,
    "files": [
     {
      "path": "balance-scale/effect.html",
@@ -110,6 +114,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -125,9 +137,9 @@
    "id": "blur-text",
    "name": "模糊浮现（BlurText）",
    "description": "词块从虚焦中逐个清晰",
-   "file": "effects/blur-text-938c55de65.zip",
-   "zipSha": "938c55de651c3916175375e00c623cc0548daf1f23e6c560dbd7f684803ad5aa",
-   "size": 77228,
+   "file": "effects/blur-text-416697116b.zip",
+   "zipSha": "416697116b9fde3989f432be41579238b55dd7fd8b3e5084cbb7958711fdbaae",
+   "size": 108185,
    "files": [
     {
      "path": "blur-text/bundle.js",
@@ -146,6 +158,14 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -159,9 +179,9 @@
    "id": "brief-board",
    "name": "讲解要点板",
    "description": "顶部一个大标题，下面一格一格的小标题卡：讲到哪一条，哪一条就变成高亮色，讲过去再换回常态色，换色可以选闪动 / 渐变 / 扫光 / 翻面。背景可以放自己的照片或视频，上面压一层可调浓度的半透明黑。每张卡可以是文字、照片、视频或镂空；预览区右键拖动可以转 X / Y / Z 三轴",
-   "file": "effects/brief-board-e1e16c7f37.zip",
-   "zipSha": "e1e16c7f373f81757ffd0f58d93c05a3827e84edf6844dbdd8b5ad4ef91cd12d",
-   "size": 69849,
+   "file": "effects/brief-board-83e9a24a87.zip",
+   "zipSha": "83e9a24a8708ac3d1bb0843e9e954c3ee49f029669fca4675e94f23bc828da46",
+   "size": 100806,
    "files": [
     {
      "path": "brief-board/effect.html",
@@ -174,6 +194,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -189,9 +217,9 @@
    "id": "caption-track",
    "name": "常驻双语字幕（CaptionTrack）",
    "description": "中文主行 + 英文小字 + 关键词点亮",
-   "file": "effects/caption-track-58a76fe3c8.zip",
-   "zipSha": "58a76fe3c851f203ca5f619f87b52ca2c1b67910caf7c322b79071c468a412b2",
-   "size": 74453,
+   "file": "effects/caption-track-e80a696aa9.zip",
+   "zipSha": "e80a696aa90207ab6b9b929c6d10e673744c186d372640e97ebad374e9aa4960",
+   "size": 105410,
    "files": [
     {
      "path": "caption-track/bundle.js",
@@ -210,6 +238,14 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -223,9 +259,9 @@
    "id": "card-arc-stack",
    "name": "卡片弧形叠排",
    "description": "卡片依次飞进来，左右叠在一起排成一道朝向镜头的弧，中间最大最靠前、两边往后转；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-arc-stack-d0523662af.zip",
-   "zipSha": "d0523662aff9fbd75ceecf4c4e9aec9ad3df415d1ba7e40d505fc48993fd5ba9",
-   "size": 52963,
+   "file": "effects/card-arc-stack-cecdd9fd7d.zip",
+   "zipSha": "cecdd9fd7d1bd1100a01917a73809a17aa7ba27b582f09bb67f0e7bc3187e08b",
+   "size": 83920,
    "files": [
     {
      "path": "card-arc-stack/effect.html",
@@ -238,6 +274,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -253,9 +297,9 @@
    "id": "card-deal",
    "name": "发牌展开（Card Deal）",
    "description": "卡片可放照片或文字，从底部依序发出，展开成扇形并回弹，每张卡片可单独设置进场、停留、退出时长",
-   "file": "effects/card-deal-a81f06922f.zip",
-   "zipSha": "a81f06922f36a36715507da21c00da111991332067d9e066ce10e49cd92a7842",
-   "size": 59011,
+   "file": "effects/card-deal-3dcf474291.zip",
+   "zipSha": "3dcf474291cee73457c56dd959cda6b704a3a7d3676623c8c358c9689d798e85",
+   "size": 89968,
    "files": [
     {
      "path": "card-deal/effect.html",
@@ -268,6 +312,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -283,9 +335,9 @@
    "id": "card-fly-grid",
    "name": "卡片飞入拼格",
    "description": "一组卡片从画外依次飞进来，拼成整齐的格子（九宫格 / 三列两行等），最后可以原路飞出、淡出或掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-fly-grid-c172877aec.zip",
-   "zipSha": "c172877aecf0023a48c87a1f8fc6a9f378d2786d73e5b56cd080996a818293e3",
-   "size": 52139,
+   "file": "effects/card-fly-grid-60422735a0.zip",
+   "zipSha": "60422735a0de5da50ef4c453ec64d900fefde0c612c5012fbe1fcd32c65b5284",
+   "size": 83096,
    "files": [
     {
      "path": "card-fly-grid/effect.html",
@@ -298,6 +350,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -313,9 +373,9 @@
    "id": "card-grid-zoom",
    "name": "卡片网格推近",
    "description": "一组卡片先拼成格子，镜头再推近其中一张看细节，其他卡片顺势变暗模糊，最后可以拉回网格、停在特写或淡出；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-grid-zoom-31d51587bd.zip",
-   "zipSha": "31d51587bd7e241ac647685050b5b8051801160e383960284ae898f7d34566c8",
-   "size": 54727,
+   "file": "effects/card-grid-zoom-c433fc34c4.zip",
+   "zipSha": "c433fc34c4d1f8c76f3b0f201c0d2f9f5b1ecd51da0fcb823938a751996b0c22",
+   "size": 85684,
    "files": [
     {
      "path": "card-grid-zoom/effect.html",
@@ -328,6 +388,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -343,9 +411,9 @@
    "id": "card-hang-sway",
    "name": "吊线悬挂卡",
    "description": "卡片像挂在吊线上一样被一张张放下来，长短不一地悬在空中轻轻摆动，结尾可以收回上去、淡出或断线掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-hang-sway-70873c286f.zip",
-   "zipSha": "70873c286f3edbd5ab2c746104a5402df129fe219379b804d069a836d29c661f",
-   "size": 53390,
+   "file": "effects/card-hang-sway-50bcf6aa2b.zip",
+   "zipSha": "50bcf6aa2bcd34cb52ce8671e936cf04d59c463733772287697efef0b3b505b0",
+   "size": 84347,
    "files": [
     {
      "path": "card-hang-sway/effect.html",
@@ -358,6 +426,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -373,9 +449,9 @@
    "id": "card-particle-swarm",
    "name": "卡片粒子群",
    "description": "一大片小卡片像粒子一样在空间里漂浮飞过，可调粒子数量、飘动方向和速度；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-particle-swarm-0c1dfdba99.zip",
-   "zipSha": "0c1dfdba990c0931e614b1403556f48bffc7d8d25a471d1e50ec6cb8af07e2e0",
-   "size": 54754,
+   "file": "effects/card-particle-swarm-dacab7eaef.zip",
+   "zipSha": "dacab7eaefacc427c8790c1774e7ec57cff3deab1bcb9d87696d53d90c2e9610",
+   "size": 85711,
    "files": [
     {
      "path": "card-particle-swarm/effect.html",
@@ -388,6 +464,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -403,9 +487,9 @@
    "id": "card-reveal",
    "name": "卡片依序浮现（Staggered Reveal）",
    "description": "多张作品卡片排成网格，从模糊到清晰依序浮现，缩略图、标题、文字再逐一补上；停留后从最后一张反向上浮淡出",
-   "file": "effects/card-reveal-adb9fc8ee2.zip",
-   "zipSha": "adb9fc8ee2da52d7b379b132a79b5c0f8f0e96d7ecaca8ab21c1d1f908142bec",
-   "size": 62692,
+   "file": "effects/card-reveal-3e4e152576.zip",
+   "zipSha": "3e4e152576f266d59e67276338e563dae7d89b87e911dcd76adc6f3f4636d555",
+   "size": 93649,
    "files": [
     {
      "path": "card-reveal/effect.html",
@@ -418,6 +502,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -433,9 +525,9 @@
    "id": "card-stack-array",
    "name": "卡片叠出阵列",
    "description": "先出一张首图斜着飞进来，停一会儿之后其余卡片从它背后一张张滑出来散成一叠，最后全部排成上下多行的阵列；预览区右键拖动可以转 X / Y / Z 三轴。每张卡可以是文字、照片、视频或镂空",
-   "file": "effects/card-stack-array-47504e98f7.zip",
-   "zipSha": "47504e98f793ef8a5b033104a5a8d3d95d6d06fcaef0bb7f8484387959530de3",
-   "size": 55507,
+   "file": "effects/card-stack-array-4879662c85.zip",
+   "zipSha": "4879662c8526d8e55a85649819ddbbc72cee7790dfb76c60e9f067c540aa3936",
+   "size": 86464,
    "files": [
     {
      "path": "card-stack-array/effect.html",
@@ -448,6 +540,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -463,9 +563,9 @@
    "id": "chapter-bar",
    "name": "常驻章节导航（ChapterBar）",
    "description": "顶部全程在场的本期地图",
-   "file": "effects/chapter-bar-2537ea06da.zip",
-   "zipSha": "2537ea06dac21c3c068cb72e2207c9ccccab20b1b04fe02ce385d61a039258ad",
-   "size": 76096,
+   "file": "effects/chapter-bar-dd2e8dc8c5.zip",
+   "zipSha": "dd2e8dc8c5735a2d50ffee378b3b5db65ae0e899f2cc6b9abe426765e8d34b8f",
+   "size": 107053,
    "files": [
     {
      "path": "chapter-bar/bundle.js",
@@ -484,6 +584,14 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -497,9 +605,9 @@
    "id": "chapter-progress",
    "name": "章节进度条",
    "description": "常驻在画面顶部或底部的章节进度条：按每章开始时间分段，进度往前推，当前章节高亮。总时长最长 120 分钟",
-   "file": "effects/chapter-progress-50026cf5d2.zip",
-   "zipSha": "50026cf5d298208210d229196f2f01fa199e16415e13fed8ba1429fd64d616af",
-   "size": 51991,
+   "file": "effects/chapter-progress-d54490799c.zip",
+   "zipSha": "d54490799ced521285d362500ea19c487b76ddcac2a5ae207a72d2b061f24ee7",
+   "size": 82948,
    "files": [
     {
      "path": "chapter-progress/effect.html",
@@ -512,6 +620,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -527,9 +643,9 @@
    "id": "checklist",
    "name": "步骤打勾（Checklist）",
    "description": "流程逐项完成打√",
-   "file": "effects/checklist-a333005db9.zip",
-   "zipSha": "a333005db9ab58e8eb0f474e035328b36027a0d701a39da9fea65d8c891715f2",
-   "size": 77612,
+   "file": "effects/checklist-410c3e7646.zip",
+   "zipSha": "410c3e7646a756fd8fedc8501b3c3ce403652a2cc98ac7b337dd4fa5f7b4c308",
+   "size": 108569,
    "files": [
     {
      "path": "checklist/bundle.js",
@@ -548,6 +664,14 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -561,9 +685,9 @@
    "id": "comment-flow",
    "name": "评论飘过（Comment Flow）",
    "description": "上传评论区截图，生成圆角卡片在画面里随机冒出，入场完成后向一个方向移动；截图不够会循环使用",
-   "file": "effects/comment-flow-7da279a62d.zip",
-   "zipSha": "7da279a62d048b24e94031681478eb1ca8de814474e5eff2d6ed2b994e10cd0f",
-   "size": 58972,
+   "file": "effects/comment-flow-43e4a69036.zip",
+   "zipSha": "43e4a69036f6e519344874010a9ab16299a561ae18f963d779999f81acaa6839",
+   "size": 89929,
    "files": [
     {
      "path": "comment-flow/effect.html",
@@ -576,6 +700,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -591,9 +723,9 @@
    "id": "danmaku",
    "name": "弹幕",
    "description": "一行文字就是一条弹幕，从画面一侧飘到另一侧；字号、颜色、速度都能调，轨道自动排开、互不重叠；背景透明，可以直接叠在视频上",
-   "file": "effects/danmaku-20ecd0c9f4.zip",
-   "zipSha": "20ecd0c9f4cfc862965238ada55dcbf327a2de5c3222621311b85fca7d6f8af9",
-   "size": 58640,
+   "file": "effects/danmaku-72daf81aac.zip",
+   "zipSha": "72daf81aacd1ded899f17baa66d35640ed6b7fd0314707688b9e7a907c4d21b6",
+   "size": 89597,
    "files": [
     {
      "path": "danmaku/effect.html",
@@ -606,6 +738,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -621,9 +761,9 @@
    "id": "donut-ring-load",
    "name": "环形数字加载",
    "description": "甜甜圈图从正上方顺时针一段接一段画出，中间总计往上数，右侧图例依序滑入；数据可在面板表格里改，也能导入 Excel",
-   "file": "effects/donut-ring-load-61ba0454cf.zip",
-   "zipSha": "61ba0454cf17bccd8340e3cf6eabc7002d295e3472abc19dc63e4dcaebf135aa",
-   "size": 410336,
+   "file": "effects/donut-ring-load-2b30322cbe.zip",
+   "zipSha": "2b30322cbe680114963c8da66f240e31310783324fe726106f0bf1c7632e8cb4",
+   "size": 441293,
    "files": [
     {
      "path": "donut-ring-load/DrawSVGPlugin.min.js",
@@ -650,6 +790,14 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -663,9 +811,9 @@
    "id": "entity-chips",
    "name": "实体名牌（EntityChips）",
    "description": "人物/公司锚定牌,滑入后常驻",
-   "file": "effects/entity-chips-3155edac8f.zip",
-   "zipSha": "3155edac8f465bd6de4ade3f5b7ffe27e148701c91993902fc626e0b2e35fdf5",
-   "size": 77722,
+   "file": "effects/entity-chips-a91d13ae0c.zip",
+   "zipSha": "a91d13ae0c5d055f028c8afd6801bf52bd5835e2cae41d622f27e9a0ba42e84b",
+   "size": 108679,
    "files": [
     {
      "path": "entity-chips/bundle.js",
@@ -684,6 +832,52 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "83148ca3f7f0a4fc459127e9618caac2ebbca45171b5962a237cd0bebb896416"
+    }
+   ]
+  },
+  {
+   "id": "focus-slot-card",
+   "name": "焦点格卡片",
+   "description": "一张带细线边框的卡片：上面一行小字 + 大标题，中间一个「格子」，底部一行英文。格子里可以放会换字的文字（用文字转场，15 种转场任选）、照片、视频，或者空着留一个虚线框（导出时可透明）。5 种排版预设、底色色块、高亮 / 去色关键帧，和缝线标题卡同一套。",
+   "file": "effects/focus-slot-card-44340a642e.zip",
+   "zipSha": "44340a642e16de210d5348a6f79ab4717e0abd40cc6f19399888a899afd22f98",
+   "size": 93878,
+   "files": [
+    {
+     "path": "focus-slot-card/effect.html",
+     "sha": "be3ab0733f72f293b8e9b5e443293a71f19dbd130fea1f45cbe3484e39b23d55"
+    },
+    {
+     "path": "focus-slot-card/effect.json",
+     "sha": "3cae6179491e7f3a1bd178cee3cbec3c0fcb1c2afef69ce84a2bd4efbb37f38a"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -697,9 +891,9 @@
    "id": "growth-curve",
    "name": "增长曲线（GrowthCurve）",
    "description": "平滑曲线动画画出+渐变面积,峰值滚动计数",
-   "file": "effects/growth-curve-3dd4778ebd.zip",
-   "zipSha": "3dd4778ebdd5bd1b741274dae7c97591f732f0a37cc02514e2361add2894424c",
-   "size": 80622,
+   "file": "effects/growth-curve-18c567b8ae.zip",
+   "zipSha": "18c567b8ae3fc05bb0c3ff59ebe4eab9880977063532b3288500ad4f88f53889",
+   "size": 111579,
    "files": [
     {
      "path": "growth-curve/bundle.js",
@@ -718,6 +912,14 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -731,9 +933,9 @@
    "id": "odometer",
    "name": "翻牌计数器（Odometer）",
    "description": "每位数字滚轮到位",
-   "file": "effects/odometer-db8efaed7b.zip",
-   "zipSha": "db8efaed7b7b8d1948078d274f1500e26e1f17c65779cca884bbe74ab1d9725f",
-   "size": 77765,
+   "file": "effects/odometer-dc5cdf42cb.zip",
+   "zipSha": "dc5cdf42cb8a0be26961b4242d6d297e7c121628434d9938bfc93421837d2695",
+   "size": 108722,
    "files": [
     {
      "path": "odometer/bundle.js",
@@ -752,6 +954,14 @@
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
     },
     {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
      "path": "_shared/fx-video.js",
      "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
     },
@@ -765,9 +975,9 @@
    "id": "people-fill",
    "name": "人群填充",
    "description": "空心人逐个被填充，支持半满状态",
-   "file": "effects/people-fill-4ab6880b23.zip",
-   "zipSha": "4ab6880b2377bc6196c7aa472299e9ae973ca73f280801c67bf6cad636c4dfba",
-   "size": 47101,
+   "file": "effects/people-fill-d6c3006a94.zip",
+   "zipSha": "d6c3006a94fb998ac603b9aa287a8b72bab5ac733a5470dbb3dcd730ad8197d5",
+   "size": 78058,
    "files": [
     {
      "path": "people-fill/effect.html",
@@ -780,6 +990,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -795,9 +1013,9 @@
    "id": "photo-stack-slide",
    "name": "照片堆叠滑入",
    "description": "一叠照片带着阴影、错开着从画外滑进来：后面的先到，最上面那张晚一步再加速追上，快对齐时错开收小，由快到慢缓停；数量、入画 / 出画方向、整体角度都能调",
-   "file": "effects/photo-stack-slide-9308d9ed85.zip",
-   "zipSha": "9308d9ed8598d55c66cbfb7a6d6ff6ac2079cd9fa53a089ed44e6d1aa5f0a698",
-   "size": 53813,
+   "file": "effects/photo-stack-slide-3b32a6a2ec.zip",
+   "zipSha": "3b32a6a2ecc7f05c2c982a305af529878d87525232c22a99d77f4bce99046cc8",
+   "size": 84770,
    "files": [
     {
      "path": "photo-stack-slide/effect.html",
@@ -810,6 +1028,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -825,9 +1051,9 @@
    "id": "quote-lockup",
    "name": "金句定格卡",
    "description": "逐字揭示金句，划掉旧说法、高亮重点，最后收走",
-   "file": "effects/quote-lockup-0d5b5674a4.zip",
-   "zipSha": "0d5b5674a429ca174604050563c3313ba5ec5f56db54a53a5305551b5f47e846",
-   "size": 54555,
+   "file": "effects/quote-lockup-d60f5f3192.zip",
+   "zipSha": "d60f5f319272e16f4bc365e66c1ee2a392dd76642ae5fa249db3ee89a678d20d",
+   "size": 85512,
    "files": [
     {
      "path": "quote-lockup/effect.html",
@@ -840,6 +1066,14 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -855,9 +1089,9 @@
    "id": "ring-carousel",
    "name": "3D 环形轮播（Ring Carousel）",
    "description": "多张卡片在 3D 空间里围成圆环缓慢自转，前大后小、背面隐藏；可指定一张「首图」开场正对居中",
-   "file": "effects/ring-carousel-98ebd4ba38.zip",
-   "zipSha": "98ebd4ba3850851b99e6b5f99f5ceb8965cdd226cf41e98b8bc189f586ae7da9",
-   "size": 61952,
+   "file": "effects/ring-carousel-516a800ff1.zip",
+   "zipSha": "516a800ff15da9432ec3f3362568b32568c370e5316dd0b8736b34dae1723876",
+   "size": 92909,
    "files": [
     {
      "path": "ring-carousel/effect.html",
@@ -870,6 +1104,52 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "83148ca3f7f0a4fc459127e9618caac2ebbca45171b5962a237cd0bebb896416"
+    }
+   ]
+  },
+  {
+   "id": "stitch-title-card",
+   "name": "缝线标题卡",
+   "description": "一张四周带缝纫线的矩形卡片：左边大标题 + 英文副标题，右边放自己的图片（或视频）。默认是可调不透明度的黑底；可以一键「去色」让整张卡片（连图片）变成黑白，再用颜色关键帧把颜色加回来；也能用关键帧让卡片切换到高亮色。预览区右键拖动可以转 X / Y / Z 三轴",
+   "file": "effects/stitch-title-card-f91382de68.zip",
+   "zipSha": "f91382de68364a30a14ef59668004e4a66429fb7b47aa0929d77517d3c9671c2",
+   "size": 90008,
+   "files": [
+    {
+     "path": "stitch-title-card/effect.html",
+     "sha": "96da8ae7a3f604aaa9ba37ef60b2067fab852ab712341c16db68dfa3bb653d8c"
+    },
+    {
+     "path": "stitch-title-card/effect.json",
+     "sha": "0c625124806d16aec1785b0a4046eb25b064fe30304487e1df78660cd9e3080a"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
@@ -885,9 +1165,9 @@
    "id": "text-corridor",
    "name": "文字走廊",
    "description": "3D 透视走廊：地板、天花板、左右墙铺满重复文字，持续朝观者流动，消失点处有暗色渐层；背景透明，可无缝循环",
-   "file": "effects/text-corridor-dd953482f7.zip",
-   "zipSha": "dd953482f794be71cd073b7b63b0416621b987772f7f4b22249efd124e144a96",
-   "size": 54541,
+   "file": "effects/text-corridor-43a8c8f34c.zip",
+   "zipSha": "43a8c8f34cdf6a1e0ea451a9ebab3d57850593ed4098501363dd399057b19a57",
+   "size": 85498,
    "files": [
     {
      "path": "text-corridor/effect.html",
@@ -900,6 +1180,52 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "83148ca3f7f0a4fc459127e9618caac2ebbca45171b5962a237cd0bebb896416"
+    }
+   ]
+  },
+  {
+   "id": "text-transition",
+   "name": "文字转场",
+   "description": "一段一段文字依次出现，每两段之间可以各选一种转场（15 种，点开就有动态预览）",
+   "file": "effects/text-transition-72dad58ba8.zip",
+   "zipSha": "72dad58ba8b6472e5c158cdec90dd5f004d4b0b1e719474d9007fe2c1def82d6",
+   "size": 82081,
+   "files": [
+    {
+     "path": "text-transition/effect.html",
+     "sha": "cf7a4b3e85b2202642a7515b8e5c403326f7609ff18121e9b7a68018c88dd792"
+    },
+    {
+     "path": "text-transition/effect.json",
+     "sha": "8a97df44003db76c44e3fb805a820ed5a8521ae6f346f2182e283cac0ce827f6"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "f67c3a2521bed132a0d2b0e278269a4d4dd711d2c60dfc6a509732fbb2d27d6b"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "4082104c0630b812365f44b98bdb50c973d3b05f060b9a606cd5604611ea0983"
     },
     {
      "path": "_shared/fx-video.js",
