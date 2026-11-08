@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-05T19:26:35.853Z",
- "notes": "把保存预设的位置放到“导出”前面，这样就不会忘记了，点击保存预设后，后面直接套换素材即可。爽歪歪！一次做好，，无限使用！",
+ "published": "2026-11-08T17:15:02.372Z",
+ "notes": "更新了一个弹幕效果，优化了关键帧功能，可以在关键帧中拖动素材进度。",
  "studio": {
-  "version": "v10.0",
-  "file": "studio/EffectStudio-v10.0-4d0aea9edb.zip",
-  "zipSha": "4d0aea9edb03cc3c35ac6c48ebb44e5ba590deb1a61d49c6ec17bc73b3704b47",
-  "size": 107285,
+  "version": "v10.1",
+  "file": "studio/EffectStudio-v10.1-51b9be2c3b.zip",
+  "zipSha": "51b9be2c3be5d14d412b9c0d9ccefa26f3cad356dc65cc76774c0feb798970b0",
+  "size": 107630,
   "files": [
    {
     "path": "server.js",
-    "sha": "b81e71d225e558eac7fc2b70c0cb3610815ec1aec440838d0af97c8e23a2cd79"
+    "sha": "33a5b47b561657a7b36c932f69fdc60ff723f6060962f75b9668fc9d1d2a343a"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "bf0cbca7f9d34554d128ab4860d69d6cf3e237213ea1d7c20e0788f8f07cfeb7"
+    "sha": "70997c0830dcf6118acf84208c9a215e60d7369147b250c6682d84de28575576"
    },
    {
     "path": "public/logo.png",
@@ -568,6 +568,36 @@
     {
      "path": "comment-flow/effect.json",
      "sha": "8903b6f08b3fb63b655c6d9ccd2d51958b32cf399933f1c4e2456ac83ce6464c"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "221673f5865b9954b4c248b7ad6a4b7713d9a9b0cfd2b1c4be2980916ccd0b6c"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "83148ca3f7f0a4fc459127e9618caac2ebbca45171b5962a237cd0bebb896416"
+    }
+   ]
+  },
+  {
+   "id": "danmaku",
+   "name": "弹幕",
+   "description": "一行文字就是一条弹幕，从画面一侧飘到另一侧；字号、颜色、速度都能调，轨道自动排开、互不重叠；背景透明，可以直接叠在视频上",
+   "file": "effects/danmaku-20ecd0c9f4.zip",
+   "zipSha": "20ecd0c9f4cfc862965238ada55dcbf327a2de5c3222621311b85fca7d6f8af9",
+   "size": 58640,
+   "files": [
+    {
+     "path": "danmaku/effect.html",
+     "sha": "5b18ea5900e9c779d284056807e87bfbd427a2a8dd194ccc0e06c3f5af9b7be1"
+    },
+    {
+     "path": "danmaku/effect.json",
+     "sha": "cc8090911e2b3084cbd922c753ca57a229a8ff2bc7a4b1ea049477fa8d48af25"
     },
     {
      "path": "_shared/fx-cards.js",
