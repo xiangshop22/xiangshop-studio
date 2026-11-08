@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-08T20:21:08.034Z",
- "notes": "修复了一些bug",
+ "published": "2026-11-08T20:35:05.580Z",
+ "notes": "更新了超级多的BUG，现在更好用了",
  "studio": {
-  "version": "v12.0",
-  "file": "studio/EffectStudio-v12.0-27068b1993.zip",
-  "zipSha": "27068b1993d0252b774b0f036cd99b94862d0c667b95f8032314c0bd945bcd03",
-  "size": 128252,
+  "version": "v13.0",
+  "file": "studio/EffectStudio-v13.0-eab96e4a04.zip",
+  "zipSha": "eab96e4a04954731b4809c002c97918503afd3a1f0a4f36f88e58c9367303632",
+  "size": 133071,
   "files": [
    {
     "path": "server.js",
-    "sha": "2893c652eda44e52b991f3334bfa80821b6f5e7cda6cd3fac15b54adaffbf7c1"
+    "sha": "7eabdad3be8fb1612b38c16f0a73e103e6e98b0d5cd3d62cc5637e6621e4db17"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,11 @@
    },
    {
     "path": "public/comp.html",
-    "sha": "2207d54f6e757a2c2e3b7bf63678f326221f9bf210f913cedf31e884d6ee51f1"
+    "sha": "38767cfa96c76ab32c9544d723f0c5c1cc906396e6a46585b2f6b76057d10f79"
+   },
+   {
+    "path": "public/fx-group.js",
+    "sha": "50fe8234ddc4c52510302dd2970e80967100615689825c4f102d53ff5345303e"
    },
    {
     "path": "public/ghost.html",
@@ -46,7 +50,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "d505cd86c96a88ba039fc362d2b0d2145b450f102ba6176ce7de8dd97b4431d0"
+    "sha": "72c8b37991181c25703a0004baac52a899248a5092c543d3087aea4011288fec"
    },
    {
     "path": "public/logo.png",
