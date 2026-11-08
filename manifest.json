@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-08T17:15:02.372Z",
- "notes": "更新了一个弹幕效果，优化了关键帧功能，可以在关键帧中拖动素材进度。",
+ "published": "2026-11-08T18:15:19.646Z",
+ "notes": "增加预合成功能,增加窗口可调功能.",
  "studio": {
   "version": "v10.1",
-  "file": "studio/EffectStudio-v10.1-51b9be2c3b.zip",
-  "zipSha": "51b9be2c3be5d14d412b9c0d9ccefa26f3cad356dc65cc76774c0feb798970b0",
-  "size": 107630,
+  "file": "studio/EffectStudio-v10.1-b9cde6b2d4.zip",
+  "zipSha": "b9cde6b2d418af98cb438b3f7f46e13c7d8ac68d9d4816e4bb6ca14772ee10f7",
+  "size": 124822,
   "files": [
    {
     "path": "server.js",
-    "sha": "33a5b47b561657a7b36c932f69fdc60ff723f6060962f75b9668fc9d1d2a343a"
+    "sha": "502a524e92c9aa5d70adac5dfd635e1ad3d3b3285c6b5500f24aad64f86dc289"
    },
    {
     "path": "start.bat",
@@ -37,8 +37,12 @@
     "sha": "02a56e4e4fa7474291b7dcfeb486bb5363ad835a0db16ab50cf8e371df25d5d3"
    },
    {
+    "path": "public/comp.html",
+    "sha": "2207d54f6e757a2c2e3b7bf63678f326221f9bf210f913cedf31e884d6ee51f1"
+   },
+   {
     "path": "public/index.html",
-    "sha": "70997c0830dcf6118acf84208c9a215e60d7369147b250c6682d84de28575576"
+    "sha": "caac4044f969562f076df40f71254b282590fe120c2857e5a5cee37dacfc9767"
    },
    {
     "path": "public/logo.png",
