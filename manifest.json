@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-08T20:13:23.860Z",
- "notes": "增加了小林说的卡片动效，增加了素材叠加功能，更新了一些BUG",
+ "published": "2026-11-08T20:21:08.034Z",
+ "notes": "修复了一些bug",
  "studio": {
-  "version": "v11.1",
-  "file": "studio/EffectStudio-v11.1-f25cde50d6.zip",
-  "zipSha": "f25cde50d672cb6137a14189f1183dc4b18ff69f456117c2b89eb76e575d70e3",
-  "size": 126479,
+  "version": "v12.0",
+  "file": "studio/EffectStudio-v12.0-27068b1993.zip",
+  "zipSha": "27068b1993d0252b774b0f036cd99b94862d0c667b95f8032314c0bd945bcd03",
+  "size": 128252,
   "files": [
    {
     "path": "server.js",
-    "sha": "55a2e3229d5311d44ddb22a24ebb16a8aa980555358bf2a7e1c796ddd9752431"
+    "sha": "2893c652eda44e52b991f3334bfa80821b6f5e7cda6cd3fac15b54adaffbf7c1"
    },
    {
     "path": "start.bat",
@@ -46,7 +46,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "cad74e902b432c7daf17a4d5ab5b9fca624aefc889602a374f14a75cb317dba4"
+    "sha": "d505cd86c96a88ba039fc362d2b0d2145b450f102ba6176ce7de8dd97b4431d0"
    },
    {
     "path": "public/logo.png",
