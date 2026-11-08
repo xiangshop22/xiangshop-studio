@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-08T21:22:03.083Z",
- "notes": "更新了一些BUG",
+ "published": "2026-11-08T21:30:35.596Z",
+ "notes": "更新了分段功能，上传原素材，然后开始做效果，做完效果后分段导出，这样导出更快。",
  "studio": {
-  "version": "v14.0",
-  "file": "studio/EffectStudio-v14.0-6e0b7c34d0.zip",
-  "zipSha": "6e0b7c34d0492c025a5f8783a04405628ca834691902d45ebe124d600a04d8f0",
-  "size": 134282,
+  "version": "v15.0",
+  "file": "studio/EffectStudio-v15.0-ca45346001.zip",
+  "zipSha": "ca453460010092691a0e79d0587056f2357ffbc18f368c5a8073f76454817b6a",
+  "size": 137868,
   "files": [
    {
     "path": "server.js",
-    "sha": "5c00ec357dd5d879196edce9b1ae68cad33af11ee817080d9e6be0535774a6ad"
+    "sha": "cb813f0b4515f7e40733868585a918cb86af3ef7a63ddfda5c7c021f04621b3f"
    },
    {
     "path": "start.bat",
@@ -38,7 +38,7 @@
    },
    {
     "path": "public/comp.html",
-    "sha": "38767cfa96c76ab32c9544d723f0c5c1cc906396e6a46585b2f6b76057d10f79"
+    "sha": "0d88d03ecd35a41c4c335c5ef2d6fb28308693d32a168a25da8d1cbe90d3752e"
    },
    {
     "path": "public/fx-group.js",
@@ -50,7 +50,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "c3e466b1c28708824744354a755bae25287d85e3a032e91ad2a277bf1bb7f93d"
+    "sha": "8a101b3e635fa3d513059855b142ce2dcf947cdc276e4d3780680714983cacb2"
    },
    {
     "path": "public/logo.png",
