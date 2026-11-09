@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-08T21:30:35.596Z",
- "notes": "更新了分段功能，上传原素材，然后开始做效果，做完效果后分段导出，这样导出更快。",
+ "published": "2026-11-09T13:22:41.277Z",
+ "notes": "更新了两个选项，1、导出的时候有XML,有了这个文件，可以在PR中打开，然后用剪映打开，就能实现时间对齐。2、增加了原视频上传做参考，这样就知道在哪里做动效了。3、修正了一些BUG",
  "studio": {
-  "version": "v15.0",
-  "file": "studio/EffectStudio-v15.0-ca45346001.zip",
-  "zipSha": "ca453460010092691a0e79d0587056f2357ffbc18f368c5a8073f76454817b6a",
-  "size": 137868,
+  "version": "v18.0",
+  "file": "studio/EffectStudio-v18.0-848a3ed8c1.zip",
+  "zipSha": "848a3ed8c170fd548355a0badd05576450020236e53ee312a7b27781521fd247",
+  "size": 147410,
   "files": [
    {
     "path": "server.js",
-    "sha": "cb813f0b4515f7e40733868585a918cb86af3ef7a63ddfda5c7c021f04621b3f"
+    "sha": "5445cedd02c4b7bac50aee82278fac3112473bc1cd74b47265112f61adc8925f"
    },
    {
     "path": "start.bat",
@@ -50,7 +50,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "8a101b3e635fa3d513059855b142ce2dcf947cdc276e4d3780680714983cacb2"
+    "sha": "c8713c208aad7c7ac803e636a6162219356232f3bef3205683443d61c975ad98"
    },
    {
     "path": "public/logo.png",
