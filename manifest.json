@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-09T13:22:41.277Z",
- "notes": "更新了两个选项，1、导出的时候有XML,有了这个文件，可以在PR中打开，然后用剪映打开，就能实现时间对齐。2、增加了原视频上传做参考，这样就知道在哪里做动效了。3、修正了一些BUG",
+ "published": "2026-11-09T15:14:14.163Z",
+ "notes": "优化了系统代码。系统更稳定，修正一些软件使用习惯，用起来更顺手了。",
  "studio": {
-  "version": "v18.0",
-  "file": "studio/EffectStudio-v18.0-848a3ed8c1.zip",
-  "zipSha": "848a3ed8c170fd548355a0badd05576450020236e53ee312a7b27781521fd247",
-  "size": 147410,
+  "version": "v24.0",
+  "file": "studio/EffectStudio-v24.0-e61360f9c8.zip",
+  "zipSha": "e61360f9c84ecb644eb34ccbd6402421e84decfd137982c34cb3731e79679116",
+  "size": 178681,
   "files": [
    {
     "path": "server.js",
-    "sha": "5445cedd02c4b7bac50aee82278fac3112473bc1cd74b47265112f61adc8925f"
+    "sha": "ada70c7becc59b75a490dc0db424ae7eda6f994ad59cc5109f0e354a87d983c9"
    },
    {
     "path": "start.bat",
@@ -41,6 +41,14 @@
     "sha": "0d88d03ecd35a41c4c335c5ef2d6fb28308693d32a168a25da8d1cbe90d3752e"
    },
    {
+    "path": "public/css/main.css",
+    "sha": "70b46552128ac9f2ca5d7cd27a38da17dd34730dc1468cad408a7cfaca75773d"
+   },
+   {
+    "path": "public/css/timeline.css",
+    "sha": "7010e6c3ec00c8ed36ed561245eb546b4110ef924833bbf99e8e204865290bc4"
+   },
+   {
     "path": "public/fx-group.js",
     "sha": "50fe8234ddc4c52510302dd2970e80967100615689825c4f102d53ff5345303e"
    },
@@ -50,7 +58,67 @@
    },
    {
     "path": "public/index.html",
-    "sha": "c8713c208aad7c7ac803e636a6162219356232f3bef3205683443d61c975ad98"
+    "sha": "cff66b0a07108e7ef2e186cebb1ebc0f93a54947d3bc6bc09328e56a9c32e461"
+   },
+   {
+    "path": "public/js/00-stability.js",
+    "sha": "adac01e2ff177688fc8a136867a2b587a07882df4af6527769099e9a78c64d94"
+   },
+   {
+    "path": "public/js/01-base-nav.js",
+    "sha": "970fedc69c7e1bb72767f25a17475a8fc46be4dbcc625fb6f20ec05a5d571ef7"
+   },
+   {
+    "path": "public/js/02-preview.js",
+    "sha": "19a41197b7c5573775eb24da7584ae4c209e2e6b8a6b68960141263956118942"
+   },
+   {
+    "path": "public/js/03-effects-io.js",
+    "sha": "21d64b7374d9f0f06f66a51a756ea7c5d20e5fad14459922580e373655125565"
+   },
+   {
+    "path": "public/js/04-keyframes.js",
+    "sha": "93ba18320f7c01df0b34a64da5c932a368469e8f0537e856c7f7a85b4f97df5c"
+   },
+   {
+    "path": "public/js/05-reset-undo.js",
+    "sha": "0bd537a4f694dff9d8da2597f98236135f6beac66b9680ceb5196101d78367eb"
+   },
+   {
+    "path": "public/js/06-preset-theme.js",
+    "sha": "0ffbe7dde36e56351c72c96e9bcd2e82dd51158513b5f31279b38f1b8fdc0c09"
+   },
+   {
+    "path": "public/js/07-update-space.js",
+    "sha": "cfc16e48337f9b472b3c7611eb2a703aac0ad481897670ca9cc9d3b9075a262b"
+   },
+   {
+    "path": "public/js/10-timeline.js",
+    "sha": "57d16d9f7ecdc1845d2ca6384033421c360189f2d0c0c8401a0c13c8b136365b"
+   },
+   {
+    "path": "public/js/11-group.js",
+    "sha": "ab22b61d50c96dfeda94e7b7998605f81344d252a34ef6303a6295e634083ced"
+   },
+   {
+    "path": "public/js/12-timeline-input.js",
+    "sha": "dd1b97aa6a90b0100dce0ef9e55ea2c3ca631d0ca31d71b7e25805f7af6fb7d1"
+   },
+   {
+    "path": "public/js/13-segment-export.js",
+    "sha": "7ac9adcfc44dc84b25cf1a5f4960d30b4447aad93670713f82cd4bfe859071b5"
+   },
+   {
+    "path": "public/js/14-ref-video.js",
+    "sha": "2039b143aca495e3b81e52b8832aabab71294d528c60ced13ca3a312ee056525"
+   },
+   {
+    "path": "public/js/15-timeline-tools.js",
+    "sha": "15c7ebaed067ca2e497aa3ffb49cc6a01d518a6e840503a04e124a85327b356a"
+   },
+   {
+    "path": "public/js/16-boot.js",
+    "sha": "8c8ffc2bc70e6969666b629587ef907818e1627c52d870b5dfeb183a5d4e8bb2"
    },
    {
     "path": "public/logo.png",
@@ -78,7 +146,7 @@
    },
    {
     "path": "tools/pack-for-others.js",
-    "sha": "e1cd35cf59c9193cb4cdc47da8c6227ce23bc468a43bb587b12ea2c615e1dd22"
+    "sha": "6339a253891b3e2603e65c2e7db1ad2aa1ab4dc2b9ba01c5680d081b29d057ba"
    },
    {
     "path": "tools/publish.js",
