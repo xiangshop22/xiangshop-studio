@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-10T07:26:08.608Z",
- "notes": "更新了一些BUG，增加了导出编码方式，预计比实际要大一点。",
+ "published": "2026-11-10T08:02:30.373Z",
+ "notes": "更新了编码方式，节省一半空间和时间，如果画面全屏，直接mp4导出更快。",
  "studio": {
   "version": "v27.1",
-  "file": "studio/EffectStudio-v27.1-9f7244f7c9.zip",
-  "zipSha": "9f7244f7c95cf7b34cbaf8818ea9096c0ed407c0e69c935ebab60a02de53d25b",
-  "size": 202419,
+  "file": "studio/EffectStudio-v27.1-17c24b8a45.zip",
+  "zipSha": "17c24b8a4590c79b5390f09940a8b29b28b7f46b45582a0eca8d608d217474d5",
+  "size": 202420,
   "files": [
    {
     "path": "server.js",
-    "sha": "c715a46a966de66314124faa6ee9bcc3cc89b584b5855e8b527e39518e5f490e"
+    "sha": "1564311089eaac2fa4476f856966e4e30039287a19937a97367709fb51541d13"
    },
    {
     "path": "start.bat",
@@ -58,7 +58,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "9ba9e5a2b3d4b0a669f9ca5af7c12fc115ab2422ec34179760d9730e10a0b444"
+    "sha": "2f214383a836c65318f7f1cd4247e1073a357d17fdf9f77b769f12181d4a89e0"
    },
    {
     "path": "public/js/00-stability.js",
@@ -70,7 +70,7 @@
    },
    {
     "path": "public/js/02-preview.js",
-    "sha": "c3ed9a4c2473b63c0a8f007aa70720661b2474ba4f12a39e93087be63824dc23"
+    "sha": "3992610e4882de57687528b7fe802c08acd68c36c9c730091613dcbeb6e105f3"
    },
    {
     "path": "public/js/03-effects-io.js",
@@ -94,7 +94,7 @@
    },
    {
     "path": "public/js/10-timeline.js",
-    "sha": "7c5413ecdb639cd2e620719b1e46a05d2e761750cecaadb9ea4b9260d039ff07"
+    "sha": "8158a978cb98e184bf4c89c826b8ae965db6a82f57126892d93e35f458e0355c"
    },
    {
     "path": "public/js/11-group.js",
@@ -106,7 +106,7 @@
    },
    {
     "path": "public/js/13-segment-export.js",
-    "sha": "eaf0a7fe8716a703de947607689476581f16ab48383b20415a76c0bf95210460"
+    "sha": "d5b924022d25b121211af749368d3e5a1bdfa3a70e9efd856e3ebd3e7a5ef408"
    },
    {
     "path": "public/js/14-ref-video.js",
