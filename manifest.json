@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-10T06:21:27.761Z",
- "notes": "修复了“保存预设”“有效果缺失的问题。增加了结构树卡片",
+ "published": "2026-11-10T07:26:08.608Z",
+ "notes": "更新了一些BUG，增加了导出编码方式，预计比实际要大一点。",
  "studio": {
-  "version": "v25.0",
-  "file": "studio/EffectStudio-v25.0-e0497d84ea.zip",
-  "zipSha": "e0497d84ea4b1c20f7372e614e5e958bda37f075fad6a18a3c4b61ad0913478f",
-  "size": 196873,
+  "version": "v27.1",
+  "file": "studio/EffectStudio-v27.1-9f7244f7c9.zip",
+  "zipSha": "9f7244f7c95cf7b34cbaf8818ea9096c0ed407c0e69c935ebab60a02de53d25b",
+  "size": 202419,
   "files": [
    {
     "path": "server.js",
-    "sha": "66212e32fb14727c0c639dbeccd3d494b0b2a1413d7de47cab8f211a405b3d95"
+    "sha": "c715a46a966de66314124faa6ee9bcc3cc89b584b5855e8b527e39518e5f490e"
    },
    {
     "path": "start.bat",
@@ -42,11 +42,11 @@
    },
    {
     "path": "public/css/main.css",
-    "sha": "70b46552128ac9f2ca5d7cd27a38da17dd34730dc1468cad408a7cfaca75773d"
+    "sha": "f5df69c1fc96a6c3960af2fac05211e97cc8676ba7ec6aa4e9c47e7fda452183"
    },
    {
     "path": "public/css/timeline.css",
-    "sha": "7010e6c3ec00c8ed36ed561245eb546b4110ef924833bbf99e8e204865290bc4"
+    "sha": "4ac93828b12b198150852ba9db5fd040707b6144de1534f80bcd8762d4971c97"
    },
    {
     "path": "public/fx-group.js",
@@ -58,7 +58,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "af024c4a4595e4c592da84041945c51805bcda33ce6f1c06dfd540035130e344"
+    "sha": "9ba9e5a2b3d4b0a669f9ca5af7c12fc115ab2422ec34179760d9730e10a0b444"
    },
    {
     "path": "public/js/00-stability.js",
@@ -66,19 +66,19 @@
    },
    {
     "path": "public/js/01-base-nav.js",
-    "sha": "5c9218de424393a794ebd10dbf313415c684d79f23b3440ec9f05e55b51eb2c9"
+    "sha": "8699c36a3f75dff9a501e8fb44d8dd12db368f6cae3707a786a35d6e3876592f"
    },
    {
     "path": "public/js/02-preview.js",
-    "sha": "b0d460f8bc760d4bb6844d23f84cebfb39a779f6590d92dbc39f9606dcc82565"
+    "sha": "c3ed9a4c2473b63c0a8f007aa70720661b2474ba4f12a39e93087be63824dc23"
    },
    {
     "path": "public/js/03-effects-io.js",
-    "sha": "21d64b7374d9f0f06f66a51a756ea7c5d20e5fad14459922580e373655125565"
+    "sha": "2ed5304d2474076665af48e233e2b0fb8a3f3cfec8a960776fb2f7ebf76468c6"
    },
    {
     "path": "public/js/04-keyframes.js",
-    "sha": "d54a957c4d643a4ec0141715080964959a67bf4bc6743aba7f792d2cc7ace348"
+    "sha": "68379feb755292f0448175a2ae710c847ebf0c7d056b74aace79b5b24f5654b2"
    },
    {
     "path": "public/js/05-reset-undo.js",
@@ -86,7 +86,7 @@
    },
    {
     "path": "public/js/06-preset-theme.js",
-    "sha": "c59ebf07567131af351c68d1d4a3a8cc0d1a57610de0487144400e718f0b4412"
+    "sha": "eb896ff8329d528c686db35bd1ab482eb5b667b276c64018693aa043f941ecbc"
    },
    {
     "path": "public/js/07-update-space.js",
@@ -106,7 +106,7 @@
    },
    {
     "path": "public/js/13-segment-export.js",
-    "sha": "3d9457e507ba6e7831b8b89821e01bbe14e896ab887ee6958c0205ea9fa1c773"
+    "sha": "eaf0a7fe8716a703de947607689476581f16ab48383b20415a76c0bf95210460"
    },
    {
     "path": "public/js/14-ref-video.js",
@@ -114,7 +114,7 @@
    },
    {
     "path": "public/js/15-timeline-tools.js",
-    "sha": "94bc8db8eb48ba998586a969f4fe079fe608df2ab41090738d5fd886db6c52b0"
+    "sha": "3ab8b744f28f875c025775ce08a28a419836ea4dd5daaa45084de72986f43aad"
    },
    {
     "path": "public/js/16-boot.js",
@@ -134,7 +134,7 @@
    },
    {
     "path": "public/js/20-layer-lock.js",
-    "sha": "2a81d8670baf60de49d4803009a6d40d161f4d10431dceec13f7fa55edfd54eb"
+    "sha": "cf5a41833b82f50e1353fb0b760c061b4d076d6c06a0783704028a773f75ad6d"
    },
    {
     "path": "public/logo.png",
@@ -1021,13 +1021,13 @@
    "id": "hierarchy-tree",
    "name": "层级结构图",
    "description": "组织架构 / 业务板块那种层级结构图：顶层一张大卡（可放图片，图在左 / 中 / 右），下面一层层分出子卡，折线连接，逐层展开。每张卡都能单独打去色 / 高亮关键帧，也能让一整条链路跟着上级一起变；连线跟着两端卡片自动变亮 / 变暗。",
-   "file": "effects/hierarchy-tree-5be846a7ce.zip",
-   "zipSha": "5be846a7ce0098ac66185c3f7b22340aee11cc2fadc303003d977763bc3edbf4",
-   "size": 110803,
+   "file": "effects/hierarchy-tree-05331b0201.zip",
+   "zipSha": "05331b0201e2f2b4cc08812a13bb722100c0fdd80d119926b5f07b1f04875047",
+   "size": 110940,
    "files": [
     {
      "path": "hierarchy-tree/effect.html",
-     "sha": "3fcf2e5bff3d96e72c961504567122fd236084eba3cb1f71b24547a24911cca0"
+     "sha": "3f9e08dc42b230bca7ecfe42807bf4a172fcc3669e5373b2bafb43ac67e7afb9"
     },
     {
      "path": "hierarchy-tree/effect.json",
