@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-10T14:50:03.240Z",
- "notes": "更新了系统，制作动效更清晰，",
+ "published": "2026-11-10T15:10:57.631Z",
+ "notes": "修复了一些BUG",
  "studio": {
-  "version": "v28.0",
-  "file": "studio/EffectStudio-v28.0-9c927858d0.zip",
-  "zipSha": "9c927858d05075e20b3a6ec81480532683d7240f7d1f0fc25e0e5aa98600643c",
-  "size": 204062,
+  "version": "v29.0",
+  "file": "studio/EffectStudio-v29.0-21a030f18d.zip",
+  "zipSha": "21a030f18d960e75c6fce6238fcd0fd9fd3aeadb6a54bb7b0e38137a788c5bef",
+  "size": 204782,
   "files": [
    {
     "path": "server.js",
-    "sha": "fa9c20465c7a30e4d4559128d5278c7b417c69e42db3f84d20e5a475945bc0f5"
+    "sha": "212c621fa2362ed3059535b02b1adc8a3cee363df63262c061f43d55460c19e2"
    },
    {
     "path": "start.bat",
@@ -46,7 +46,7 @@
    },
    {
     "path": "public/css/timeline.css",
-    "sha": "4ac93828b12b198150852ba9db5fd040707b6144de1534f80bcd8762d4971c97"
+    "sha": "ba4b71fbb523c41a63f1d5cc7bfa7b190084cda2cd7dc08a5271be9fef3d42c3"
    },
    {
     "path": "public/fx-group.js",
@@ -58,7 +58,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "9a1dc4dbc390ebd6a841254ea38f84fdb9e811ee4e88e44129cff90c3ab8decf"
+    "sha": "7353300d8b156a60783cb1bd4f7310a239fa1a4f64f1c3680fba2209b4e23d7e"
    },
    {
     "path": "public/js/00-stability.js",
@@ -78,7 +78,7 @@
    },
    {
     "path": "public/js/04-keyframes.js",
-    "sha": "68379feb755292f0448175a2ae710c847ebf0c7d056b74aace79b5b24f5654b2"
+    "sha": "a62bc1edaebbd690e5fa9dcc14f7796163cfca53f1bd40616c6179a380803451"
    },
    {
     "path": "public/js/05-reset-undo.js",
