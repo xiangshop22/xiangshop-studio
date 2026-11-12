@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-11T19:52:29.628Z",
- "notes": "更新效果，增加了公共板块，优化了系统",
+ "published": "2026-11-12T12:21:50.273Z",
+ "notes": "增加了四张卡片，然后优化了系统，让加载更快",
  "studio": {
-  "version": "v31.5",
-  "file": "studio/EffectStudio-v31.5-9f07fc7e32.zip",
-  "zipSha": "9f07fc7e323986c7e3f16f7e744f37a7d91d62353be33c7ac75ff4e86d0384b4",
-  "size": 208858,
+  "version": "v32.0",
+  "file": "studio/EffectStudio-v32.0-16022790dc.zip",
+  "zipSha": "16022790dc0a9e2d122e7a1a45d85410fe400d2b8df94827392b57aa74aaa4f6",
+  "size": 210264,
   "files": [
    {
     "path": "server.js",
-    "sha": "cbae687fd54b5dcb50e93f4cb954d76bb6792423764c56fb834943162657591e"
+    "sha": "b3a30a97093bdc2cba09c0d5ede22a871a1747accac3e60b0c2c1d73e9199260"
    },
    {
     "path": "start.bat",
@@ -42,7 +42,7 @@
    },
    {
     "path": "public/css/main.css",
-    "sha": "f5df69c1fc96a6c3960af2fac05211e97cc8676ba7ec6aa4e9c47e7fda452183"
+    "sha": "f7925c3946089b4087c686d809271562d637d96179ca5af31fbbfd9fef088344"
    },
    {
     "path": "public/css/timeline.css",
@@ -58,7 +58,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "215802b73ce87317db1a416f7863fc2d294694d834ca1235bc8081f4ed263941"
+    "sha": "5c3cdb09befb7d40ccbb2fd6a0a1c9fcbbcde516358c47d3dd18c6982886fbe4"
    },
    {
     "path": "public/js/00-stability.js",
@@ -66,7 +66,7 @@
    },
    {
     "path": "public/js/01-base-nav.js",
-    "sha": "8fe9f44b218e10c21fe7bee242ff8fbcec094c80295ac3bef63fabf5fa3cd339"
+    "sha": "c5b736a2d2d0c6c1c09ee1b70b289fb359de200db3bb39ce2178778377e930af"
    },
    {
     "path": "public/js/02-preview.js",
@@ -195,9 +195,9 @@
    "id": "avatar-slot-card",
    "name": "头像槽位卡",
    "description": "一张带缝纫线和角花的渐变卡片：上面标题 + 英文花体小字，下面一排（或几排）圆形孔洞放人物头像。孔洞数量、大小可调；每个孔洞能放照片或视频，每个头像都能打不透明度关键帧做渐隐，淡掉后露出白色半透明的空槽；整张卡能换底色、去色、高亮。",
-   "file": "effects/avatar-slot-card-40dbff5d15.zip",
-   "zipSha": "40dbff5d159e8d4ecf91a6ac1899dd04b23db4a40ad018e5be93614a14cf7020",
-   "size": 125938,
+   "file": "effects/avatar-slot-card-654c7f3c48.zip",
+   "zipSha": "654c7f3c4837fac7254ec82161879d4bd8b3dfbabf00ade6ed8570010e9ec959",
+   "size": 136024,
    "files": [
     {
      "path": "avatar-slot-card/effect.html",
@@ -214,6 +214,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -241,9 +245,9 @@
    "id": "balance-scale",
    "name": "老人与小孩天平",
    "description": "天平左边老人、右边小孩，按比重倾斜并回摆到平衡",
-   "file": "effects/balance-scale-a8d9f92b3c.zip",
-   "zipSha": "a8d9f92b3ce7c32c7f74f0f8e4d572ad56e4e1a62116ff9876e22cad50039b48",
-   "size": 110157,
+   "file": "effects/balance-scale-8cde21e0d8.zip",
+   "zipSha": "8cde21e0d890ffad62251ff0462a34dbccd83aa417cf6e4832c04db7f81581bf",
+   "size": 120243,
    "files": [
     {
      "path": "balance-scale/effect.html",
@@ -260,6 +264,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -287,9 +295,9 @@
    "id": "blur-text",
    "name": "模糊浮现（BlurText）",
    "description": "词块从虚焦中逐个清晰",
-   "file": "effects/blur-text-5b808bf87e.zip",
-   "zipSha": "5b808bf87e180dade2cbd05052d671253f99b175ce33f82536040c85cdf83f16",
-   "size": 138936,
+   "file": "effects/blur-text-5f04a198b1.zip",
+   "zipSha": "5f04a198b1b55ae331c1b6c18284fb326e8e7602ada742ff3b189b56f0c915f5",
+   "size": 149022,
    "files": [
     {
      "path": "blur-text/bundle.js",
@@ -310,6 +318,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -337,9 +349,9 @@
    "id": "brief-board",
    "name": "讲解要点板",
    "description": "顶部一个大标题，下面一格一格的小标题卡：讲到哪一条，哪一条就变成高亮色，讲过去再换回常态色，换色可以选闪动 / 渐变 / 扫光 / 翻面。背景可以放自己的照片或视频，上面压一层可调浓度的半透明黑。每张卡可以是文字、照片、视频或镂空；预览区右键拖动可以转 X / Y / Z 三轴",
-   "file": "effects/brief-board-026eacc4fd.zip",
-   "zipSha": "026eacc4fde1ff7aa5f3f801ba6d34b32009c069c373101238eebb445d846614",
-   "size": 129180,
+   "file": "effects/brief-board-9225f0c197.zip",
+   "zipSha": "9225f0c1971726e4440cb433081db8851169cf8df517bef0e75ce151fcc8bcba",
+   "size": 139266,
    "files": [
     {
      "path": "brief-board/effect.html",
@@ -356,6 +368,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -383,9 +399,9 @@
    "id": "caption-track",
    "name": "常驻双语字幕（CaptionTrack）",
    "description": "中文主行 + 英文小字 + 关键词点亮",
-   "file": "effects/caption-track-3426b7bff4.zip",
-   "zipSha": "3426b7bff4fb2fad3cebd8c80b6183e1196f96571d04f45088b07c94ab0da5c5",
-   "size": 136161,
+   "file": "effects/caption-track-b26715ca2f.zip",
+   "zipSha": "b26715ca2f800947f97e27752792313f95797177225d6d4e4a8c45861727243f",
+   "size": 146247,
    "files": [
     {
      "path": "caption-track/bundle.js",
@@ -406,6 +422,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -433,9 +453,9 @@
    "id": "card-arc-stack",
    "name": "卡片弧形叠排",
    "description": "卡片依次飞进来，左右叠在一起排成一道朝向镜头的弧，中间最大最靠前、两边往后转；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-arc-stack-2b7697fbe7.zip",
-   "zipSha": "2b7697fbe783fc1adeacbe473a165e60af762e8dfd6c38e6d1475e55318e097f",
-   "size": 114671,
+   "file": "effects/card-arc-stack-4faedbf284.zip",
+   "zipSha": "4faedbf284e6f1c7de8e67f552c7c36cb851604b8127e00fac0e33900058ea91",
+   "size": 124757,
    "files": [
     {
      "path": "card-arc-stack/effect.html",
@@ -452,6 +472,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -479,9 +503,9 @@
    "id": "card-deal",
    "name": "发牌展开（Card Deal）",
    "description": "卡片可放照片或文字，从底部依序发出，展开成扇形并回弹，每张卡片可单独设置进场、停留、退出时长",
-   "file": "effects/card-deal-e1a21fd814.zip",
-   "zipSha": "e1a21fd814acf86e96ffbfcbaacb8fd0ba29b2747079a9543190dc1653fd9a64",
-   "size": 120872,
+   "file": "effects/card-deal-af97d2b809.zip",
+   "zipSha": "af97d2b8096414193cb4bf4262cd9b629f93bf615f4fb7b94cc616eb0c1d4918",
+   "size": 130958,
    "files": [
     {
      "path": "card-deal/effect.html",
@@ -498,6 +522,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -525,9 +553,9 @@
    "id": "card-fly-grid",
    "name": "卡片飞入拼格",
    "description": "一组卡片从画外依次飞进来，拼成整齐的格子（九宫格 / 三列两行等），最后可以原路飞出、淡出或掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-fly-grid-bb65eaada3.zip",
-   "zipSha": "bb65eaada3777f29656cd463d5b6fbf292b1adede2915c4921563fa8fccc449b",
-   "size": 113847,
+   "file": "effects/card-fly-grid-52c6c067b0.zip",
+   "zipSha": "52c6c067b05a1522281f5af3fe3c70ef467ea26408066ac584f5f41c9e941226",
+   "size": 123933,
    "files": [
     {
      "path": "card-fly-grid/effect.html",
@@ -544,6 +572,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -571,9 +603,9 @@
    "id": "card-grid-zoom",
    "name": "卡片网格推近",
    "description": "一组卡片先拼成格子，镜头再推近其中一张看细节，其他卡片顺势变暗模糊，最后可以拉回网格、停在特写或淡出；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-grid-zoom-1c3cfd6f57.zip",
-   "zipSha": "1c3cfd6f5748ad2b1fef3dae78b0aa9c78232a6a1fd09124dd3762bf9b9a5d5f",
-   "size": 116435,
+   "file": "effects/card-grid-zoom-e0f53ba2cf.zip",
+   "zipSha": "e0f53ba2cfdb176e661b34d623710267ee805a351d0089792de8b76fdc7bb439",
+   "size": 126521,
    "files": [
     {
      "path": "card-grid-zoom/effect.html",
@@ -590,6 +622,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -617,9 +653,9 @@
    "id": "card-hang-sway",
    "name": "吊线悬挂卡",
    "description": "卡片像挂在吊线上一样被一张张放下来，长短不一地悬在空中轻轻摆动，结尾可以收回上去、淡出或断线掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-hang-sway-ff4639c1ab.zip",
-   "zipSha": "ff4639c1ab519f047613b7ab50bb12991500afdc18ff49536a166ad289b10a60",
-   "size": 115098,
+   "file": "effects/card-hang-sway-988d9fa9c1.zip",
+   "zipSha": "988d9fa9c1856c9f458eb41ada5ca51fa86e8273b96694250edbed45bf0cd488",
+   "size": 125184,
    "files": [
     {
      "path": "card-hang-sway/effect.html",
@@ -636,6 +672,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -663,9 +703,9 @@
    "id": "card-particle-swarm",
    "name": "卡片粒子群",
    "description": "一大片小卡片像粒子一样在空间里漂浮飞过，可调粒子数量、飘动方向和速度；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-particle-swarm-86880bd34c.zip",
-   "zipSha": "86880bd34c3b72e73725983b09460ef2dbd08b9e252f45cbdedacf9df804dfe0",
-   "size": 116462,
+   "file": "effects/card-particle-swarm-bc2535aa55.zip",
+   "zipSha": "bc2535aa55f19ff760a141159ce74d2a50e80bc6cb8e5f20f28a7c604dc0f924",
+   "size": 126548,
    "files": [
     {
      "path": "card-particle-swarm/effect.html",
@@ -682,6 +722,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -709,9 +753,9 @@
    "id": "card-reveal",
    "name": "卡片依序浮现（Staggered Reveal）",
    "description": "多张作品卡片排成网格，从模糊到清晰依序浮现，缩略图、标题、文字再逐一补上；停留后从最后一张反向上浮淡出",
-   "file": "effects/card-reveal-c3e529dc48.zip",
-   "zipSha": "c3e529dc48baf8a3ef488657ca9b2d4c2718314209a337460cc60c0aa41536f9",
-   "size": 124558,
+   "file": "effects/card-reveal-fc59d4bbde.zip",
+   "zipSha": "fc59d4bbdea308a7f97f39a27f0e733229b6c3665975d0bb2a132bcdb1e7ff00",
+   "size": 134644,
    "files": [
     {
      "path": "card-reveal/effect.html",
@@ -728,6 +772,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -755,9 +803,9 @@
    "id": "card-stack-array",
    "name": "卡片叠出阵列",
    "description": "先出一张首图斜着飞进来，停一会儿之后其余卡片从它背后一张张滑出来散成一叠，最后全部排成上下多行的阵列；预览区右键拖动可以转 X / Y / Z 三轴。每张卡可以是文字、照片、视频或镂空",
-   "file": "effects/card-stack-array-8016628f10.zip",
-   "zipSha": "8016628f10d2890e329e9cf1493d7510f27a2651e1424448bbbe1ee169af5637",
-   "size": 117215,
+   "file": "effects/card-stack-array-4346423723.zip",
+   "zipSha": "4346423723507ccd8e2efbcbc4c2368756c36afbd92cfd27cc6f4b4906a48090",
+   "size": 127301,
    "files": [
     {
      "path": "card-stack-array/effect.html",
@@ -774,6 +822,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -801,9 +853,9 @@
    "id": "chapter-bar",
    "name": "常驻章节导航（ChapterBar）",
    "description": "顶部全程在场的本期地图",
-   "file": "effects/chapter-bar-39a1bacb08.zip",
-   "zipSha": "39a1bacb08e8404785effc6c441c7c13e7d02c3077ebb069ebe39469f1ddc384",
-   "size": 137804,
+   "file": "effects/chapter-bar-96a272a2bf.zip",
+   "zipSha": "96a272a2bf4fd355292cd0bceef0c42011cbcd37e8fc20160099715a3970c5c1",
+   "size": 147890,
    "files": [
     {
      "path": "chapter-bar/bundle.js",
@@ -824,6 +876,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -851,9 +907,9 @@
    "id": "chapter-progress",
    "name": "章节进度条",
    "description": "常驻在画面顶部或底部的章节进度条：按每章开始时间分段，进度往前推，当前章节高亮。总时长最长 120 分钟",
-   "file": "effects/chapter-progress-7f60f06507.zip",
-   "zipSha": "7f60f06507e8ed18829f69255b39d2f85bace1dc8585794cb0c28d087dc1c7b9",
-   "size": 113699,
+   "file": "effects/chapter-progress-f4428d6ae4.zip",
+   "zipSha": "f4428d6ae40315d819312498b67a74fd8ebc740fa8e789e632e54757174d51d8",
+   "size": 123785,
    "files": [
     {
      "path": "chapter-progress/effect.html",
@@ -870,6 +926,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -897,9 +957,9 @@
    "id": "checklist",
    "name": "步骤打勾（Checklist）",
    "description": "流程逐项完成打√",
-   "file": "effects/checklist-586faca1fd.zip",
-   "zipSha": "586faca1fd265615a7242a55bebb07c803a4d49acedfb598c6707895aca68a74",
-   "size": 139320,
+   "file": "effects/checklist-a999dab3c0.zip",
+   "zipSha": "a999dab3c0a394d450f9d2297b95fe1a2799f7ccb9f0e83016ed131d29c70cf9",
+   "size": 149406,
    "files": [
     {
      "path": "checklist/bundle.js",
@@ -920,6 +980,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -947,9 +1011,9 @@
    "id": "comment-flow",
    "name": "评论飘过（Comment Flow）",
    "description": "上传评论区截图，生成圆角卡片在画面里随机冒出，入场完成后向一个方向移动；截图不够会循环使用",
-   "file": "effects/comment-flow-d64f33d153.zip",
-   "zipSha": "d64f33d153bda708adef9cf4d7c56459fe49d58751bb916e82b527565bf1050f",
-   "size": 120680,
+   "file": "effects/comment-flow-d6267f21aa.zip",
+   "zipSha": "d6267f21aac14933a675ad09b8f6cf8a5611fc750d9fca8dffbe43f44bae4635",
+   "size": 130766,
    "files": [
     {
      "path": "comment-flow/effect.html",
@@ -966,6 +1030,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -993,9 +1061,9 @@
    "id": "danmaku",
    "name": "弹幕",
    "description": "一行文字就是一条弹幕，从画面一侧飘到另一侧；字号、颜色、速度都能调，轨道自动排开、互不重叠；背景透明，可以直接叠在视频上",
-   "file": "effects/danmaku-9fe11484e0.zip",
-   "zipSha": "9fe11484e0ff64db99555937f87962bfbe889316bfb42cbcc687838a10c0af2a",
-   "size": 120348,
+   "file": "effects/danmaku-dae0a44cec.zip",
+   "zipSha": "dae0a44cecdddfbf4b42096698cbbeba0a374f4fd4914cf6a32b57e06123b6be",
+   "size": 130434,
    "files": [
     {
      "path": "danmaku/effect.html",
@@ -1012,6 +1080,60 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "e5ab037c90bdf004f86c36786b49049de0e6fe84f5ae1ede33b4de0ef23f767f"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+    }
+   ]
+  },
+  {
+   "id": "doc-highlight",
+   "name": "文档荧光笔",
+   "description": "一页文件 / 新闻原文，讲到哪句，那句被荧光笔划过、红框框住或下划线划出，镜头慢慢推向这一句。",
+   "file": "effects/doc-highlight-8af7d924a7.zip",
+   "zipSha": "8af7d924a74d6e26ec838cc8479b478f587a0d09b67c89a0b05698b7868ab885",
+   "size": 126058,
+   "files": [
+    {
+     "path": "doc-highlight/effect.html",
+     "sha": "0deb88aea7b17d24d0f9aab4bb3115c958aa8876aef2b3d7cec0095d408c1b72"
+    },
+    {
+     "path": "doc-highlight/effect.json",
+     "sha": "2d0b5b125502715c6f3d5643646251d9e51b3f171455fd000f76464305033865"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1039,9 +1161,9 @@
    "id": "donut-ring-load",
    "name": "环形数字加载",
    "description": "甜甜圈图从正上方顺时针一段接一段画出，中间总计往上数，右侧图例依序滑入；数据可在面板表格里改，也能导入 Excel",
-   "file": "effects/donut-ring-load-c1916e00d7.zip",
-   "zipSha": "c1916e00d7999c7cd1285fc15821e63a489dc5f0a3e3af6352af449949f21ef7",
-   "size": 472044,
+   "file": "effects/donut-ring-load-eb71db7141.zip",
+   "zipSha": "eb71db71419e2ba6f3e6444b6aedf8de46a6ac0483713422db085281c0a1e67e",
+   "size": 482130,
    "files": [
     {
      "path": "donut-ring-load/DrawSVGPlugin.min.js",
@@ -1072,6 +1194,10 @@
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
     },
     {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
      "path": "_shared/fx-palettes.js",
      "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
     },
@@ -1097,9 +1223,9 @@
    "id": "entity-chips",
    "name": "实体名牌（EntityChips）",
    "description": "人物/公司锚定牌,滑入后常驻",
-   "file": "effects/entity-chips-f38965c476.zip",
-   "zipSha": "f38965c476481acdf5e8a62725b6f1f9c42281f3569d45f17f31096ec6aae1d4",
-   "size": 139430,
+   "file": "effects/entity-chips-e73e056290.zip",
+   "zipSha": "e73e0562901bce5ce9152738cf1da7ad167bcd9ac808a405e55b863a8ca19136",
+   "size": 149516,
    "files": [
     {
      "path": "entity-chips/bundle.js",
@@ -1120,6 +1246,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1147,9 +1277,9 @@
    "id": "flag-badge-card",
    "name": "旗标名牌卡",
    "description": "公司 / 品牌 / 国家的名牌卡：圆形国旗 + 英文名 + 中文名 + 白色 logo 格，背景里有立方体、棱形、烟雾或光点从中间缓缓往外涌出、无限循环（公共模块「卡片背景动效」，可以关）。1~4 张并排，每张卡单独设国旗、名字、logo、底色和背景动效。4 种排版（竖牌 / 横牌 / 名片条 / 排名牌），底色 / 高亮 / 去色关键帧和焦点格卡片同一套。",
-   "file": "effects/flag-badge-card-7e3169142c.zip",
-   "zipSha": "7e3169142cb111612b021e7c11db64e69e64f91c76497dbc905e10a88aecc6d3",
-   "size": 128147,
+   "file": "effects/flag-badge-card-f85813664d.zip",
+   "zipSha": "f85813664d111948d8c936f97bb6d241b455288ef41f0a707dc89e79e186e8c4",
+   "size": 138233,
    "files": [
     {
      "path": "flag-badge-card/effect.html",
@@ -1166,6 +1296,60 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "e5ab037c90bdf004f86c36786b49049de0e6fe84f5ae1ede33b4de0ef23f767f"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+    }
+   ]
+  },
+  {
+   "id": "flow-steps",
+   "name": "流程步骤",
+   "description": "一排编号卡片，箭头一段段画过去连起来；可以在最后画一条回到开头的循环线。讲到哪一步哪一步亮。",
+   "file": "effects/flow-steps-97aee542dc.zip",
+   "zipSha": "97aee542dc2c52c4765024599c77cb3d75e05ba74dd74678e982e382e3b77f39",
+   "size": 124687,
+   "files": [
+    {
+     "path": "flow-steps/effect.html",
+     "sha": "3633fdda3c6fce572674f7344fb29330d24d2d7188f38832e078e9d6bc897c61"
+    },
+    {
+     "path": "flow-steps/effect.json",
+     "sha": "c7971d2405cbd5a9923976a7e3bc083e722149ba310cc332d3c52dfb2e38cdcd"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1193,9 +1377,9 @@
    "id": "focus-slot-card",
    "name": "焦点格卡片",
    "description": "一张带细线边框的卡片：上面一行小字 + 大标题，中间一个「格子」，底部一行英文。格子里可以放会换字的文字（用文字转场，17 种转场任选，数字推荐「数字翻滚」）、照片、视频，或者空着留一个虚线框（导出时可透明）。5 种排版预设、底色色块、高亮 / 去色关键帧，和缝线标题卡同一套。",
-   "file": "effects/focus-slot-card-2a261a0952.zip",
-   "zipSha": "2a261a09529792bf19d7f5546333662e95e4dba939e4bc42ee927037ae52b3d5",
-   "size": 124995,
+   "file": "effects/focus-slot-card-4b7d4055c5.zip",
+   "zipSha": "4b7d4055c5fca0d917b210be8e83b7fc3b2a0280f1e81ef1f298bea16e455310",
+   "size": 135081,
    "files": [
     {
      "path": "focus-slot-card/effect.html",
@@ -1212,6 +1396,60 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "e5ab037c90bdf004f86c36786b49049de0e6fe84f5ae1ede33b4de0ef23f767f"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+    }
+   ]
+  },
+  {
+   "id": "formula-bar",
+   "name": "大公式条",
+   "description": "一块面板中间一条公式（收入 − 成本 = 利润），每一项一个个砸下来；讲到哪一项哪一项高亮，其余压暗；项下面可以挂一行小注。",
+   "file": "effects/formula-bar-27329a1c70.zip",
+   "zipSha": "27329a1c70347cade61c83ce0b22d75b7aeea9029cd035c0e8ddd6c29a02bd56",
+   "size": 125651,
+   "files": [
+    {
+     "path": "formula-bar/effect.html",
+     "sha": "c15223afdc938cd380e4d3586d9a6fef03df6bcf699a0ad9b7221c733fcf2576"
+    },
+    {
+     "path": "formula-bar/effect.json",
+     "sha": "36494bc3039396cefb1c8982bac77970184a0e22dbc31265e3ea3d36e8703996"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1239,9 +1477,9 @@
    "id": "growth-curve",
    "name": "增长曲线（GrowthCurve）",
    "description": "平滑曲线动画画出+渐变面积,峰值滚动计数",
-   "file": "effects/growth-curve-535e1d2714.zip",
-   "zipSha": "535e1d2714a41bd563651e25246c025e23d4e0b97907d1c3f21fad7db2e0764e",
-   "size": 142330,
+   "file": "effects/growth-curve-710645b2ae.zip",
+   "zipSha": "710645b2ae8e5fa66fa4262640a146d67d69dd89307a624e072f1c7cce4246bc",
+   "size": 152416,
    "files": [
     {
      "path": "growth-curve/bundle.js",
@@ -1262,6 +1500,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1289,9 +1531,9 @@
    "id": "hierarchy-tree",
    "name": "层级结构图",
    "description": "组织架构 / 业务板块那种层级结构图：顶层一张大卡（可放图片，图在左 / 中 / 右），下面一层层分出子卡，折线连接，逐层展开。每张卡都能单独打去色 / 高亮关键帧，也能让一整条链路跟着上级一起变；连线跟着两端卡片自动变亮 / 变暗。",
-   "file": "effects/hierarchy-tree-79975e0fb2.zip",
-   "zipSha": "79975e0fb218eb0451b21e4e48d9fe0ccec4114b17767fe984fefb07441991e0",
-   "size": 132850,
+   "file": "effects/hierarchy-tree-333e2774e0.zip",
+   "zipSha": "333e2774e059423923bfc1162375a27542b0abf11d9227a2f7b47d10934e4030",
+   "size": 142936,
    "files": [
     {
      "path": "hierarchy-tree/effect.html",
@@ -1308,6 +1550,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1335,9 +1581,9 @@
    "id": "odometer",
    "name": "翻牌计数器（Odometer）",
    "description": "每位数字滚轮到位",
-   "file": "effects/odometer-a04dad6450.zip",
-   "zipSha": "a04dad6450df2bd1f1ee1df194aec0df7e0aa860e0126503fb8d1771888340f2",
-   "size": 139473,
+   "file": "effects/odometer-9493a7d835.zip",
+   "zipSha": "9493a7d835521898a31d0f2bc99bd4130546343099f6bd60016ed572191b37c5",
+   "size": 149559,
    "files": [
     {
      "path": "odometer/bundle.js",
@@ -1358,6 +1604,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1385,9 +1635,9 @@
    "id": "people-fill",
    "name": "人群填充",
    "description": "空心人逐个被填充，支持半满状态",
-   "file": "effects/people-fill-0ecb9eed0b.zip",
-   "zipSha": "0ecb9eed0b67735b80367bf8c6e3af7b0805bf96110c396735ec568fe3efa7d2",
-   "size": 108939,
+   "file": "effects/people-fill-37a95c5b42.zip",
+   "zipSha": "37a95c5b425c7a0b1d2a08054b553c01fc29373773094e54db0a292692c53154",
+   "size": 119025,
    "files": [
     {
      "path": "people-fill/effect.html",
@@ -1404,6 +1654,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1431,9 +1685,9 @@
    "id": "photo-stack-slide",
    "name": "照片堆叠滑入",
    "description": "一叠照片带着阴影、错开着从画外滑进来：后面的先到，最上面那张晚一步再加速追上，快对齐时错开收小，由快到慢缓停；数量、入画 / 出画方向、整体角度都能调",
-   "file": "effects/photo-stack-slide-9866afe80e.zip",
-   "zipSha": "9866afe80e1573e06acbdb3baa4bce1ab53399581760ef30d2ce77cf1d97c3fa",
-   "size": 115521,
+   "file": "effects/photo-stack-slide-91f2c45ddc.zip",
+   "zipSha": "91f2c45ddc54b084e327d5ac584089da8e25b05fc6eb127b93ff6d49524ebb1f",
+   "size": 125607,
    "files": [
     {
      "path": "photo-stack-slide/effect.html",
@@ -1450,6 +1704,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1477,9 +1735,9 @@
    "id": "pie-focus-split",
    "name": "饼图聚焦拆分",
    "description": "开场圆 + Logo → 扇形由快到慢扫出盖住 Logo → 某一块高亮变色 → 往外抽出 → 在它里面再切出一块子集",
-   "file": "effects/pie-focus-split-bf2982b706.zip",
-   "zipSha": "bf2982b70637d8864e0211e7bf0594d15e13ec48943beee6fc8d9ab984492a96",
-   "size": 125271,
+   "file": "effects/pie-focus-split-10ea425183.zip",
+   "zipSha": "10ea42518387526083f53bb8ce99110f94bc1f397d65af3fc93540d6b3e8ac88",
+   "size": 135357,
    "files": [
     {
      "path": "pie-focus-split/effect.html",
@@ -1496,6 +1754,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1523,9 +1785,9 @@
    "id": "quote-lockup",
    "name": "金句定格卡",
    "description": "逐字揭示金句，划掉旧说法、高亮重点，最后收走",
-   "file": "effects/quote-lockup-6ac3a278c8.zip",
-   "zipSha": "6ac3a278c8bf9c1ddd31438c18d5624fc4c3a4f966d311f84ed06bbf9cbaebb5",
-   "size": 116263,
+   "file": "effects/quote-lockup-a7712b1c57.zip",
+   "zipSha": "a7712b1c5704d84ef607230cb8a143b9f1459e8dd22c0a636ba4f1a2066652b2",
+   "size": 126349,
    "files": [
     {
      "path": "quote-lockup/effect.html",
@@ -1542,6 +1804,60 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "e5ab037c90bdf004f86c36786b49049de0e6fe84f5ae1ede33b4de0ef23f767f"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+    }
+   ]
+  },
+  {
+   "id": "relation-graph",
+   "name": "关系图",
+   "description": "几个节点（方卡或圆卡）之间画带箭头的连线，线上写关系（持股 51%、供货、投资），可以有小圆点沿线流动表示资金 / 货物流向。",
+   "file": "effects/relation-graph-77a39309bc.zip",
+   "zipSha": "77a39309bc6fc407d78e65891fff1759ac061f089a594cbac27d93b8de741ebb",
+   "size": 125961,
+   "files": [
+    {
+     "path": "relation-graph/effect.html",
+     "sha": "5f3cbb86077099827a2b38e5dc4c37327922655c3f182acdb49465ff75bc95ef"
+    },
+    {
+     "path": "relation-graph/effect.json",
+     "sha": "a5067f0b78a1e21e97f3d3d0fe9629ca97918e3256a1b374081e5c9ca850a124"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1569,9 +1885,9 @@
    "id": "ribbon-link-cards",
    "name": "丝带连接卡",
    "description": "几张带发光边框、四角花纹的卡片，中间用半透明的「丝带」连起来：一张卡出现后，丝带从它身上（整条边，或卡里的头像 / logo 格子）长出去，连到下一张卡。5 种排版（主卡 + 侧卡 / 人像 + 右侧卡 / 左中右三联 / 中心 + 四方 / 上下两卡）；中间可以放一个人像框，空着 = 镂空，剪辑时把口播视频垫在下面。每张卡单独打去色 / 高亮关键帧（一张亮、一张暗，再反过来），丝带跟着两头的卡变亮变暗。丝带两头的顶点可以在预览里直接拖。",
-   "file": "effects/ribbon-link-cards-5007199f10.zip",
-   "zipSha": "5007199f10b0a171669e778487760f277af50f07794f295d5cff158d1f3c3005",
-   "size": 136345,
+   "file": "effects/ribbon-link-cards-bde6eb8eda.zip",
+   "zipSha": "bde6eb8eda53fa55f6efe23558a4e549e370ca22d2401bdae8fd64c83a4191aa",
+   "size": 146431,
    "files": [
     {
      "path": "ribbon-link-cards/effect.html",
@@ -1588,6 +1904,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1615,9 +1935,9 @@
    "id": "ring-carousel",
    "name": "3D 环形轮播（Ring Carousel）",
    "description": "多张卡片在 3D 空间里围成圆环缓慢自转，前大后小、背面隐藏；可指定一张「首图」开场正对居中",
-   "file": "effects/ring-carousel-296efab069.zip",
-   "zipSha": "296efab06908331d4d3af989dfdd97162fbc604489e7359573a7e7d93cf1a24a",
-   "size": 123813,
+   "file": "effects/ring-carousel-4bf6c2546b.zip",
+   "zipSha": "4bf6c2546bd793cccbc2d84a7503c83f83814947fc8bec1e253145a82f567502",
+   "size": 133899,
    "files": [
     {
      "path": "ring-carousel/effect.html",
@@ -1634,6 +1954,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1661,9 +1985,9 @@
    "id": "round-flash-card",
    "name": "圆形闪光换色卡",
    "description": "圆形玻璃卡片：开场是一张偏暗的蓝色卡，闪一两下提示后亮起来，再从模糊到清晰换成另一种颜色、并出现人物。大字、英文、花体字、编号、图标、人物都能换；9 种排版（参考图 / 人物居中 / 人物在左 / 极简大字 / 环形文字 / 人名背景 / 人物单卡 / 文字单卡 / 两卡合一：卡片 1 和卡片 2 靠近、糊掉，合成新卡片 C，或者留下其中一张）；可选绕着卡片转的透明丝带。去色 · 高亮关键帧、配色色块和旗标名牌卡、焦点格卡片同一套。",
-   "file": "effects/round-flash-card-d48253cf10.zip",
-   "zipSha": "d48253cf1054fda18135abe91f9e42bd77e8f069ce18689a0901c70be8761d0a",
-   "size": 141400,
+   "file": "effects/round-flash-card-d7846b377f.zip",
+   "zipSha": "d7846b377f305f2234797d218341ef3113c8ccb2afb6396851e3343dcda84e4f",
+   "size": 151486,
    "files": [
     {
      "path": "round-flash-card/effect.html",
@@ -1680,6 +2004,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1707,9 +2035,9 @@
    "id": "stitch-title-card",
    "name": "缝线标题卡",
    "description": "一张四周带缝纫线的矩形卡片：左边大标题 + 英文副标题，右边放自己的图片（或视频）。默认是可调不透明度的黑底；可以一键「去色」让整张卡片（连图片）变成黑白，再用颜色关键帧把颜色加回来；也能用关键帧让卡片切换到高亮色。预览区右键拖动可以转 X / Y / Z 三轴",
-   "file": "effects/stitch-title-card-4b3f3bcb6f.zip",
-   "zipSha": "4b3f3bcb6f8cd04f1655fe3f2e9a510dd708abde657ee3b841556cb399292e05",
-   "size": 120908,
+   "file": "effects/stitch-title-card-4946a0877b.zip",
+   "zipSha": "4946a0877b6cc06d6909e6eec0895cc1fa82caf7625927ddba1e0916be16eb25",
+   "size": 130994,
    "files": [
     {
      "path": "stitch-title-card/effect.html",
@@ -1726,6 +2054,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1753,9 +2085,9 @@
    "id": "text-corridor",
    "name": "文字走廊",
    "description": "3D 透视走廊：地板、天花板、左右墙铺满重复文字，持续朝观者流动，消失点处有暗色渐层；背景透明，可无缝循环",
-   "file": "effects/text-corridor-da033f699a.zip",
-   "zipSha": "da033f699af19f38bb69df661ec800421e34ff6dea9193d885c4c04a5ab1fff0",
-   "size": 116249,
+   "file": "effects/text-corridor-164ef73aa2.zip",
+   "zipSha": "164ef73aa238e47e9237a7d11937e17a5aa272d3e268aac7ce69c18ad9f331cb",
+   "size": 126335,
    "files": [
     {
      "path": "text-corridor/effect.html",
@@ -1772,6 +2104,10 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1799,9 +2135,9 @@
    "id": "text-transition",
    "name": "文字转场",
    "description": "一段一段文字依次出现，每两段之间可以各选一种转场（17 种，点开就有动态预览；包括「渐隐生长」上实下透的字；数字可以用「数字翻滚」像计数器一样滚）",
-   "file": "effects/text-transition-10e86bbc59.zip",
-   "zipSha": "10e86bbc59f3c6aa75ff1f3c7c841aa1eadc38660f545096a6d02fb111f5aabd",
-   "size": 112965,
+   "file": "effects/text-transition-8710c730db.zip",
+   "zipSha": "8710c730db119da500c833a53573ad1c9a2716b1aa211de11a429ce39c1876a3",
+   "size": 123051,
    "files": [
     {
      "path": "text-transition/effect.html",
@@ -1818,6 +2154,60 @@
     {
      "path": "_shared/fx-cards.js",
      "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "e5ab037c90bdf004f86c36786b49049de0e6fe84f5ae1ede33b4de0ef23f767f"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+    }
+   ]
+  },
+  {
+   "id": "timeline-axis",
+   "name": "时间轴",
+   "description": "一条横向时间轴从左往右画出来，每个时间点一张卡（上下交替），讲到哪一年哪一张亮起，其余压暗。",
+   "file": "effects/timeline-axis-6823bbf4fb.zip",
+   "zipSha": "6823bbf4fbde36ae251ce07e49bf47f8a93c92de3e0d627af63cdc5a495b3864",
+   "size": 125147,
+   "files": [
+    {
+     "path": "timeline-axis/effect.html",
+     "sha": "638ede36898fde0463934dd52b4a60dc3125e095fa1bba05cbb49ee94717be39"
+    },
+    {
+     "path": "timeline-axis/effect.json",
+     "sha": "82dcf444377838b2fdea1908accedf04a508deb46918e09017320e0083241f0f"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
     },
     {
      "path": "_shared/fx-palettes.js",
