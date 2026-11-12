@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "published": "2026-11-12T12:21:50.273Z",
- "notes": "增加了四张卡片，然后优化了系统，让加载更快",
+ "published": "2026-11-12T12:42:39.663Z",
+ "notes": "优化了系统，启动更快，增加一个时间刻度卡片",
  "studio": {
   "version": "v32.0",
   "file": "studio/EffectStudio-v32.0-16022790dc.zip",
@@ -1238,6 +1238,56 @@
     {
      "path": "entity-chips/effect.json",
      "sha": "9d7bc0a9b1e7b23866abb4618e1fe75f1e0f357eabe0c99b77a1aeabdcd23529"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "e5ab037c90bdf004f86c36786b49049de0e6fe84f5ae1ede33b4de0ef23f767f"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+    }
+   ]
+  },
+  {
+   "id": "era-ruler",
+   "name": "时代刻度尺",
+   "description": "底部一条黑色半透明刻度尺（每年一格、逢 5 年标年份），上面一张张时代卡从开始年铺到结束年，带皇冠和「年份 / ???」；镜头沿刻度尺平移。可以一个个排队出现，也可以把 ??? 一个个揭晓成答案（当前这张亮起、上方出现一行小字）。",
+   "file": "effects/era-ruler-ffe94bc195.zip",
+   "zipSha": "ffe94bc195242d33d18e4fbaef4795214d65a27779f0bc1948b81a96c83637e0",
+   "size": 128680,
+   "files": [
+    {
+     "path": "era-ruler/effect.html",
+     "sha": "7dce9fc04ac77171d906874abe8ce620839bfb871da57b47806e861f95d32286"
+    },
+    {
+     "path": "era-ruler/effect.json",
+     "sha": "544d9941e337589dbe7ea159914728de44f550a512803f3d99e5b6f86f0edeb6"
     },
     {
      "path": "_shared/fx-cardbg.js",
