@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "published": "2026-11-12T12:42:39.663Z",
- "notes": "优化了系统，启动更快，增加一个时间刻度卡片",
+ "published": "2026-11-12T14:23:39.845Z",
+ "notes": "增加了三个卡片效果，增加系统稳定性。",
  "studio": {
   "version": "v32.0",
   "file": "studio/EffectStudio-v32.0-16022790dc.zip",
@@ -310,6 +310,56 @@
     {
      "path": "blur-text/effect.json",
      "sha": "95c6c4331e115b23bbb7bda2009a10c89e17b71ab23c4e7f5a0e6edd83786abe"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "f94201237f3df6ccc0d07688893a0872692614b021a5c1af86e208c08c0e6bd7"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "0322f1fd405ddf008996f03286ed2e72230b32810b4df91ab7d30fbef4408b27"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "e5ab037c90bdf004f86c36786b49049de0e6fe84f5ae1ede33b4de0ef23f767f"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+    }
+   ]
+  },
+  {
+   "id": "brand-wall",
+   "name": "品牌背景墙",
+   "description": "一面斜放的品牌卡片墙，每排左右交替缓缓滚动、首尾无缝循环；每排方向和快慢可以单独改；任意一张卡可以换成视频 / 图片并放大突出；带可关的渐变背景",
+   "file": "effects/brand-wall-522b67c6ae.zip",
+   "zipSha": "522b67c6ae1fa61addc47198c0f7427fd4e0f641d83872c4ec42532704844ec6",
+   "size": 130131,
+   "files": [
+    {
+     "path": "brand-wall/effect.html",
+     "sha": "0b90014801ec72d3950afef0a7e9f973f5c0657c60842a98d2f82ad592155d0c"
+    },
+    {
+     "path": "brand-wall/effect.json",
+     "sha": "fcffe5a4221e156b0ebe70fc3fd6374d2661c5330c0fc313784935d15b053dfd"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -1276,18 +1326,18 @@
   {
    "id": "era-ruler",
    "name": "时代刻度尺",
-   "description": "底部一条黑色半透明刻度尺（每年一格、逢 5 年标年份），上面一张张时代卡从开始年铺到结束年，带皇冠和「年份 / ???」；镜头沿刻度尺平移。可以一个个排队出现，也可以把 ??? 一个个揭晓成答案（当前这张亮起、上方出现一行小字）。",
-   "file": "effects/era-ruler-ffe94bc195.zip",
-   "zipSha": "ffe94bc195242d33d18e4fbaef4795214d65a27779f0bc1948b81a96c83637e0",
-   "size": 128680,
+   "description": "底部一条黑色半透明刻度尺（每年一格、逢 5 年标年份），上面一张张时代卡从开始年铺到结束年，带皇冠和「年份 / ???」；镜头沿刻度尺平移。可以一个个排队出现，也可以把 ??? 一个个揭晓成答案（当前这张亮起、上方出现一行小字）。每张卡都能上传照片 / 视频当背景（人物、产品图），字压在上面。",
+   "file": "effects/era-ruler-6e96233762.zip",
+   "zipSha": "6e962337622c2937c0ce81960a101763d850453e40f8d21b69e91ecad6025b8c",
+   "size": 130646,
    "files": [
     {
      "path": "era-ruler/effect.html",
-     "sha": "7dce9fc04ac77171d906874abe8ce620839bfb871da57b47806e861f95d32286"
+     "sha": "1da6b946fcdda23bf4ad1af09d4968e1e510bb8cb76ae6baa8bf1f8e3fb542ed"
     },
     {
      "path": "era-ruler/effect.json",
-     "sha": "544d9941e337589dbe7ea159914728de44f550a512803f3d99e5b6f86f0edeb6"
+     "sha": "9faaadceecd74ab0e725f7ef941868abb29de0afb2bf29fa6dabff21ba50463f"
     },
     {
      "path": "_shared/fx-cardbg.js",
