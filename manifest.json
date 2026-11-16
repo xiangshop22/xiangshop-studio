@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-13T20:45:51.409Z",
- "notes": "增加了声音功能，便于做内容的时候参考，优化了系统，预览的视频不加载。修复了几个BUG",
+ "published": "2026-11-16T10:26:51.698Z",
+ "notes": "这次更新太多，没办法西数，总之就是比之前好用不是一个等级，增加了几个",
  "studio": {
-  "version": "v33.5",
-  "file": "studio/EffectStudio-v33.5-9a1b8dfd3f.zip",
-  "zipSha": "9a1b8dfd3fbbcb9c230e3fac5bbdecc74ec4c48a82a6f864548cc0f6980002de",
-  "size": 214567,
+  "version": "v40.4",
+  "file": "studio/EffectStudio-v40.4-ba5dbc48d5.zip",
+  "zipSha": "ba5dbc48d5f4bd0e92d8b545349cf077325e691359babf61fa2d19401aa3747d",
+  "size": 242657,
   "files": [
    {
     "path": "server.js",
-    "sha": "d42db5e4c1d24be0b105afc65ce5dfb684b4e254aa2fdba6e902afa73e2e0f79"
+    "sha": "e01a836b0d8e148436bc1fdb8170940f407756c326c0b67bc6c480ab30ce730f"
    },
    {
     "path": "start.bat",
@@ -37,16 +37,20 @@
     "sha": "02a56e4e4fa7474291b7dcfeb486bb5363ad835a0db16ab50cf8e371df25d5d3"
    },
    {
+    "path": "public/_clips2.json",
+    "sha": "ade4a04c4c75cfb475d8c79b899154318600f34d22e3d066bfdc1761f9cbe526"
+   },
+   {
     "path": "public/comp.html",
     "sha": "0d88d03ecd35a41c4c335c5ef2d6fb28308693d32a168a25da8d1cbe90d3752e"
    },
    {
     "path": "public/css/main.css",
-    "sha": "f7925c3946089b4087c686d809271562d637d96179ca5af31fbbfd9fef088344"
+    "sha": "1c075a3e43a383c4fdfab4656bf6386d07c585db7a8ea8b617999e06c790886f"
    },
    {
     "path": "public/css/timeline.css",
-    "sha": "18d4f353d6e94be4bda6a14bec04e142ec24b20453a6489ca7f56af92f77d786"
+    "sha": "3f48ac92abd7bc13508324bd16a7ba18ad6af7139ce2bc857f5cfea0469045d4"
    },
    {
     "path": "public/fx-group.js",
@@ -58,7 +62,7 @@
    },
    {
     "path": "public/index.html",
-    "sha": "dca513e5245ae7982e3af581fac77ff80db77c5ba53a91d544d4fd53a2c6a067"
+    "sha": "9a27d7b65cb34be2aa8284e19bb1e4514e40116e55a975988232302a3bfbc2b8"
    },
    {
     "path": "public/js/00-stability.js",
@@ -66,11 +70,11 @@
    },
    {
     "path": "public/js/01-base-nav.js",
-    "sha": "700d0af11bad70f971c210ed3170a1d5edfec1ce47da45b9219c86923c22091d"
+    "sha": "21491721131e43547b6ddb7f6f10104296d01da0c8eeb1a84f1a9e9ff7f198c7"
    },
    {
     "path": "public/js/02-preview.js",
-    "sha": "3992610e4882de57687528b7fe802c08acd68c36c9c730091613dcbeb6e105f3"
+    "sha": "4be8016b249be77026b686b9c9051a1f086d000b1ab3a6d94b92e1ab381689ab"
    },
    {
     "path": "public/js/03-effects-io.js",
@@ -78,7 +82,7 @@
    },
    {
     "path": "public/js/04-keyframes.js",
-    "sha": "18448939847c3c20caf2ae1e9ea6feafd32616b0710abd840aebb724d1bbd60b"
+    "sha": "9591b3c100a1774683363d85c4161a6f78ba14ab66894f4e95bd9f48172bb1a7"
    },
    {
     "path": "public/js/05-reset-undo.js",
@@ -94,7 +98,7 @@
    },
    {
     "path": "public/js/10-timeline.js",
-    "sha": "c0b9c97625a05fadcc16113155cf7ccbac92d61a883ab153b84a8be40b8e6eaf"
+    "sha": "cb4e4987723b6458f0e1d0d773cc690a4153b6ef31d516ff7174c9d335b50a8b"
    },
    {
     "path": "public/js/11-group.js",
@@ -102,31 +106,31 @@
    },
    {
     "path": "public/js/12-timeline-input.js",
-    "sha": "545ae2f7a5567fa1af0924c75df8f6922901ce023466050f206055e9902c22e3"
+    "sha": "16f2fa055f0d299ca1892aa96a93756c0a687693c10aaaaffb73f6b2a488ed47"
    },
    {
     "path": "public/js/13-segment-export.js",
-    "sha": "d5b924022d25b121211af749368d3e5a1bdfa3a70e9efd856e3ebd3e7a5ef408"
+    "sha": "66abba14f9e3680b66212e6030364822100bd4340898adfce68079bc6f5b4545"
    },
    {
     "path": "public/js/14-ref-video.js",
-    "sha": "79d8cd084252ad302c187dec748ad26fbc0e363987f1fe4259707cfdce8212b7"
+    "sha": "e7e36d01000f9e477697d9e8106c4ffbfef1d718902e98a0263caff4a281e00c"
    },
    {
     "path": "public/js/15-timeline-tools.js",
-    "sha": "3ab8b744f28f875c025775ce08a28a419836ea4dd5daaa45084de72986f43aad"
+    "sha": "72ed26d6f66775040790e60036f3241d0ad1a59e49e6f8414a38b527e2155af3"
    },
    {
     "path": "public/js/16-boot.js",
-    "sha": "8c8ffc2bc70e6969666b629587ef907818e1627c52d870b5dfeb183a5d4e8bb2"
+    "sha": "f4fc517f5cb2bf0cdd87bfcf0191b29469f15edcc29cbb697f7e9db834adcde9"
    },
    {
     "path": "public/js/17-select-box.js",
-    "sha": "fc9b9d0fcd590e206fa965f8a255db494520c63b0824441886b1a4efdc411bc6"
+    "sha": "9ed84b145d7ce58627d3e9c6c9c1e727fd83791a7e9317844c3d77066808d048"
    },
    {
     "path": "public/js/18-place-snap.js",
-    "sha": "e697cc8a42dd540d9758f6df85b57b9de80a0aa65c9047013c60e77e9a5a0ee5"
+    "sha": "9e7869e145b671f63acc8ebfb33af1bc3906ef12ca6bde67b2cb82495a1d23d8"
    },
    {
     "path": "public/js/19-empty-state.js",
@@ -142,11 +146,15 @@
    },
    {
     "path": "public/js/22-fx-marks.js",
-    "sha": "80c791cb5050debb11743c80748f7fdfad9a7452bbde329b09f21b062aab0d66"
+    "sha": "d65f0444f0207cc9509a6b743b0a4d00ead95f956051e73d0ec024b4b22b9bd3"
    },
    {
     "path": "public/js/23-row-height.js",
-    "sha": "e06b68c3957c76cfe5d9927ab6da3e7b8f35bab6c75c15d4fd66142afb51db8c"
+    "sha": "6aa6e932efcc7b3525f2312c44b4b730334a685b2d37e60dd7e8f1c7046ce419"
+   },
+   {
+    "path": "public/js/24-tl-split.js",
+    "sha": "02c5627f1773f45a12b5c575111dba5063ec18ba5eda33f5d20eb74c5dc27746"
    },
    {
     "path": "public/logo.png",
@@ -199,9 +207,9 @@
    "id": "avatar-slot-card",
    "name": "头像槽位卡",
    "description": "一张带缝纫线和角花的渐变卡片：上面标题 + 英文花体小字，下面一排（或几排）圆形孔洞放人物头像。孔洞数量、大小可调；每个孔洞能放照片或视频，每个头像都能打不透明度关键帧做渐隐，淡掉后露出白色半透明的空槽；整张卡能换底色、去色、高亮。",
-   "file": "effects/avatar-slot-card-b7825bcd38.zip",
-   "zipSha": "b7825bcd385c93d8f4408ffe254655ff5598a3a153c2fc43d9c0cc9012cb670f",
-   "size": 172339,
+   "file": "effects/avatar-slot-card-22447cd41f.zip",
+   "zipSha": "22447cd41f921f6a0474f92bd69515233f4abb2c91c1be0868374ff7f721b406",
+   "size": 217364,
    "files": [
     {
      "path": "avatar-slot-card/effect.html",
@@ -212,40 +220,44 @@
      "sha": "6c7c47f305c2ac2c19074582caf1a5acb46816e36ef98036ee7bc84a70b82724"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -253,7 +265,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -261,9 +273,9 @@
    "id": "balance-scale",
    "name": "老人与小孩天平",
    "description": "天平左边老人、右边小孩，按比重倾斜并回摆到平衡",
-   "file": "effects/balance-scale-696d0d4ed1.zip",
-   "zipSha": "696d0d4ed14ea686657ab0f4d9e89a8d918aff12523f792b60dc9b73d6c757d2",
-   "size": 156558,
+   "file": "effects/balance-scale-ae9c3bd4f4.zip",
+   "zipSha": "ae9c3bd4f493147fd542674a94f76b3443f969adf3756ea78218a4d79ead0af1",
+   "size": 201583,
    "files": [
     {
      "path": "balance-scale/effect.html",
@@ -274,40 +286,44 @@
      "sha": "fd95a8329a0c2f95826952bf0ef6b078c12b371a2004c8cd5821a39efecf5b43"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -315,7 +331,73 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+    }
+   ]
+  },
+  {
+   "id": "bg-pattern",
+   "name": "纯背景",
+   "description": "整屏的纯背景：底色（纯色 / 对角渐变 / 中心向外渐变 / 上下渐变）+ 重复图案（方格、坐标纸、点阵、菱形、斜纹、蜂窝……）+ 构图（中心光、暗角、透视地面、光斑、放射光束……），可以垫一张照片。22 个版式分「基础 / 构图 / 图片」三组，一点就换；颜色用公共配色库。",
+   "file": "effects/bg-pattern-9e2a83cf0d.zip",
+   "zipSha": "9e2a83cf0dd2aeb89a88f08be97241afc11a62d7d2776e40eead2d0058f9aca7",
+   "size": 209539,
+   "files": [
+    {
+     "path": "bg-pattern/effect.html",
+     "sha": "1b43ed4690fbf674d31e4b9de72a9d04d8d2c11df39e4db6ade87af2ce9faa70"
+    },
+    {
+     "path": "bg-pattern/effect.json",
+     "sha": "bf0bf1592ed8394d166ef33364537f6808827a368b29881fe21ba57d7ead3afa"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -323,9 +405,9 @@
    "id": "bid-bar-chart",
    "name": "竞价柱状图",
    "description": "几根柱子比数值：柱子从下面长上来，柱顶是圆形名牌卡（公司 / 人物），柱子左边写数值和说明，数值变了数字会跳；同一根柱子再出价时，旧的说明嵌进背景。可以让某张卡高亮。",
-   "file": "effects/bid-bar-chart-2d0d006f96.zip",
-   "zipSha": "2d0d006f969636ea7c670850f45ce0f8e47f0c7e34903e6cf53e82325ccc15d4",
-   "size": 170508,
+   "file": "effects/bid-bar-chart-cb6d3c1e4b.zip",
+   "zipSha": "cb6d3c1e4b530ccf829a55504b8b782369cc242d93017d85bc75a71040834d4a",
+   "size": 215533,
    "files": [
     {
      "path": "bid-bar-chart/effect.html",
@@ -336,40 +418,44 @@
      "sha": "f2ba36c62e9de2224ed03099de246f992ca9c3b1e77a2938fa47ccd422d0ea46"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -377,7 +463,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -385,9 +471,9 @@
    "id": "blur-text",
    "name": "模糊浮现（BlurText）",
    "description": "词块从虚焦中逐个清晰",
-   "file": "effects/blur-text-3e80f43e7c.zip",
-   "zipSha": "3e80f43e7ca8c51812fc506e2f93c524c82388f77d77071da3a7c58113732df8",
-   "size": 185337,
+   "file": "effects/blur-text-40b2b78ca4.zip",
+   "zipSha": "40b2b78ca4fa108f602f666298746c6567dd46571135916d0a78034f5e3761b0",
+   "size": 230362,
    "files": [
     {
      "path": "blur-text/bundle.js",
@@ -402,40 +488,44 @@
      "sha": "95c6c4331e115b23bbb7bda2009a10c89e17b71ab23c4e7f5a0e6edd83786abe"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -443,25 +533,29 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
   {
    "id": "brand-wall",
    "name": "品牌背景墙",
-   "description": "一面斜放的品牌卡片墙，每排左右交替缓缓滚动、首尾无缝循环；每排方向和快慢可以单独改；任意一张卡可以换成视频 / 图片并放大突出；带可关的渐变背景",
-   "file": "effects/brand-wall-63ee7a128c.zip",
-   "zipSha": "63ee7a128c6180e6847a2b983b26b563a709b45945f0d5e58b68a0c495458924",
-   "size": 166477,
+   "description": "品牌卡片墙，两种排版：斜放的四排左右交替滚动 / 画面左右两列上下滚动（中间留给人物）；每排 / 每列方向和快慢单独改；每张卡可以放宣传图 / 视频再叠加品牌 logo，任意一张可以放大突出；背景渐变可选「无」",
+   "file": "effects/brand-wall-94e47b292d.zip",
+   "zipSha": "94e47b292df7b5c967e5899f5c099d441fc591d852a4bdf22fc688e1b33148e7",
+   "size": 217043,
    "files": [
     {
      "path": "brand-wall/effect.html",
-     "sha": "5881111d6e826ab0b764668e9fcc08c20efbb1e966d3fbdc93b859950b37297d"
+     "sha": "6d1fb2619a8af753912c58e0ffb8e757c51b77a03c3bbf5cd8718634a8934aae"
     },
     {
      "path": "brand-wall/effect.json",
-     "sha": "fcffe5a4221e156b0ebe70fc3fd6374d2661c5330c0fc313784935d15b053dfd"
+     "sha": "8ea6118a235f59668cb37a06ca21ece2e35c17e47db2c5969c88883934e8479d"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -469,35 +563,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -505,7 +599,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -513,9 +607,9 @@
    "id": "brief-board",
    "name": "讲解要点板",
    "description": "顶部一个大标题，下面一格一格的小标题卡：讲到哪一条，哪一条就变成高亮色，讲过去再换回常态色，换色可以选闪动 / 渐变 / 扫光 / 翻面。背景可以放自己的照片或视频，上面压一层可调浓度的半透明黑。每张卡可以是文字、照片、视频或镂空；预览区右键拖动可以转 X / Y / Z 三轴",
-   "file": "effects/brief-board-c59d17e9c7.zip",
-   "zipSha": "c59d17e9c763f6789061782915b98d933446b78d9290146480ce5a7469ebabbd",
-   "size": 175581,
+   "file": "effects/brief-board-0d20ea4583.zip",
+   "zipSha": "0d20ea45833ab585840008ed94ec1e1f0a19bad3f29feb64568e3c0fdc7a298f",
+   "size": 220606,
    "files": [
     {
      "path": "brief-board/effect.html",
@@ -526,40 +620,44 @@
      "sha": "1ef4604c2f06333b08a3280f066ae80059d85284dae0015edd8248b62c6366c6"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -567,7 +665,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -575,9 +673,9 @@
    "id": "caption-track",
    "name": "常驻双语字幕（CaptionTrack）",
    "description": "中文主行 + 英文小字 + 关键词点亮",
-   "file": "effects/caption-track-50b9c80c10.zip",
-   "zipSha": "50b9c80c1020fb32b86272bf3b32dedea9ac5626a38f544303761e91b1efa182",
-   "size": 182562,
+   "file": "effects/caption-track-102060a06e.zip",
+   "zipSha": "102060a06e10b62db0add77e9965bef61a8ee5b35183e4407f8a75aa312be8fe",
+   "size": 227587,
    "files": [
     {
      "path": "caption-track/bundle.js",
@@ -592,40 +690,44 @@
      "sha": "7ba0489f2199dfc7e346e6812d5ce91f257b28c837274f47dc38bf7619d6715c"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -633,7 +735,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -641,9 +743,9 @@
    "id": "card-arc-stack",
    "name": "卡片弧形叠排",
    "description": "卡片依次飞进来，左右叠在一起排成一道朝向镜头的弧，中间最大最靠前、两边往后转；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-arc-stack-a244ac31c7.zip",
-   "zipSha": "a244ac31c7632953aca9ed2fdd04159c0f03d72dea3cece8b4719146f7d1f625",
-   "size": 161072,
+   "file": "effects/card-arc-stack-bd41ede08e.zip",
+   "zipSha": "bd41ede08ea747c2c4700641204ba3326aea8f8a8f8baa88d4afd4343c88bc48",
+   "size": 206097,
    "files": [
     {
      "path": "card-arc-stack/effect.html",
@@ -654,40 +756,44 @@
      "sha": "7eee1ce73d959f442412874ade3fdeae65c404c5a7059d21c1cb43dc69874941"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -695,7 +801,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -703,17 +809,21 @@
    "id": "card-deal",
    "name": "发牌展开（Card Deal）",
    "description": "卡片可放照片或文字，从底部依序发出，展开成扇形并回弹，每张卡片可单独设置进场、停留、退出时长",
-   "file": "effects/card-deal-5ba4233770.zip",
-   "zipSha": "5ba423377077ab6d740ad7b5495aa7dc705fe7f6cc59a0f4bfd21ed2a3197faf",
-   "size": 167273,
+   "file": "effects/card-deal-ba14677fab.zip",
+   "zipSha": "ba14677fabeaafbd76796f98022576afce774757c4df2f956b1c6b77e7b5f816",
+   "size": 212651,
    "files": [
     {
      "path": "card-deal/effect.html",
-     "sha": "29d52c3d85eae0c06e0226d9afd49fb48ad91a4790b69f87c9e05ead214fda8a"
+     "sha": "5be3e686da44bc5781547fd1556a184ec5f27a0b9f3ff2a9c19ad9968763f28c"
     },
     {
      "path": "card-deal/effect.json",
-     "sha": "8cc52b9256001280e7e2a5aed5060c16ec7a035db6241dea87965ada251dc421"
+     "sha": "8fe2fb24a438faf03bd608bddb63fe068dfd6e48dc43d1149b70bd72d6d69655"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -721,35 +831,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -757,7 +867,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -765,9 +875,9 @@
    "id": "card-fly-grid",
    "name": "卡片飞入拼格",
    "description": "一组卡片从画外依次飞进来，拼成整齐的格子（九宫格 / 三列两行等），最后可以原路飞出、淡出或掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-fly-grid-274b6af9ee.zip",
-   "zipSha": "274b6af9eef804a55afe47e38448642e26c37eee984a6966c58b10597ee22989",
-   "size": 160248,
+   "file": "effects/card-fly-grid-e02da52a23.zip",
+   "zipSha": "e02da52a2344563b798b51bdd4bda3fd2974615a2a1e69185036cf9b165e73f4",
+   "size": 205273,
    "files": [
     {
      "path": "card-fly-grid/effect.html",
@@ -778,40 +888,44 @@
      "sha": "033c60e88e78be9e359fe4eedf1028abc30798cf14fc9e8a11481c28d0dfb0d8"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -819,7 +933,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -827,9 +941,9 @@
    "id": "card-grid-zoom",
    "name": "卡片网格推近",
    "description": "一组卡片先拼成格子，镜头再推近其中一张看细节，其他卡片顺势变暗模糊，最后可以拉回网格、停在特写或淡出；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-grid-zoom-339a419a7c.zip",
-   "zipSha": "339a419a7ca7379a1ce16c70e0e5707b4c31f594a41bba2b3ce918cec21fe130",
-   "size": 162836,
+   "file": "effects/card-grid-zoom-c258207291.zip",
+   "zipSha": "c2582072913f2236942e4255e87f0112465fccd822122c85601f36b7ffbe62cc",
+   "size": 207861,
    "files": [
     {
      "path": "card-grid-zoom/effect.html",
@@ -840,40 +954,44 @@
      "sha": "058bddf478969df0414663f5f7cb19e5efd1e16b9565bd31b7c67dcb543aac09"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -881,7 +999,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -889,9 +1007,9 @@
    "id": "card-hang-sway",
    "name": "吊线悬挂卡",
    "description": "卡片像挂在吊线上一样被一张张放下来，长短不一地悬在空中轻轻摆动，结尾可以收回上去、淡出或断线掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-hang-sway-675ce84073.zip",
-   "zipSha": "675ce840737a533fba419c4afc3573c5971465e86b24a13ab6965b5f56b62324",
-   "size": 161499,
+   "file": "effects/card-hang-sway-c733380968.zip",
+   "zipSha": "c7333809685799992710c1ccc4b963e7e8543b66b1ab643e968ebb8b01805417",
+   "size": 206524,
    "files": [
     {
      "path": "card-hang-sway/effect.html",
@@ -902,40 +1020,44 @@
      "sha": "e819d166c1bb77a67301923c087a425d0547ea4dc22d090f6cedd6e93e967bb1"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -943,7 +1065,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -951,9 +1073,9 @@
    "id": "card-particle-swarm",
    "name": "卡片粒子群",
    "description": "一大片小卡片像粒子一样在空间里漂浮飞过，可调粒子数量、飘动方向和速度；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-particle-swarm-a725d2c06f.zip",
-   "zipSha": "a725d2c06f26f5fd9b8fdcb5d3a609961376bbe738695aa1e90cb3917c7b3011",
-   "size": 162863,
+   "file": "effects/card-particle-swarm-f1ac15b400.zip",
+   "zipSha": "f1ac15b40047d05c760c7d32b8b04067ab316a34753ab1552e5b0549f71fc15e",
+   "size": 207888,
    "files": [
     {
      "path": "card-particle-swarm/effect.html",
@@ -964,40 +1086,44 @@
      "sha": "a97a60649084e470cf02ccc91826e4dfd13eb3bbfbd591816bfc4e15179549e2"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1005,7 +1131,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1013,9 +1139,9 @@
    "id": "card-reveal",
    "name": "卡片依序浮现（Staggered Reveal）",
    "description": "多张作品卡片排成网格，从模糊到清晰依序浮现，缩略图、标题、文字再逐一补上；停留后从最后一张反向上浮淡出",
-   "file": "effects/card-reveal-2080f085e0.zip",
-   "zipSha": "2080f085e01800886447ba3c77f6213b437aea61a9fec7bd79a7ead222c35077",
-   "size": 170959,
+   "file": "effects/card-reveal-b7051f2442.zip",
+   "zipSha": "b7051f2442e6437ec3c4c4dd390c0aa4193b96ccfd4046db4c670a0bdbed0e02",
+   "size": 215984,
    "files": [
     {
      "path": "card-reveal/effect.html",
@@ -1026,40 +1152,44 @@
      "sha": "504897b663c074fb05deffdb7099563186f2ed298589f364f354251fea592b97"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1067,7 +1197,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1075,9 +1205,9 @@
    "id": "card-stack-array",
    "name": "卡片叠出阵列",
    "description": "先出一张首图斜着飞进来，停一会儿之后其余卡片从它背后一张张滑出来散成一叠，最后全部排成上下多行的阵列；预览区右键拖动可以转 X / Y / Z 三轴。每张卡可以是文字、照片、视频或镂空",
-   "file": "effects/card-stack-array-014f47cfe1.zip",
-   "zipSha": "014f47cfe18eb10eeba515faaa89319a603de07c8b61c1eb1ae694e6ab5240fd",
-   "size": 163616,
+   "file": "effects/card-stack-array-cc6ef8613b.zip",
+   "zipSha": "cc6ef8613bf3d44cf42524f2603f61ee7f5c1575e7e4ee8c4d97be9395f50360",
+   "size": 208641,
    "files": [
     {
      "path": "card-stack-array/effect.html",
@@ -1088,40 +1218,44 @@
      "sha": "d4efe74850918038787b463d4d99c6a7155a536d6c540d80723238748685973b"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1129,7 +1263,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1137,9 +1271,9 @@
    "id": "chapter-bar",
    "name": "常驻章节导航（ChapterBar）",
    "description": "顶部全程在场的本期地图",
-   "file": "effects/chapter-bar-526c3f56a3.zip",
-   "zipSha": "526c3f56a36aaf7a9908a8a03312915bd769f825d3790f547dec61d4f5afbb12",
-   "size": 184205,
+   "file": "effects/chapter-bar-a5a61fc355.zip",
+   "zipSha": "a5a61fc355b423e45790e2480d271332b3359adaabcc20c665b220465e811830",
+   "size": 229230,
    "files": [
     {
      "path": "chapter-bar/bundle.js",
@@ -1154,40 +1288,44 @@
      "sha": "d1e1c72fff24bbc98bbda6b4adcfab58aa651460f020049236ccccd2daf4a3dc"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1195,7 +1333,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1203,9 +1341,9 @@
    "id": "chapter-progress",
    "name": "章节进度条",
    "description": "常驻在画面顶部或底部的章节进度条：按每章开始时间分段，进度往前推，当前章节高亮。总时长最长 120 分钟",
-   "file": "effects/chapter-progress-d5ed5a63d7.zip",
-   "zipSha": "d5ed5a63d71575a6e46f07e96302fa8ed09bf5f6ba6fc8d808c0a68e463a828e",
-   "size": 160100,
+   "file": "effects/chapter-progress-aba484e43d.zip",
+   "zipSha": "aba484e43dde84fcbd43dcf4413dc3b328c05547fa8c563e785d772068489879",
+   "size": 205125,
    "files": [
     {
      "path": "chapter-progress/effect.html",
@@ -1216,40 +1354,44 @@
      "sha": "8add6c1cc60e3a44085ee4cdfb93622ab84a6febe3beeb394564d60a1c40602f"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1257,7 +1399,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1265,9 +1407,9 @@
    "id": "checklist",
    "name": "步骤打勾（Checklist）",
    "description": "流程逐项完成打√",
-   "file": "effects/checklist-05589bb4fe.zip",
-   "zipSha": "05589bb4fe1e5ad4897172fc210f5b4d6ffde6013c54c9c477ca1183d6047478",
-   "size": 185721,
+   "file": "effects/checklist-a7c0cc4a46.zip",
+   "zipSha": "a7c0cc4a469f2f5f0db3c0c03375948d05c565b6abbb7eae10ccf0c6b617d954",
+   "size": 230746,
    "files": [
     {
      "path": "checklist/bundle.js",
@@ -1282,40 +1424,44 @@
      "sha": "a77d417550219e7f5c0e6567ef0321693e2485abd7ce8a9483215ea6b4f4c04f"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1323,7 +1469,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1331,9 +1477,9 @@
    "id": "comment-flow",
    "name": "评论飘过（Comment Flow）",
    "description": "上传评论区截图，生成圆角卡片在画面里随机冒出，入场完成后向一个方向移动；截图不够会循环使用",
-   "file": "effects/comment-flow-5669b1a0b7.zip",
-   "zipSha": "5669b1a0b7b08a53cd24e9dc589eba9ff9cc89c95ec647e25ad0ce2ed2875626",
-   "size": 167081,
+   "file": "effects/comment-flow-954519469c.zip",
+   "zipSha": "954519469c9dd786205f8f2e2b4a4b3b14dd514bdc894ee9f1c1727e921e88cf",
+   "size": 212106,
    "files": [
     {
      "path": "comment-flow/effect.html",
@@ -1344,40 +1490,44 @@
      "sha": "8903b6f08b3fb63b655c6d9ccd2d51958b32cf399933f1c4e2456ac83ce6464c"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1385,7 +1535,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1393,9 +1543,9 @@
    "id": "danmaku",
    "name": "弹幕",
    "description": "一行文字就是一条弹幕，从画面一侧飘到另一侧；字号、颜色、速度都能调，轨道自动排开、互不重叠；背景透明，可以直接叠在视频上",
-   "file": "effects/danmaku-2698baae5c.zip",
-   "zipSha": "2698baae5cf46d2848e5e9c562cdc5930532dbbbe0ede748b23295821fe01216",
-   "size": 166749,
+   "file": "effects/danmaku-d848a92eef.zip",
+   "zipSha": "d848a92eef7f9c618a6f50537c1d9127a3887fad86b5232cbd92b9cdf5e6eb73",
+   "size": 211774,
    "files": [
     {
      "path": "danmaku/effect.html",
@@ -1406,40 +1556,44 @@
      "sha": "cc8090911e2b3084cbd922c753ca57a229a8ff2bc7a4b1ea049477fa8d48af25"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1447,7 +1601,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1455,9 +1609,9 @@
    "id": "doc-highlight",
    "name": "文档荧光笔",
    "description": "一页文件 / 新闻原文，讲到哪句，那句被荧光笔划过、红框框住或下划线划出，镜头慢慢推向这一句。",
-   "file": "effects/doc-highlight-0aacd5c8af.zip",
-   "zipSha": "0aacd5c8af60db66d1df0df783afad6c921eb81856e8d06c380de4223fe76f1c",
-   "size": 162373,
+   "file": "effects/doc-highlight-c36e90b41d.zip",
+   "zipSha": "c36e90b41d8499518edf00863638bb577ca797ef2cb331733eeebba9da0c3a5d",
+   "size": 207398,
    "files": [
     {
      "path": "doc-highlight/effect.html",
@@ -1468,40 +1622,44 @@
      "sha": "2d0b5b125502715c6f3d5643646251d9e51b3f171455fd000f76464305033865"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1509,7 +1667,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1517,9 +1675,9 @@
    "id": "donut-ring-load",
    "name": "环形数字加载",
    "description": "甜甜圈图从正上方顺时针一段接一段画出，中间总计往上数，右侧图例依序滑入；数据可在面板表格里改，也能导入 Excel",
-   "file": "effects/donut-ring-load-8384da3cc5.zip",
-   "zipSha": "8384da3cc5b70515a9acdaa1314f9a48c8c2a982b02d7b8fc44edd8f5d64598a",
-   "size": 518445,
+   "file": "effects/donut-ring-load-79772ce0e5.zip",
+   "zipSha": "79772ce0e58acb97944b5708fcecbdea397cd51748407cb7312678301739db5b",
+   "size": 563470,
    "files": [
     {
      "path": "donut-ring-load/DrawSVGPlugin.min.js",
@@ -1542,40 +1700,44 @@
      "sha": "c9506197caf809a075b6dee1da0d36fb19da7158ffe8a88e7b0c96c5d8623c99"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1583,7 +1745,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1591,9 +1753,9 @@
    "id": "entity-chips",
    "name": "实体名牌（EntityChips）",
    "description": "人物/公司锚定牌,滑入后常驻",
-   "file": "effects/entity-chips-45e58762e8.zip",
-   "zipSha": "45e58762e8e5d9d3b89fd7e2b45cb5aef6f469fd6e74e60007a7d6ed266900b0",
-   "size": 185831,
+   "file": "effects/entity-chips-f094a2b78d.zip",
+   "zipSha": "f094a2b78d306f23ef02e942b5fd726f43f65d6c54cd52755ab23aa90db1b6fe",
+   "size": 230856,
    "files": [
     {
      "path": "entity-chips/bundle.js",
@@ -1608,40 +1770,44 @@
      "sha": "9d7bc0a9b1e7b23866abb4618e1fe75f1e0f357eabe0c99b77a1aeabdcd23529"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1649,7 +1815,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1657,9 +1823,9 @@
    "id": "era-ruler",
    "name": "时代刻度尺",
    "description": "底部一条黑色半透明刻度尺（每年一格、逢 5 年标年份），上面一张张时代卡从开始年铺到结束年，带皇冠和「年份 / ???」；镜头沿刻度尺平移。可以一个个排队出现，也可以把 ??? 一个个揭晓成答案（当前这张亮起、上方出现一行小字）。每张卡都能上传照片 / 视频当背景（人物、产品图），字压在上面。",
-   "file": "effects/era-ruler-3d5a7970a1.zip",
-   "zipSha": "3d5a7970a17ec467fe437fbc79ccfb47c33a01e202bc8c077917f6612370b39c",
-   "size": 166961,
+   "file": "effects/era-ruler-e4f3eeb624.zip",
+   "zipSha": "e4f3eeb6242356302cf1256ebaa0956da2768f96bb63fd496fb357dff132cdaf",
+   "size": 211986,
    "files": [
     {
      "path": "era-ruler/effect.html",
@@ -1670,40 +1836,44 @@
      "sha": "9faaadceecd74ab0e725f7ef941868abb29de0afb2bf29fa6dabff21ba50463f"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1711,7 +1881,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1719,9 +1889,9 @@
    "id": "flag-badge-card",
    "name": "旗标名牌卡",
    "description": "公司 / 品牌 / 国家的名牌卡：圆形国旗 + 英文名 + 中文名 + 白色 logo 格，背景里有立方体、棱形、烟雾或光点从中间缓缓往外涌出、无限循环（公共模块「卡片背景动效」，可以关）。1~4 张并排，每张卡单独设国旗、名字、logo、底色和背景动效。4 种排版（竖牌 / 横牌 / 名片条 / 排名牌），底色 / 高亮 / 去色关键帧和焦点格卡片同一套。",
-   "file": "effects/flag-badge-card-1e51b00c14.zip",
-   "zipSha": "1e51b00c14e6fab149c4c058a17fc12d444ac5a36789c49e81e8cb9b1c676db1",
-   "size": 174548,
+   "file": "effects/flag-badge-card-5363828568.zip",
+   "zipSha": "53638285686732f574d11e4e519ccbc93b60b9f9febca2ba0eedf8fe0d350fee",
+   "size": 219573,
    "files": [
     {
      "path": "flag-badge-card/effect.html",
@@ -1732,40 +1902,44 @@
      "sha": "3c2089f1145838d184ed21da039a48f5835e31d06f8735d85a7cc1e2b90a724b"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1773,7 +1947,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1781,17 +1955,21 @@
    "id": "flow-steps",
    "name": "流程步骤",
    "description": "一排编号卡片，箭头一段段画过去连起来；可以在最后画一条回到开头的循环线。讲到哪一步哪一步亮。",
-   "file": "effects/flow-steps-aec1fdc546.zip",
-   "zipSha": "aec1fdc546fe0846bead105061a3309e3e32e8828481e35f76aff5a9a46756a8",
-   "size": 161002,
+   "file": "effects/flow-steps-21cd859a53.zip",
+   "zipSha": "21cd859a538fc8ea0c6d8614530c4dccb4c33746f9da345c6e2dd7bf1d253964",
+   "size": 206716,
    "files": [
     {
      "path": "flow-steps/effect.html",
-     "sha": "3633fdda3c6fce572674f7344fb29330d24d2d7188f38832e078e9d6bc897c61"
+     "sha": "7ad3cb2f3e901c811a491621b0fe77c23123dede33d97c367f4cbc744098ad63"
     },
     {
      "path": "flow-steps/effect.json",
      "sha": "c7971d2405cbd5a9923976a7e3bc083e722149ba310cc332d3c52dfb2e38cdcd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -1799,35 +1977,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1835,7 +2013,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1843,17 +2021,21 @@
    "id": "focus-slot-card",
    "name": "焦点格卡片",
    "description": "一张带细线边框的卡片：上面一行小字 + 大标题，中间一个「格子」，底部一行英文。格子里可以放会换字的文字（用文字转场，18 种转场任选，数字推荐「数字翻滚」）、照片、视频，或者空着留一个虚线框（导出时可透明）。5 种排版预设、底色色块、高亮 / 去色关键帧，和缝线标题卡同一套。",
-   "file": "effects/focus-slot-card-4c5a03a209.zip",
-   "zipSha": "4c5a03a209dbb91d83c7c53e67fb6e629860234ed020523b29948225a2882e47",
-   "size": 171396,
+   "file": "effects/focus-slot-card-f1f3825e24.zip",
+   "zipSha": "f1f3825e24bd9a041ed613444bff9fb1927ace397970b8ade890e71d324d364a",
+   "size": 217834,
    "files": [
     {
      "path": "focus-slot-card/effect.html",
-     "sha": "cb9e60c6123a45cd88a77096e6b777519fe8179b711c4592011b528d8cf9798a"
+     "sha": "1403d806f512d9c3428fefe3011c9ddbbd718640e01e641643d52988ad6c24d9"
     },
     {
      "path": "focus-slot-card/effect.json",
-     "sha": "9bc22629eb29859d970b5434c4fd95b76b181efd8171d9aad89351055e7dc16a"
+     "sha": "7e8fded9b353f6faa379289a1dcaf2e44761611e008c7c7837855e7c1fe2507b"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -1861,35 +2043,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1897,7 +2079,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1905,9 +2087,9 @@
    "id": "formula-bar",
    "name": "大公式条",
    "description": "一块面板中间一条公式（收入 − 成本 = 利润），每一项一个个砸下来；讲到哪一项哪一项高亮，其余压暗；项下面可以挂一行小注。",
-   "file": "effects/formula-bar-e37042009f.zip",
-   "zipSha": "e37042009fc2de67316001fa4c234d72f5a38794ef026865cc8c452e722560dd",
-   "size": 161966,
+   "file": "effects/formula-bar-04f559c957.zip",
+   "zipSha": "04f559c9570f19e52eb1082ea8c98c2222597e20c4df9b0f0781c0977cc97243",
+   "size": 206991,
    "files": [
     {
      "path": "formula-bar/effect.html",
@@ -1918,40 +2100,44 @@
      "sha": "36494bc3039396cefb1c8982bac77970184a0e22dbc31265e3ea3d36e8703996"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1959,7 +2145,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -1967,9 +2153,9 @@
    "id": "growth-curve",
    "name": "增长曲线（GrowthCurve）",
    "description": "平滑曲线动画画出+渐变面积,峰值滚动计数",
-   "file": "effects/growth-curve-b359f9fded.zip",
-   "zipSha": "b359f9fdedc4f5e8206cfe51d82c18cc9a32e1c2bcf3531bb12254b1886330fc",
-   "size": 188731,
+   "file": "effects/growth-curve-6bae4cc231.zip",
+   "zipSha": "6bae4cc2317ff5e36a701390a89a4a8986601a5cef6080089940ace3378bd7df",
+   "size": 233756,
    "files": [
     {
      "path": "growth-curve/bundle.js",
@@ -1984,40 +2170,44 @@
      "sha": "e108b48abecbd84b0f6e29f40d3813a2f1b36ec062030fe4af37832e04dff56f"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2025,7 +2215,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2033,9 +2223,9 @@
    "id": "hierarchy-tree",
    "name": "层级结构图",
    "description": "组织架构 / 业务板块那种层级结构图：顶层一张大卡（可放图片，图在左 / 中 / 右），下面一层层分出子卡，折线连接，逐层展开。每张卡都能单独打去色 / 高亮关键帧，也能让一整条链路跟着上级一起变；连线跟着两端卡片自动变亮 / 变暗。",
-   "file": "effects/hierarchy-tree-24a64af1db.zip",
-   "zipSha": "24a64af1db9a08369cd41af5821daf60d754c8f92c42d54dda71aebcb86e696c",
-   "size": 179288,
+   "file": "effects/hierarchy-tree-1a6bb29e6f.zip",
+   "zipSha": "1a6bb29e6fdcdcaa1317678f77d71cc5fde5802ee3dc90226170dca8a68f8ff3",
+   "size": 224313,
    "files": [
     {
      "path": "hierarchy-tree/effect.html",
@@ -2046,40 +2236,44 @@
      "sha": "bb33079b06552528b80addb6c722437e230729602f388c5118e99cd9373d2fa9"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2087,7 +2281,73 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+    }
+   ]
+  },
+  {
+   "id": "image-layer",
+   "name": "单张图片",
+   "description": "直接放一张图片（PNG 透明照常保留）：可裁剪、圆角、阴影，入场 / 出场有淡入淡出、左右上下飞、模糊溶解、缩放、弹出、旋转；位置 / 大小 / 旋转 / 关键帧 / 去色和其他效果一样。也可以把图片从电脑直接拖到素材时间线上，从播放头那一秒开始。",
+   "file": "effects/image-layer-a1b6db7cc6.zip",
+   "zipSha": "a1b6db7cc6286260c3948eed7f79ebab5615054571ffcc147a61166725c13d02",
+   "size": 204022,
+   "files": [
+    {
+     "path": "image-layer/effect.html",
+     "sha": "5f8c1982a828035f6da22cffd047c4886092d55d5fe71a0b844dd8cbefbd5224"
+    },
+    {
+     "path": "image-layer/effect.json",
+     "sha": "cf76fc5e68d06d7bc421ab34fd939799e40f459dfcbedb774c416c1aa4a6addb"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2095,9 +2355,9 @@
    "id": "odometer",
    "name": "翻牌计数器（Odometer）",
    "description": "每位数字滚轮到位",
-   "file": "effects/odometer-a7e7011522.zip",
-   "zipSha": "a7e7011522abd2ff8111bc9863a6b648eef245638d1276927d17851d0a31155f",
-   "size": 185874,
+   "file": "effects/odometer-a525a8791a.zip",
+   "zipSha": "a525a8791a9c831bef1461985e52f8142049945309898dc4cb6178924e4fe99b",
+   "size": 230899,
    "files": [
     {
      "path": "odometer/bundle.js",
@@ -2112,40 +2372,44 @@
      "sha": "19fc77ea9ca2690f6730ce0fefd6b6a3a9ac9d7ad411590b1c6db96d0c823225"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2153,7 +2417,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2161,9 +2425,9 @@
    "id": "people-fill",
    "name": "人群填充",
    "description": "空心人逐个被填充，支持半满状态",
-   "file": "effects/people-fill-a1b330e926.zip",
-   "zipSha": "a1b330e9263ed62d372072ecbd78248a61eed936347a55aa7cc79ae9441234f8",
-   "size": 155340,
+   "file": "effects/people-fill-f4b580b59e.zip",
+   "zipSha": "f4b580b59e04070c1b318adfc0dcc9d045cdfa25a99c9dfc345c7b7c6137459d",
+   "size": 200365,
    "files": [
     {
      "path": "people-fill/effect.html",
@@ -2174,40 +2438,44 @@
      "sha": "aeaf5efaf7c6bfbbbd004b4f71d2239b220eb9c8cc7b009a9b90033a33de8d01"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2215,7 +2483,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2223,9 +2491,9 @@
    "id": "photo-stack-slide",
    "name": "照片堆叠滑入",
    "description": "一叠照片带着阴影、错开着从画外滑进来：后面的先到，最上面那张晚一步再加速追上，快对齐时错开收小，由快到慢缓停；数量、入画 / 出画方向、整体角度都能调",
-   "file": "effects/photo-stack-slide-ddc84847ff.zip",
-   "zipSha": "ddc84847ffb79e6baae335c06735ad6d5a1e008923c49f42d241fdbf3b06263b",
-   "size": 161922,
+   "file": "effects/photo-stack-slide-b5eeab0908.zip",
+   "zipSha": "b5eeab090815d90aecdee41b263c2514defe337b1b68afab79beeb387d8d209f",
+   "size": 206947,
    "files": [
     {
      "path": "photo-stack-slide/effect.html",
@@ -2236,40 +2504,44 @@
      "sha": "39ac236d99e3d546c629a3baea7a3d1910821ccf6a59614c11f1719ac364e137"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2277,7 +2549,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2285,9 +2557,9 @@
    "id": "pie-focus-split",
    "name": "饼图聚焦拆分",
    "description": "开场圆 + Logo → 扇形由快到慢扫出盖住 Logo → 某一块高亮变色 → 往外抽出 → 在它里面再切出一块子集",
-   "file": "effects/pie-focus-split-aa58364ca9.zip",
-   "zipSha": "aa58364ca96b19b3b6cef0b8c1fd8ef348e41847ec09d6f509789ff8969dc589",
-   "size": 171672,
+   "file": "effects/pie-focus-split-871f99ee00.zip",
+   "zipSha": "871f99ee0039d957027932979139639b591f9b80c770688ec10b8c705da6b982",
+   "size": 216697,
    "files": [
     {
      "path": "pie-focus-split/effect.html",
@@ -2298,40 +2570,44 @@
      "sha": "994571073cf0f229c6a797d6c22b2eb78b79807631b7522ec8f9b7d2c23129f7"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2339,7 +2615,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2347,17 +2623,21 @@
    "id": "point-expand-cards",
    "name": "要点展开卡",
    "description": "要说明几点就出现几张灰色卡片；讲到哪一点，那张卡被颜色擦满亮起来；再讲细节时这张卡变高亮，旁边拉出一个虚线说明框，框里放圆头像、方图、文字要点、大数字或镂空窗口。",
-   "file": "effects/point-expand-cards-f97b1ecb78.zip",
-   "zipSha": "f97b1ecb78f42f0c991ec974902e1dfec9154d08ec82855ffa81ca3a70cb9236",
-   "size": 167836,
+   "file": "effects/point-expand-cards-ddb7c09474.zip",
+   "zipSha": "ddb7c09474ea7e9ce667297a7f6ab5c46de4689a675a8d6c75cb8bdeabf8adce",
+   "size": 215761,
    "files": [
     {
      "path": "point-expand-cards/effect.html",
-     "sha": "a772b366f5962ddeb25505b673854eaa69acd9701f4608c5c2234c33d81fa38d"
+     "sha": "7aebdc6583d873cd7db2605ac382a7c072631792c5e272f6cf2d508b7e4bba2a"
     },
     {
      "path": "point-expand-cards/effect.json",
-     "sha": "8b55b2b65700efccab29a30b91e4513b167757e705e7377b7e45ab224f0ec132"
+     "sha": "baf963f724828e5c634ff27e50807eb991d9d64d97508fbd47860a0cd8ad0a19"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -2365,35 +2645,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2401,7 +2681,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2409,9 +2689,9 @@
    "id": "quote-lockup",
    "name": "金句定格卡",
    "description": "逐字揭示金句，划掉旧说法、高亮重点，最后收走",
-   "file": "effects/quote-lockup-8002c3705a.zip",
-   "zipSha": "8002c3705a4a496394a1beeb389be7eacae8fcd7ddd380cbdee27a2311963e4b",
-   "size": 162664,
+   "file": "effects/quote-lockup-096badba59.zip",
+   "zipSha": "096badba59042e6cfc97f85495de3b016966e4096dd25f59255999aae09b71d5",
+   "size": 207689,
    "files": [
     {
      "path": "quote-lockup/effect.html",
@@ -2422,40 +2702,44 @@
      "sha": "996145ad41c7c8eca6906bdcf4a3b329cde7b144e26b99904321bf0c8e8720e7"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2463,7 +2747,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2471,17 +2755,21 @@
    "id": "relation-graph",
    "name": "关系图",
    "description": "几个节点（方卡或圆卡）之间画带箭头的连线，线上写关系（持股 51%、供货、投资），可以有小圆点沿线流动表示资金 / 货物流向。",
-   "file": "effects/relation-graph-a89c3a3db2.zip",
-   "zipSha": "a89c3a3db20130a34d1c46cbb15695f86f1b426c39eb768e3f8a47dd6050050f",
-   "size": 166370,
+   "file": "effects/relation-graph-e19dc183ec.zip",
+   "zipSha": "e19dc183ec3a8cf48df8f16bcd672a6971820183ee8c94f622c384cf4c3e746e",
+   "size": 222862,
    "files": [
     {
      "path": "relation-graph/effect.html",
-     "sha": "c0cb4fdd8e58b3b3c3fc29e6d0b33e7b982ebf005f95396368f93b2b72d15335"
+     "sha": "448c7cda7c2b8baebe94c23dd3172741cc8dcad70859013bf5a39a61fb77a768"
     },
     {
      "path": "relation-graph/effect.json",
-     "sha": "695ca15d804b48bef27034b31ae72620349427c6792fa07b058e0d1122729138"
+     "sha": "2832d4c969b8bb6e2302296f05ae380b0534e1fa54f95f7390919502242fb5ac"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -2489,35 +2777,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2525,7 +2813,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2533,9 +2821,9 @@
    "id": "ribbon-link-cards",
    "name": "丝带连接卡",
    "description": "几张带发光边框的卡片（方卡或圆卡），中间用「丝带」连起来：一张卡出现后，丝带从它身上（整条边，或卡里的头像 / logo 格子）长出去，连到下一张卡。每条丝带可以选三种样子：半透明光带 / 钞票流（一排排小钞票顺着丝带流动，颜色可选各国纸币色）/ 粗箭头。7 种排版：方卡 5 种（主卡 + 侧卡 / 人像 + 右侧卡 / 左中右三联 / 中心 + 四方 / 上下两卡）+ 圆卡 2 种（资金汇聚 / 左侧汇入）。人像框空着 = 镂空，剪辑时把口播视频垫在下面。每张卡单独打去色 / 高亮关键帧，丝带跟着两头的卡变亮变暗。丝带两头的顶点可以在预览里拖，什么时候开始在素材条的小旗子上拖。",
-   "file": "effects/ribbon-link-cards-bcc2cf75df.zip",
-   "zipSha": "bcc2cf75df13667d586a87ae978da365c8b64b435ac84c8b2fcd7bea94de80eb",
-   "size": 192388,
+   "file": "effects/ribbon-link-cards-251d6188ea.zip",
+   "zipSha": "251d6188ea8076cbf91ded5c2f12c5aa908ecdcbd1ea4fae37703774a408f2c5",
+   "size": 237413,
    "files": [
     {
      "path": "ribbon-link-cards/effect.html",
@@ -2546,40 +2834,44 @@
      "sha": "fd88b0a272316d9dad67964a02f8adf3772b1b7d9878d2a34305ffa5de8186fb"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2587,7 +2879,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2595,9 +2887,9 @@
    "id": "ring-carousel",
    "name": "3D 环形轮播（Ring Carousel）",
    "description": "多张卡片在 3D 空间里围成圆环缓慢自转，前大后小、背面隐藏；可指定一张「首图」开场正对居中",
-   "file": "effects/ring-carousel-c8440a58b7.zip",
-   "zipSha": "c8440a58b71fb42c5a82bb4eceee791dcfa42447f47f826a0dac393c8b26bba8",
-   "size": 170214,
+   "file": "effects/ring-carousel-44bbc0aed8.zip",
+   "zipSha": "44bbc0aed8c4c4ad6780f5bc97d923b3eee4c21a841bf45667537fa7e2e34879",
+   "size": 215239,
    "files": [
     {
      "path": "ring-carousel/effect.html",
@@ -2608,40 +2900,44 @@
      "sha": "5b26e38a66522192ff28f2f8a610f4ef4094ac8603eee1af050b0c4737e95a28"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2649,25 +2945,29 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
   {
    "id": "round-flash-card",
    "name": "圆形闪光换色卡",
-   "description": "圆形玻璃卡片：开场是一张偏暗的蓝色卡，闪一两下提示后亮起来，再从模糊到清晰换成另一种颜色、并出现人物。大字、英文、花体字、编号、图标、人物都能换；9 种排版（参考图 / 人物居中 / 人物在左 / 极简大字 / 环形文字 / 人名背景 / 人物单卡 / 文字单卡 / 两卡合一：卡片 1 和卡片 2 靠近、糊掉，合成新卡片 C，或者留下其中一张）；可选绕着卡片转的透明丝带。去色 · 高亮关键帧、配色色块和旗标名牌卡、焦点格卡片同一套。",
-   "file": "effects/round-flash-card-60dcb97147.zip",
-   "zipSha": "60dcb9714796c1055f481fab1fdd595f0d9a9d240a518b250900f755523166f1",
-   "size": 181689,
+   "description": "圆形玻璃卡片：开场是一张偏暗的蓝色卡，闪一两下提示后亮起来，再从模糊到清晰换成另一种颜色、并出现人物。大字、英文、花体字、编号、图标、人物都能换；9 种排版（参考图 / 人物居中 / 人物在左 / 极简大字 / 环形文字 / 人名背景 / 人物单卡 / 文字单卡 / 多卡合一：2~6 张卡（每张自己选样式）靠近、糊掉，合成新卡片 C，或者留下其中一张）；可选绕着卡片转的透明丝带。去色 · 高亮关键帧、配色色块和旗标名牌卡、焦点格卡片同一套。",
+   "file": "effects/round-flash-card-8c49d599a4.zip",
+   "zipSha": "8c49d599a43a097acfab7a83012a9426309a813cc3cbcaf4e27a26a541812c63",
+   "size": 229858,
    "files": [
     {
      "path": "round-flash-card/effect.html",
-     "sha": "9ae8b0fd8d728748fd53d736585608e90ae7f17f82a92a17e7a1b1c7145638fb"
+     "sha": "e374215e309a9ae909d869e57591c57393c46746c7fbf523f8d61e9a4b80c2ba"
     },
     {
      "path": "round-flash-card/effect.json",
-     "sha": "0ef58eb6bddfcdcafc72847846c8cb48d4415d4c56c5bcd89076eb5b86162b12"
+     "sha": "4f3d751778210695c27eb1fe664b9aecd2c7ac26438ce6f1fe52c776261bc187"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -2675,35 +2975,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2711,7 +3011,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2719,9 +3019,9 @@
    "id": "stitch-title-card",
    "name": "缝线标题卡",
    "description": "一张四周带缝纫线的矩形卡片：左边大标题 + 英文副标题，右边放自己的图片（或视频）。默认是可调不透明度的黑底；可以一键「去色」让整张卡片（连图片）变成黑白，再用颜色关键帧把颜色加回来；也能用关键帧让卡片切换到高亮色。预览区右键拖动可以转 X / Y / Z 三轴",
-   "file": "effects/stitch-title-card-6806e53ed4.zip",
-   "zipSha": "6806e53ed4960a7886616ae2ace3f272f7b615c5051e5f77318b12ba0ad3f9ad",
-   "size": 167309,
+   "file": "effects/stitch-title-card-369c6f42dd.zip",
+   "zipSha": "369c6f42ddd9d69ffb03d51b894d66c0ce16db1852afa7071669e3add6644a4f",
+   "size": 212334,
    "files": [
     {
      "path": "stitch-title-card/effect.html",
@@ -2732,40 +3032,44 @@
      "sha": "0c625124806d16aec1785b0a4046eb25b064fe30304487e1df78660cd9e3080a"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2773,7 +3077,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2781,9 +3085,9 @@
    "id": "text-corridor",
    "name": "文字走廊",
    "description": "3D 透视走廊：地板、天花板、左右墙铺满重复文字，持续朝观者流动，消失点处有暗色渐层；背景透明，可无缝循环",
-   "file": "effects/text-corridor-13f12a0053.zip",
-   "zipSha": "13f12a00531281d6135f7d6485fdbe6bb66527e833e9744a68545bfb91b4b94c",
-   "size": 162650,
+   "file": "effects/text-corridor-cbdfb1e13f.zip",
+   "zipSha": "cbdfb1e13fdbaf7d58a9022b5499496af7a82d0cc249cd79561de6289795c68a",
+   "size": 207675,
    "files": [
     {
      "path": "text-corridor/effect.html",
@@ -2794,40 +3098,44 @@
      "sha": "a949abbdd1270b3a621d492ec6c70a01d40b58f0b6085ea361e731a8c2198382"
     },
     {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
      "path": "_shared/fx-cardbg.js",
      "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2835,7 +3143,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2843,17 +3151,21 @@
    "id": "text-transition",
    "name": "文字转场",
    "description": "一段一段文字依次出现，每两段之间可以各选一种转场（18 种，点开就有动态预览；包括「渐隐生长」上实下透的字；数字可以用「数字翻滚」像计数器一样滚）",
-   "file": "effects/text-transition-5d4768d7ea.zip",
-   "zipSha": "5d4768d7ea58eec1006a0be54a17c5189a6cff9b7475ba06bbd9a311cfcb7a03",
-   "size": 159371,
+   "file": "effects/text-transition-f889cf0398.zip",
+   "zipSha": "f889cf03980da2f94ae06278e32338b0fd0985f2aee615f81b322d4bc2f4c91a",
+   "size": 206462,
    "files": [
     {
      "path": "text-transition/effect.html",
-     "sha": "31aaa9d65ca5cc0ef833a937a6d8920ddfaa64cae9889f98ed0dd8fa5719c4f3"
+     "sha": "a0e16c1106449732a75b8cc096939bf4bbbc4eda24cb95296fe74fc30307cac4"
     },
     {
      "path": "text-transition/effect.json",
-     "sha": "cd04e1b1e642c7ac1cb441803a8b0874e61ea479d6b4128348e02fa357fd47f5"
+     "sha": "b4f543205efc709fa8b5eb85bc478551b8969debca51f5d4d204fc59f4f14d2c"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -2861,35 +3173,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2897,7 +3209,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   },
@@ -2905,17 +3217,21 @@
    "id": "timeline-axis",
    "name": "时间轴",
    "description": "一条横向时间轴从左往右画出来，每个时间点一张卡（上下交替），讲到哪一年哪一张亮起，其余压暗。",
-   "file": "effects/timeline-axis-442a530a5a.zip",
-   "zipSha": "442a530a5a64e220b1e24015b091c2d4e4ef67a489ddc51981ff03b81776b500",
-   "size": 161462,
+   "file": "effects/timeline-axis-7dc514ab5a.zip",
+   "zipSha": "7dc514ab5a992504efe94bede4ac573573a38c51438cceb4d49f3b2a07f27248",
+   "size": 207157,
    "files": [
     {
      "path": "timeline-axis/effect.html",
-     "sha": "638ede36898fde0463934dd52b4a60dc3125e095fa1bba05cbb49ee94717be39"
+     "sha": "033e23b54a609ce82411f3af7af391d1826d6733a72aadd126f62803969f93ae"
     },
     {
      "path": "timeline-axis/effect.json",
      "sha": "82dcf444377838b2fdea1908accedf04a508deb46918e09017320e0083241f0f"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
     },
     {
      "path": "_shared/fx-cardbg.js",
@@ -2923,35 +3239,35 @@
     },
     {
      "path": "_shared/fx-cards.js",
-     "sha": "e702e3da2e57e7c37821b57e398ee892858a3ef4f2a3c0e00ef73f19472497a2"
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "279252a4acc94f84c0331b552f2c0ffd116b9897ae252c1e7eeb17f1b7b6031d"
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "8d6b8f9931bd9e8d3b9baa2d9f4968e74193488032242b069a60c1d16a9d2cb7"
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
     },
     {
      "path": "_shared/fx-palettes.js",
-     "sha": "a5776a2cc67e54317c1586288be808e65fabe13ec4cd86bd3ab365f93a4ed998"
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
     },
     {
      "path": "_shared/fx-point.js",
-     "sha": "b4f3c6905bd8583aa516330523f9289d4707d38ee63ad29f3247829eba72d64a"
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
     },
     {
      "path": "_shared/fx-ribbon.js",
-     "sha": "89c8d39e2b6300f2009e5083828a0a45223243f52efffb1777b014586ac40689"
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "8eba93c9635b437a6ce13787362ca1251f04e1a5cf98e4b0dc175da23e205e04"
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "37b7f63c9858ea2e31353c3fc0364c001d798a16b0dc6f5430967da263df6ea7"
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2959,7 +3275,73 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "69b8be77b38d5c1fe42dd75981def86f579f44f1f9f95aefff9bb58f886576e4"
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+    }
+   ]
+  },
+  {
+   "id": "timeline-scroll-box",
+   "name": "时间轴说明框",
+   "description": "底部一条会滚动的时间轴，走到哪个时间节点，那个节点亮起来，从它上方的要点卡（或圆点）拉出一个虚线说明框，框里一项项弹出这一年发生了什么。两种滚动：停靠式 / 匀速式。",
+   "file": "effects/timeline-scroll-box-40d302a830.zip",
+   "zipSha": "40d302a83053c2cc5ad776499a3b4ea5b4a89a6fb5705d3aa0f024925d75f7e4",
+   "size": 217738,
+   "files": [
+    {
+     "path": "timeline-scroll-box/effect.html",
+     "sha": "831d4babba849c4c7bd8421935e958b4d587cbbecfc0954bd657723e2d30da56"
+    },
+    {
+     "path": "timeline-scroll-box/effect.json",
+     "sha": "e139b2c5eab8954ba47aabb2631f83fb6fb5ef41fb4b13d73a111f27424fa2dc"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
     }
    ]
   }
