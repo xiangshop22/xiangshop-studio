@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "published": "2026-11-16T21:30:00.199Z",
- "notes": "新增了功能，优化了",
+ "published": "2026-11-22T16:52:57.125Z",
+ "notes": "v50.0 + v51.0",
  "studio": {
-  "version": "v41.0",
-  "file": "studio/EffectStudio-v41.0-6e4dd7cf4a.zip",
-  "zipSha": "6e4dd7cf4ad41b27c05df4ee4c4115cc694fcbcf23ac6b8bc569a58790e34bbb",
-  "size": 245435,
+  "version": "v51.0",
+  "file": "studio/EffectStudio-v51.0-4c8561ddeb.zip",
+  "zipSha": "4c8561ddeb5256d079b1ab3c01e31ec8ba9a6dd9f7b9af2c5c9d3d4033a179c2",
+  "size": 269450,
   "files": [
    {
     "path": "server.js",
-    "sha": "ebbe2d4a690ec872963b4739bc2d82cef2b167781fde7525dc90b033f29c9dcb"
+    "sha": "1f1920b9f8ec456bcaed9898fd28f1f0410d6be5cd33f460db3c61c70e77c318"
    },
    {
     "path": "start.bat",
@@ -42,7 +42,7 @@
    },
    {
     "path": "public/comp.html",
-    "sha": "0d88d03ecd35a41c4c335c5ef2d6fb28308693d32a168a25da8d1cbe90d3752e"
+    "sha": "9309442710eff0f2b288426c943d467cf8cbb8301afd4146d5cc1c96e821314b"
    },
    {
     "path": "public/css/main.css",
@@ -50,7 +50,7 @@
    },
    {
     "path": "public/css/timeline.css",
-    "sha": "3f48ac92abd7bc13508324bd16a7ba18ad6af7139ce2bc857f5cfea0469045d4"
+    "sha": "9fdcdaedd0ae8f1343738fdd617d264af2d3340d95751152cc9116cd9c8ce91f"
    },
    {
     "path": "public/fx-group.js",
@@ -62,19 +62,19 @@
    },
    {
     "path": "public/index.html",
-    "sha": "1932ed63f76a5d8e4b70b2ae9aa20a6c5e31f1df5d99902a351ea50313b69bd7"
+    "sha": "3cdd50b46438802f8705b0f8d36908dab70764cfe520a700f66aa8ced2c0f48f"
    },
    {
     "path": "public/js/00-stability.js",
-    "sha": "da560bbffee81b85ad9deb9b84b5195e2fb29e61ebd9b81d51c825cad876a014"
+    "sha": "99268d67eb4204a49b73513b1e9a66f5368b92a42d5ac33afa4746cd24e94e70"
    },
    {
     "path": "public/js/01-base-nav.js",
-    "sha": "c8f8ea87d5b718ce77bcc26b212f9965cfbec33fcc107e3a7b0db11e35df8251"
+    "sha": "1f1e62b0838eb8239ef5f4b042986b33fcf1dcf1eae6d0fe37bc0dc96f4444e8"
    },
    {
     "path": "public/js/02-preview.js",
-    "sha": "4be8016b249be77026b686b9c9051a1f086d000b1ab3a6d94b92e1ab381689ab"
+    "sha": "c1200d43880953e889cf038e2a220f80aad958f5950aff9394eb2ae29eefcfda"
    },
    {
     "path": "public/js/03-effects-io.js",
@@ -90,7 +90,7 @@
    },
    {
     "path": "public/js/06-preset-theme.js",
-    "sha": "eb896ff8329d528c686db35bd1ab482eb5b667b276c64018693aa043f941ecbc"
+    "sha": "5b38cec20d7c10cff334106d8cd8facf8cb245fbb8638f138f850f31c42b12fe"
    },
    {
     "path": "public/js/07-update-space.js",
@@ -98,31 +98,31 @@
    },
    {
     "path": "public/js/10-timeline.js",
-    "sha": "cb4e4987723b6458f0e1d0d773cc690a4153b6ef31d516ff7174c9d335b50a8b"
+    "sha": "49afae3f0a55618025f4386168a6685dfd5c8e76385f459616c30bcec53929d6"
    },
    {
     "path": "public/js/11-group.js",
-    "sha": "ab22b61d50c96dfeda94e7b7998605f81344d252a34ef6303a6295e634083ced"
+    "sha": "e75920c006c33a0c1f31e5ac0ceed813a9eafef2f91542fc189b3bdf040ded41"
    },
    {
     "path": "public/js/12-timeline-input.js",
-    "sha": "16f2fa055f0d299ca1892aa96a93756c0a687693c10aaaaffb73f6b2a488ed47"
+    "sha": "3ff88082497bc0e956d573a897831c6dc719c69ef78f9f0708aa59eb9df7f8bb"
    },
    {
     "path": "public/js/13-segment-export.js",
-    "sha": "66abba14f9e3680b66212e6030364822100bd4340898adfce68079bc6f5b4545"
+    "sha": "4bb64df0c0bd6608b949895a19d2365343b986a3c0e6f3972bc2c454d3b75bc5"
    },
    {
     "path": "public/js/14-ref-video.js",
-    "sha": "e7e36d01000f9e477697d9e8106c4ffbfef1d718902e98a0263caff4a281e00c"
+    "sha": "950596643b5f56bffd96d24a6bc1b1022327bea0bdc1a471376bcb42a24a9262"
    },
    {
     "path": "public/js/15-timeline-tools.js",
-    "sha": "72ed26d6f66775040790e60036f3241d0ad1a59e49e6f8414a38b527e2155af3"
+    "sha": "290d43a3c503983ba426b31d84573295f8a93b753ca2e894c801a9f6ad71fa7e"
    },
    {
     "path": "public/js/16-boot.js",
-    "sha": "f4fc517f5cb2bf0cdd87bfcf0191b29469f15edcc29cbb697f7e9db834adcde9"
+    "sha": "72b13a970dea9ba353057558d1f05cd4e312cdad0cbc3aa75c341b0f9d5f56c5"
    },
    {
     "path": "public/js/17-select-box.js",
@@ -130,7 +130,7 @@
    },
    {
     "path": "public/js/18-place-snap.js",
-    "sha": "9e7869e145b671f63acc8ebfb33af1bc3906ef12ca6bde67b2cb82495a1d23d8"
+    "sha": "0b8ab50725b1925a508d87e6b98c7fa34f8712abc68c18ca0b9fa161e95668c0"
    },
    {
     "path": "public/js/19-empty-state.js",
@@ -146,7 +146,7 @@
    },
    {
     "path": "public/js/22-fx-marks.js",
-    "sha": "d65f0444f0207cc9509a6b743b0a4d00ead95f956051e73d0ec024b4b22b9bd3"
+    "sha": "23d9f3b9aba59ffc4ced4656f7ed693e0ed7c37639a60828a3ddb530e4db5e04"
    },
    {
     "path": "public/js/23-row-height.js",
@@ -155,6 +155,14 @@
    {
     "path": "public/js/24-tl-split.js",
     "sha": "02c5627f1773f45a12b5c575111dba5063ec18ba5eda33f5d20eb74c5dc27746"
+   },
+   {
+    "path": "public/js/25-tl-cut.js",
+    "sha": "883f5ed2c9bd92cb3f306c2f4d6ccc7388715510597a0528f4f605f06229de66"
+   },
+   {
+    "path": "public/js/26-align.js",
+    "sha": "73855dedb6040e95e5aacd4d2d32193c5a30f5b96890647d65cdc7c39d4c466f"
    },
    {
     "path": "public/logo.png",
@@ -182,7 +190,7 @@
    },
    {
     "path": "tools/pack-for-others.js",
-    "sha": "6339a253891b3e2603e65c2e7db1ad2aa1ab4dc2b9ba01c5680d081b29d057ba"
+    "sha": "d82a67bcca56bb73dabdcf05b2dcb8be4fa033d545185716bca037b8e424a43a"
    },
    {
     "path": "tools/publish.js",
@@ -206,22 +214,30 @@
   {
    "id": "advantage-vs",
    "name": "优势对比卡",
-   "description": "天平两边各挂一张卡（比如「有钱 vs 没钱」），先平着进场、轻轻晃一下制造悬念，然后往有优势的一边沉下去：优势卡放大发光、弹出「优势」角标，另一张缩小变灰。文字、哪边赢、配色都能换，一个效果套所有「A 比 B 有优势」。",
-   "file": "effects/advantage-vs-bfad29235e.zip",
-   "zipSha": "bfad29235e1fd76a103c287f352d245002159ff5b6d03261abd09e27e98d3f60",
-   "size": 214189,
+   "description": "金属天平两边的秤盘里各坐着一张卡（比如「有钱 vs 没钱」）：先平着落进盘里、轻轻晃着制造悬念，然后优势那边「咚」地砸下去——画面一震、盘底冲出光圈、火花往上炸、头顶打下一道光柱，优势卡放大发光弹出「✓ 优势」，另一张被翘高、变灰发抖。文字、图标、哪边赢、配色、天平材质都能换。",
+   "file": "effects/advantage-vs-caf29f5ef6.zip",
+   "zipSha": "caf29f5ef62666791190e13f00d858513c2c88a259d9e87aef48a5cdcf6186d0",
+   "size": 544614,
    "files": [
     {
      "path": "advantage-vs/effect.html",
-     "sha": "a69f1e4a57418df9ed6e39b116cb46f205558aa0bfda634463fb9057806961c1"
+     "sha": "9b6c374a90ca2f24bda4a25d26177be1520af969bf25bcb902d5a3057a31bbb2"
     },
     {
      "path": "advantage-vs/effect.json",
-     "sha": "e93535820ec1f478576d1c03b96aa3fd43c969e0ac249d350fb351ee0e3d0366"
+     "sha": "b1adb7e2899d61ea393dfec76206f9f9a4f74dc0a30c730df998fd617f556b10"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
     },
     {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -237,11 +253,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -257,11 +277,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -269,7 +289,601 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "ai-chapter-bar",
+   "name": "中美AI·章节导航",
+   "description": "本期四个章节的常驻导航条（总时长按整片 993 秒）",
+   "file": "effects/ai-chapter-bar-09f9961e5d.zip",
+   "zipSha": "09f9961e5dbcadf4cbe87d71d853a94c3881d7562e5cbae602aacddab967ee88",
+   "size": 562625,
+   "files": [
+    {
+     "path": "ai-chapter-bar/bundle.js",
+     "sha": "fe106cadb683a8b113ffdbaa8d3e38e6fa77b1c4fd099c9046ae81859d1c6515"
+    },
+    {
+     "path": "ai-chapter-bar/effect.html",
+     "sha": "71d4a935d31145f3c5fb293ec0d53a8b300656609f6c4acb1904598b45df3a08"
+    },
+    {
+     "path": "ai-chapter-bar/effect.json",
+     "sha": "db8fcf330b47b013ca0da5fb9ddb6078da68413deb5a41a711154cf08aad847b"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "ai-eras",
+   "name": "中美AI·四个时代的控制点",
+   "description": "00:10:46 工业→信息→互联网→AI 时代",
+   "file": "effects/ai-eras-d7992c7772.zip",
+   "zipSha": "d7992c7772729d329fa86d4b50a4b721e4fa781077e323e120cded814c6ad9dd",
+   "size": 564176,
+   "files": [
+    {
+     "path": "ai-eras/bundle.js",
+     "sha": "715752df961acedbd9e8e77cf5f6697583a57735cc5b59eb7933d07db367fd60"
+    },
+    {
+     "path": "ai-eras/effect.html",
+     "sha": "0e51fd3c1f0444de5c938f8f142977683ce675f7f5444c2302db08fb54500f29"
+    },
+    {
+     "path": "ai-eras/effect.json",
+     "sha": "f8394194c4467d4932e72b3911145e7c7dc98f2032eedff7c33d145a20d3e825"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "ai-four-points",
+   "name": "中美AI·四点目录",
+   "description": "00:02:27 \"拆成四点\" 处的目录卡",
+   "file": "effects/ai-four-points-6caaed68c5.zip",
+   "zipSha": "6caaed68c552787fccd13af3a3c67f0affb9c1cf72262c03dfb670449b3d95f9",
+   "size": 564126,
+   "files": [
+    {
+     "path": "ai-four-points/bundle.js",
+     "sha": "715752df961acedbd9e8e77cf5f6697583a57735cc5b59eb7933d07db367fd60"
+    },
+    {
+     "path": "ai-four-points/effect.html",
+     "sha": "0e51fd3c1f0444de5c938f8f142977683ce675f7f5444c2302db08fb54500f29"
+    },
+    {
+     "path": "ai-four-points/effect.json",
+     "sha": "cba3720a5e06b5a5205b0c02583cd3878b461cac34503d631e2b093d4f52ad19"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "ai-quote-end",
+   "name": "中美AI·结尾金句",
+   "description": "00:16:13 卖AI = 培养竞争者",
+   "file": "effects/ai-quote-end-b783ac5d0c.zip",
+   "zipSha": "b783ac5d0ccaf944665f3651b38e299c6f56b35e2d473c2a285bc3ac85dbd3cc",
+   "size": 539614,
+   "files": [
+    {
+     "path": "ai-quote-end/effect.html",
+     "sha": "81fdd21b654867e13888715c73744ea3f9e19a656567091c9bc3a248337535b1"
+    },
+    {
+     "path": "ai-quote-end/effect.json",
+     "sha": "422efdb9da22804235d30d099d92dce66b4c6ec6fe0559d0fcacdce577e6a7de"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "ai-quote-tool",
+   "name": "中美AI·金句：工具 vs 智能系统",
+   "description": "00:14:59 Windows 与 AI 的本质区别",
+   "file": "effects/ai-quote-tool-e9aade6524.zip",
+   "zipSha": "e9aade6524d543293f6f9f2eb8796586905231dac80f84deb0e25b418d29519d",
+   "size": 539631,
+   "files": [
+    {
+     "path": "ai-quote-tool/effect.html",
+     "sha": "81fdd21b654867e13888715c73744ea3f9e19a656567091c9bc3a248337535b1"
+    },
+    {
+     "path": "ai-quote-tool/effect.json",
+     "sha": "db833d4c145fb1316c0a84a1a2d16604adeb2d69fcecfd1877822832a7f3df9c"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "ai-two-limits",
+   "name": "中美AI·两种限制",
+   "description": "00:00:30 生产能力 vs 使用能力",
+   "file": "effects/ai-two-limits-c0960b7524.zip",
+   "zipSha": "c0960b7524b33904cf126e012fcdf70139557c59a084412d248d97ca89275bef",
+   "size": 563679,
+   "files": [
+    {
+     "path": "ai-two-limits/bundle.js",
+     "sha": "b18fcd2d8a740d5d987b828d8f02f35551b20c0d1e2ea2fafc8c92d6847552ab"
+    },
+    {
+     "path": "ai-two-limits/effect.html",
+     "sha": "0e51fd3c1f0444de5c938f8f142977683ce675f7f5444c2302db08fb54500f29"
+    },
+    {
+     "path": "ai-two-limits/effect.json",
+     "sha": "e571559852b89321a7c1846333d3ffee91d6ae759229447de3366b141cee1f47"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "ai-us-vs-cn",
+   "name": "中美AI·结构优势对比",
+   "description": "00:05:15 美国技术领先 VS 中国产业领先",
+   "file": "effects/ai-us-vs-cn-8cc7c06566.zip",
+   "zipSha": "8cc7c06566f7f47f3126145c4096e303d49a2fbb49ea581c39e39ddb13115669",
+   "size": 564214,
+   "files": [
+    {
+     "path": "ai-us-vs-cn/bundle.js",
+     "sha": "b5bfe8a04740a3566aadeb0df9f8ee81b7369d4769c430d4095020708cae3df7"
+    },
+    {
+     "path": "ai-us-vs-cn/effect.html",
+     "sha": "0e51fd3c1f0444de5c938f8f142977683ce675f7f5444c2302db08fb54500f29"
+    },
+    {
+     "path": "ai-us-vs-cn/effect.json",
+     "sha": "15923362eeb797d6908a484a33ad8d33617c8cbf73dc76f8992cfead3c7d5305"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -277,9 +891,9 @@
    "id": "avatar-slot-card",
    "name": "头像槽位卡",
    "description": "一张带缝纫线和角花的渐变卡片：上面标题 + 英文花体小字，下面一排（或几排）圆形孔洞放人物头像。孔洞数量、大小可调；每个孔洞能放照片或视频，每个头像都能打不透明度关键帧做渐隐，淡掉后露出白色半透明的空槽；整张卡能换底色、去色、高亮。",
-   "file": "effects/avatar-slot-card-488b9d124e.zip",
-   "zipSha": "488b9d124eef1e701952c5c31d8a68a397d23cf7ddf0724c802c6fe662f91d7e",
-   "size": 224580,
+   "file": "effects/avatar-slot-card-5b42c021ef.zip",
+   "zipSha": "5b42c021ef007ae42f93262fd96c01412a7a4a0fa01cb41684e0f5db41676fc6",
+   "size": 551577,
    "files": [
     {
      "path": "avatar-slot-card/effect.html",
@@ -290,8 +904,16 @@
      "sha": "6c7c47f305c2ac2c19074582caf1a5acb46816e36ef98036ee7bc84a70b82724"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -307,11 +929,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -327,11 +953,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -339,7 +965,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -347,9 +973,9 @@
    "id": "balance-scale",
    "name": "老人与小孩天平",
    "description": "天平左边老人、右边小孩，按比重倾斜并回摆到平衡",
-   "file": "effects/balance-scale-e8438037b2.zip",
-   "zipSha": "e8438037b216b1629a97e25affca29880c3aa49103ac8d82cb968ff54b1de2d6",
-   "size": 208799,
+   "file": "effects/balance-scale-651843d0a6.zip",
+   "zipSha": "651843d0a6620af5fd77f2fc0822cd323416f643791f8c50cc007549bb62af69",
+   "size": 535796,
    "files": [
     {
      "path": "balance-scale/effect.html",
@@ -360,8 +986,16 @@
      "sha": "fd95a8329a0c2f95826952bf0ef6b078c12b371a2004c8cd5821a39efecf5b43"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -377,11 +1011,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -397,11 +1035,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -409,29 +1047,37 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
   {
    "id": "bg-pattern",
    "name": "纯背景",
-   "description": "整屏的纯背景：底色（纯色 / 对角渐变 / 中心向外渐变 / 上下渐变）+ 重复图案（方格、坐标纸、点阵、菱形、斜纹、蜂窝……）+ 构图（中心光、暗角、透视地面、光斑、放射光束……），可以垫一张照片。22 个版式分「基础 / 构图 / 图片」三组，一点就换；颜色用公共配色库。",
-   "file": "effects/bg-pattern-2440d3dafc.zip",
-   "zipSha": "2440d3dafcdbe01c84ca360ddd3a5c30966bad5ff0b77824c845f817163035fa",
-   "size": 216755,
+   "description": "整屏的纯背景：底色（纯色 / 对角渐变 / 中心向外渐变 / 上下渐变）+ 重复图案（方格、坐标纸、点阵、菱形、斜纹、蜂窝……）+ 构图（中心光、暗角、透视地面、光斑、放射光束……），可以垫一张照片。23 个版式分「基础 / 构图 / 图片」三组，一点就换；颜色用公共配色库。 v48.0：图案多了「文字」—— 自己打的字一排排铺满，一排往左一排往右慢慢走（半透明不抢画面）；所有图案能整体转角度。",
+   "file": "effects/bg-pattern-20e6947583.zip",
+   "zipSha": "20e6947583da2bfbea26491c4a625c248035bf778d8643dd7cdeccc14f9570a7",
+   "size": 545312,
    "files": [
     {
      "path": "bg-pattern/effect.html",
-     "sha": "1b43ed4690fbf674d31e4b9de72a9d04d8d2c11df39e4db6ade87af2ce9faa70"
+     "sha": "9e46a5e2ba6e4c98ef9c9b74cf5e41408291b843a62caaa4bb2e911ec591e83d"
     },
     {
      "path": "bg-pattern/effect.json",
-     "sha": "bf0bf1592ed8394d166ef33364537f6808827a368b29881fe21ba57d7ead3afa"
+     "sha": "f84bdfa474a78dc32b4687103c059fde54c2107f8a9c5d86ad820b8f01cb838a"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
     },
     {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -447,11 +1093,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -467,11 +1117,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -479,7 +1129,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -487,21 +1137,29 @@
    "id": "bid-bar-chart",
    "name": "竞价柱状图",
    "description": "几根柱子比数值：柱子从下面长上来，柱顶是圆形名牌卡（公司 / 人物），柱子左边写数值和说明，数值变了数字会跳；同一根柱子再出价时，旧的说明嵌进背景。可以让某张卡高亮。",
-   "file": "effects/bid-bar-chart-9fc67f96df.zip",
-   "zipSha": "9fc67f96df7691bc4ddcdd2232041f3512a4bf559130f8ae2725825d61c88f51",
-   "size": 222749,
+   "file": "effects/bid-bar-chart-f21cd3d7ac.zip",
+   "zipSha": "f21cd3d7ac410d02f489820da7e360f7f26888dda7827367f5bfdb5cd0ec9113",
+   "size": 550739,
    "files": [
     {
      "path": "bid-bar-chart/effect.html",
-     "sha": "49a26af78c9d5e0846e119e0dfe0f585c89f592b322f93b94f4151d2cfe9d5a5"
+     "sha": "94486ededc41285a38e38744787ce1643ac86035481b874aec179be23780265f"
     },
     {
      "path": "bid-bar-chart/effect.json",
-     "sha": "f2ba36c62e9de2224ed03099de246f992ca9c3b1e77a2938fa47ccd422d0ea46"
+     "sha": "c31ec2f30f320ccf5232af2f03479c1f205034010d484b2f7434e96601a1202e"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
     },
     {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -517,11 +1175,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -537,11 +1199,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -549,7 +1211,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -557,9 +1219,9 @@
    "id": "blur-text",
    "name": "模糊浮现（BlurText）",
    "description": "词块从虚焦中逐个清晰",
-   "file": "effects/blur-text-00038d4702.zip",
-   "zipSha": "00038d47020991f28a8f2f32668a470a77ffd63a3a10eae4e5a97daf7188f369",
-   "size": 237578,
+   "file": "effects/blur-text-c2cb4c5a22.zip",
+   "zipSha": "c2cb4c5a22a93413adc0068e64d47b21ee6423293ae5d2593cbb321f4c49f8d9",
+   "size": 564575,
    "files": [
     {
      "path": "blur-text/bundle.js",
@@ -574,8 +1236,16 @@
      "sha": "95c6c4331e115b23bbb7bda2009a10c89e17b71ab23c4e7f5a0e6edd83786abe"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -591,11 +1261,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -611,11 +1285,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -623,7 +1297,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -631,9 +1305,9 @@
    "id": "brand-wall",
    "name": "品牌背景墙",
    "description": "品牌卡片墙，两种排版：斜放的四排左右交替滚动 / 画面左右两列上下滚动（中间留给人物）；每排 / 每列方向和快慢单独改；每张卡可以放宣传图 / 视频再叠加品牌 logo，任意一张可以放大突出；背景渐变可选「无」",
-   "file": "effects/brand-wall-3e8c19c802.zip",
-   "zipSha": "3e8c19c802636adca348f921affec4e4abe45569461308c8f98d3d0c3d87ed30",
-   "size": 224259,
+   "file": "effects/brand-wall-b983808ded.zip",
+   "zipSha": "b983808dedd492766d447b484f83402d78cc3f3ea1824feeb8c81601966232f4",
+   "size": 551256,
    "files": [
     {
      "path": "brand-wall/effect.html",
@@ -644,8 +1318,16 @@
      "sha": "8ea6118a235f59668cb37a06ca21ece2e35c17e47db2c5969c88883934e8479d"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -661,11 +1343,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -681,11 +1367,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -693,7 +1379,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -701,9 +1387,9 @@
    "id": "brief-board",
    "name": "讲解要点板",
    "description": "顶部一个大标题，下面一格一格的小标题卡：讲到哪一条，哪一条就变成高亮色，讲过去再换回常态色，换色可以选闪动 / 渐变 / 扫光 / 翻面。背景可以放自己的照片或视频，上面压一层可调浓度的半透明黑。每张卡可以是文字、照片、视频或镂空；预览区右键拖动可以转 X / Y / Z 三轴",
-   "file": "effects/brief-board-1236ec627c.zip",
-   "zipSha": "1236ec627ce55b271bd6d29893cabdc1176dc757fe27e992851d6e0cd930498c",
-   "size": 227822,
+   "file": "effects/brief-board-5523c69e8a.zip",
+   "zipSha": "5523c69e8a27b2cd73a5daf42e90f642b512faaa64922893fa0f386adda54cc6",
+   "size": 554819,
    "files": [
     {
      "path": "brief-board/effect.html",
@@ -714,8 +1400,16 @@
      "sha": "1ef4604c2f06333b08a3280f066ae80059d85284dae0015edd8248b62c6366c6"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -731,11 +1425,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -751,11 +1449,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -763,7 +1461,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -771,9 +1469,9 @@
    "id": "caption-track",
    "name": "常驻双语字幕（CaptionTrack）",
    "description": "中文主行 + 英文小字 + 关键词点亮",
-   "file": "effects/caption-track-91d5b6921a.zip",
-   "zipSha": "91d5b6921a1327bea3c91c64ff0c4afc2a8e209c3090cef581e98b9ec901ba5d",
-   "size": 234803,
+   "file": "effects/caption-track-359794e0c4.zip",
+   "zipSha": "359794e0c4c876d0e1de734420ba12f6f8255256040a06089e7b3e5b12fa10d3",
+   "size": 561800,
    "files": [
     {
      "path": "caption-track/bundle.js",
@@ -788,8 +1486,16 @@
      "sha": "7ba0489f2199dfc7e346e6812d5ce91f257b28c837274f47dc38bf7619d6715c"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -805,11 +1511,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -825,11 +1535,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -837,7 +1547,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -845,9 +1555,9 @@
    "id": "card-arc-stack",
    "name": "卡片弧形叠排",
    "description": "卡片依次飞进来，左右叠在一起排成一道朝向镜头的弧，中间最大最靠前、两边往后转；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-arc-stack-7ce8bb3f77.zip",
-   "zipSha": "7ce8bb3f771b1ebf6bdd967a752d2e8614d7cdb410336f57a842c9640c221d5c",
-   "size": 213313,
+   "file": "effects/card-arc-stack-f2ca31689a.zip",
+   "zipSha": "f2ca31689adb059814d3154ee0f14a746e913493d2dcd2597f58f321e7dbf5ae",
+   "size": 540310,
    "files": [
     {
      "path": "card-arc-stack/effect.html",
@@ -858,8 +1568,16 @@
      "sha": "7eee1ce73d959f442412874ade3fdeae65c404c5a7059d21c1cb43dc69874941"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -875,11 +1593,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -895,11 +1617,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -907,7 +1629,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -915,9 +1637,9 @@
    "id": "card-deal",
    "name": "发牌展开（Card Deal）",
    "description": "卡片可放照片或文字，从底部依序发出，展开成扇形并回弹，每张卡片可单独设置进场、停留、退出时长",
-   "file": "effects/card-deal-a59a949fa1.zip",
-   "zipSha": "a59a949fa1a74acaebc51d39337a1e1f70e944e89a059b8c6ff3cb54054d21ef",
-   "size": 219867,
+   "file": "effects/card-deal-0fc46a3025.zip",
+   "zipSha": "0fc46a30256da2bec30a5bafec6a5980fb23a9f343f3cee0329b60b7939dff97",
+   "size": 546864,
    "files": [
     {
      "path": "card-deal/effect.html",
@@ -928,8 +1650,16 @@
      "sha": "8fe2fb24a438faf03bd608bddb63fe068dfd6e48dc43d1149b70bd72d6d69655"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -945,11 +1675,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -965,11 +1699,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -977,7 +1711,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -985,9 +1719,9 @@
    "id": "card-fly-grid",
    "name": "卡片飞入拼格",
    "description": "一组卡片从画外依次飞进来，拼成整齐的格子（九宫格 / 三列两行等），最后可以原路飞出、淡出或掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-fly-grid-549771a2a6.zip",
-   "zipSha": "549771a2a6e88b0d0baa618f62dfd4b223d82eb27aed9f0b0c47c7889db70088",
-   "size": 212489,
+   "file": "effects/card-fly-grid-f5de7b644b.zip",
+   "zipSha": "f5de7b644b845a4acc2e214092da08073831947b47a0971483020639c833d8a7",
+   "size": 539486,
    "files": [
     {
      "path": "card-fly-grid/effect.html",
@@ -998,8 +1732,16 @@
      "sha": "033c60e88e78be9e359fe4eedf1028abc30798cf14fc9e8a11481c28d0dfb0d8"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1015,11 +1757,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1035,11 +1781,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1047,7 +1793,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1055,9 +1801,9 @@
    "id": "card-grid-zoom",
    "name": "卡片网格推近",
    "description": "一组卡片先拼成格子，镜头再推近其中一张看细节，其他卡片顺势变暗模糊，最后可以拉回网格、停在特写或淡出；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-grid-zoom-14012bcd19.zip",
-   "zipSha": "14012bcd19907bc1b015fc5dbb73ade54a42b58b8e32b2a6f07be9de2d2efbe6",
-   "size": 215077,
+   "file": "effects/card-grid-zoom-5265ce9561.zip",
+   "zipSha": "5265ce95615e502a9733dfce8f8289f42f1589982e487ee0afe18643ea44ecfe",
+   "size": 542074,
    "files": [
     {
      "path": "card-grid-zoom/effect.html",
@@ -1068,8 +1814,16 @@
      "sha": "058bddf478969df0414663f5f7cb19e5efd1e16b9565bd31b7c67dcb543aac09"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1085,11 +1839,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1105,11 +1863,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1117,7 +1875,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1125,9 +1883,9 @@
    "id": "card-hang-sway",
    "name": "吊线悬挂卡",
    "description": "卡片像挂在吊线上一样被一张张放下来，长短不一地悬在空中轻轻摆动，结尾可以收回上去、淡出或断线掉落；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-hang-sway-cdfd4f5060.zip",
-   "zipSha": "cdfd4f50605051545bf8944c2eb6b97eb529bc30b914df61f9a7013e32ccaef0",
-   "size": 213740,
+   "file": "effects/card-hang-sway-d21b11257f.zip",
+   "zipSha": "d21b11257fc86b5541d798d892a223bf734b5268d038c3378a6e2040ae22f05f",
+   "size": 540737,
    "files": [
     {
      "path": "card-hang-sway/effect.html",
@@ -1138,8 +1896,16 @@
      "sha": "e819d166c1bb77a67301923c087a425d0547ea4dc22d090f6cedd6e93e967bb1"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1155,11 +1921,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1175,11 +1945,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1187,7 +1957,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1195,9 +1965,9 @@
    "id": "card-particle-swarm",
    "name": "卡片粒子群",
    "description": "一大片小卡片像粒子一样在空间里漂浮飞过，可调粒子数量、飘动方向和速度；每张卡可以是文字、照片或视频，内容不够会循环填充，不会出现空白卡",
-   "file": "effects/card-particle-swarm-e7931c56b5.zip",
-   "zipSha": "e7931c56b5730aa06304b6aa870f10d5c936441788debbacba5bfae238c53bc2",
-   "size": 215104,
+   "file": "effects/card-particle-swarm-bc3cf33b05.zip",
+   "zipSha": "bc3cf33b05a4c4825351fb25c321702555d0567eb8c582924834eeb7210c204f",
+   "size": 542101,
    "files": [
     {
      "path": "card-particle-swarm/effect.html",
@@ -1208,8 +1978,16 @@
      "sha": "a97a60649084e470cf02ccc91826e4dfd13eb3bbfbd591816bfc4e15179549e2"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1225,11 +2003,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1245,11 +2027,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1257,7 +2039,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1265,9 +2047,9 @@
    "id": "card-reveal",
    "name": "卡片依序浮现（Staggered Reveal）",
    "description": "多张作品卡片排成网格，从模糊到清晰依序浮现，缩略图、标题、文字再逐一补上；停留后从最后一张反向上浮淡出",
-   "file": "effects/card-reveal-e8329ce331.zip",
-   "zipSha": "e8329ce331a05b92e75aafd7144d358ef1abfc8171fbec9143fe8fc205ebb40c",
-   "size": 223200,
+   "file": "effects/card-reveal-cb19529940.zip",
+   "zipSha": "cb1952994081e54db2a2437bc3bd09a44c615205cc5e6b9a9bb040f910556d86",
+   "size": 550197,
    "files": [
     {
      "path": "card-reveal/effect.html",
@@ -1278,8 +2060,16 @@
      "sha": "504897b663c074fb05deffdb7099563186f2ed298589f364f354251fea592b97"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1295,11 +2085,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1315,11 +2109,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1327,7 +2121,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1335,9 +2129,9 @@
    "id": "card-stack-array",
    "name": "卡片叠出阵列",
    "description": "先出一张首图斜着飞进来，停一会儿之后其余卡片从它背后一张张滑出来散成一叠，最后全部排成上下多行的阵列；预览区右键拖动可以转 X / Y / Z 三轴。每张卡可以是文字、照片、视频或镂空",
-   "file": "effects/card-stack-array-95b496ea95.zip",
-   "zipSha": "95b496ea95fd7f799d4fc7fe2e38491da39631258934780e239421ea9be42f59",
-   "size": 215857,
+   "file": "effects/card-stack-array-4b52b08488.zip",
+   "zipSha": "4b52b084886b20fcf667a42276d88289ae4cfde15a0b99639374a1c8978a2de5",
+   "size": 542854,
    "files": [
     {
      "path": "card-stack-array/effect.html",
@@ -1348,8 +2142,16 @@
      "sha": "d4efe74850918038787b463d4d99c6a7155a536d6c540d80723238748685973b"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1365,11 +2167,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1385,11 +2191,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1397,7 +2203,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1405,9 +2211,9 @@
    "id": "chapter-bar",
    "name": "常驻章节导航（ChapterBar）",
    "description": "顶部全程在场的本期地图",
-   "file": "effects/chapter-bar-345ee15418.zip",
-   "zipSha": "345ee15418470d6763251391fd93ba0af7d794484af11192da5e320f70fc1bfc",
-   "size": 236446,
+   "file": "effects/chapter-bar-1a0069cdb0.zip",
+   "zipSha": "1a0069cdb0f51ef4693b7382083f28ff1c63ff30e6d442fe7931f41d6a2bd503",
+   "size": 563443,
    "files": [
     {
      "path": "chapter-bar/bundle.js",
@@ -1422,8 +2228,16 @@
      "sha": "d1e1c72fff24bbc98bbda6b4adcfab58aa651460f020049236ccccd2daf4a3dc"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1439,11 +2253,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1459,11 +2277,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1471,7 +2289,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1479,9 +2297,9 @@
    "id": "chapter-progress",
    "name": "章节进度条",
    "description": "常驻在画面顶部或底部的章节进度条：按每章开始时间分段，进度往前推，当前章节高亮。总时长最长 120 分钟",
-   "file": "effects/chapter-progress-cb2187a4eb.zip",
-   "zipSha": "cb2187a4ebff703a1140fc7ddd070b8ac068bb88e05b316119f2d5c0bbaff553",
-   "size": 212341,
+   "file": "effects/chapter-progress-9fcf25ca96.zip",
+   "zipSha": "9fcf25ca96c0f7be47e9cb728b98fffabeefcdf309fab1866a2de8ec769467dd",
+   "size": 539338,
    "files": [
     {
      "path": "chapter-progress/effect.html",
@@ -1492,8 +2310,16 @@
      "sha": "8add6c1cc60e3a44085ee4cdfb93622ab84a6febe3beeb394564d60a1c40602f"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1509,11 +2335,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1529,11 +2359,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1541,7 +2371,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1549,9 +2379,9 @@
    "id": "checklist",
    "name": "步骤打勾（Checklist）",
    "description": "流程逐项完成打√",
-   "file": "effects/checklist-36cbf8623b.zip",
-   "zipSha": "36cbf8623b61f2d0e8befc6a16eca31ec5bad275aa3de50a711ee14d2b6f511d",
-   "size": 237962,
+   "file": "effects/checklist-4772e9f8f6.zip",
+   "zipSha": "4772e9f8f63880dcedcf8d6a02af2e7532c062335327c88d930ca235cba873fe",
+   "size": 564959,
    "files": [
     {
      "path": "checklist/bundle.js",
@@ -1566,8 +2396,16 @@
      "sha": "a77d417550219e7f5c0e6567ef0321693e2485abd7ce8a9483215ea6b4f4c04f"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1583,11 +2421,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1603,11 +2445,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1615,7 +2457,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1623,9 +2465,9 @@
    "id": "comment-flow",
    "name": "评论飘过（Comment Flow）",
    "description": "上传评论区截图，生成圆角卡片在画面里随机冒出，入场完成后向一个方向移动；截图不够会循环使用",
-   "file": "effects/comment-flow-8c7e8486f4.zip",
-   "zipSha": "8c7e8486f46e34bdc955efc50a345968147146d3c098ac117ae25f17c8f9ea94",
-   "size": 219322,
+   "file": "effects/comment-flow-aab735522b.zip",
+   "zipSha": "aab735522b5d2e9119c3a482e3fd505c392dc06c5d99a42dd6a0712bdfd6849b",
+   "size": 546319,
    "files": [
     {
      "path": "comment-flow/effect.html",
@@ -1636,8 +2478,16 @@
      "sha": "8903b6f08b3fb63b655c6d9ccd2d51958b32cf399933f1c4e2456ac83ce6464c"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1653,11 +2503,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1673,11 +2527,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1685,7 +2539,321 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "country-map",
+   "name": "国家高亮地图",
+   "description": "3D 暗色世界地图：选一个国家，它从地面升起变成高亮色，其他地方变暗，国界线发着光，远处带景深模糊；国名平躺在地图上浮现（文字转场）。内置 56 个常用国家（东亚、东南亚、南亚 / 中亚 / 西亚、欧洲、美洲、大洋洲 / 非洲）。",
+   "file": "effects/country-map-ce5e2b6a47.zip",
+   "zipSha": "ce5e2b6a4748caa5b38e0847d8f7f42aebac8e6bda54b3bb7fe1f5c980cb36e5",
+   "size": 3025002,
+   "files": [
+    {
+     "path": "country-map/data/ae.json",
+     "sha": "54f2f26205820f2b4aaab21508a9264033f6af58ae80bc82c38b0e61dc516efe"
+    },
+    {
+     "path": "country-map/data/ar.json",
+     "sha": "81d14643b948460777e5d2ef8f4b84d3e49b0330c6f8be29a187a7c4e464d147"
+    },
+    {
+     "path": "country-map/data/at.json",
+     "sha": "95ab7b10ae98776f01f1e3b747bac7cc09f1dd8943ff0c92e217c0f9a51a0193"
+    },
+    {
+     "path": "country-map/data/au.json",
+     "sha": "bcb1c5ce78de8dfc4f5a81f1e274205e5ab79261bca54d64c0dc5d9a86986c04"
+    },
+    {
+     "path": "country-map/data/bd.json",
+     "sha": "2381006d5f9ca5a8b260bef2275db8ee75b2d08d21fded5d041c71ca21e135d7"
+    },
+    {
+     "path": "country-map/data/be.json",
+     "sha": "da5c4c6c733d512e38638d5c1ef2c958e4f7d15c18f97fa32170c7f24adf1bfd"
+    },
+    {
+     "path": "country-map/data/br.json",
+     "sha": "c82123cf1b0a4a6f0e523fdcfd94aea3704ea4c896b732ea24f1fae41a1a5d06"
+    },
+    {
+     "path": "country-map/data/ca.json",
+     "sha": "8cc51b40f5176c955b03c49985e1ac1d26447953036f0861160e936dbddd4e1c"
+    },
+    {
+     "path": "country-map/data/ch.json",
+     "sha": "c7a09e0604452e1d88c103dbc234d6df9dfe3f229c0492804dbd0182be893a49"
+    },
+    {
+     "path": "country-map/data/cl.json",
+     "sha": "38fff52724d15c64440c087de93ad61bbb6e7bd9be54b5536663d72defa21b24"
+    },
+    {
+     "path": "country-map/data/cn.json",
+     "sha": "976d241d5893febaeef237462e77a268904409e094a0f2ade4afe07c592db41e"
+    },
+    {
+     "path": "country-map/data/cz.json",
+     "sha": "60137822a4d9d6fd7e4f6579204fd7d27f38282fa5ad240e1668dc9206157569"
+    },
+    {
+     "path": "country-map/data/de.json",
+     "sha": "002175fcde67041327baaba0059a22c8a22da64daea87c97696d7fd6d01dbd4e"
+    },
+    {
+     "path": "country-map/data/dk.json",
+     "sha": "c561397c17757991979d32ead642872c6471be8f3cd25ce0f8e46311c19cb29a"
+    },
+    {
+     "path": "country-map/data/eg.json",
+     "sha": "4d0da34826c896018905bb43cc2b320fcb7a2b4a64d8cfad94d13fd5e9fe2a68"
+    },
+    {
+     "path": "country-map/data/es.json",
+     "sha": "853c357c16f0d71999c626b978646fdb475993514cb66c2b6fc37f2ec0ef63f7"
+    },
+    {
+     "path": "country-map/data/fi.json",
+     "sha": "82f4c0f2147c900717755b68f12ae72593b916eb5432d9015baea9ddb2d2a4f9"
+    },
+    {
+     "path": "country-map/data/fr.json",
+     "sha": "e11901e384391c80d761b777892dc1b4ae9a3ac6c032ae68c4a43ba3143705f4"
+    },
+    {
+     "path": "country-map/data/gb.json",
+     "sha": "41ab793f770cbf9dc48aad774829c992d4e2d99f93c4a2168c26ff6bea88fa18"
+    },
+    {
+     "path": "country-map/data/gr.json",
+     "sha": "9e222f9ffdae20c82c1c55bac78f73077b8505201b4175baf888db0f850f0a11"
+    },
+    {
+     "path": "country-map/data/hu.json",
+     "sha": "5d92b5aa432322ad1461fe723f788df837973d763d41c460897ab0ab282ec225"
+    },
+    {
+     "path": "country-map/data/id.json",
+     "sha": "88b45c0fb4d75555459c49c2a781b3ac8026eb87f58a8f2fbd4a30ab759eff71"
+    },
+    {
+     "path": "country-map/data/ie.json",
+     "sha": "e26b3a21c7fec538af4bfe73bee429bffc2187254c713e65779bcb7c85426469"
+    },
+    {
+     "path": "country-map/data/il.json",
+     "sha": "ad17a3bbef97495d667aa8f1660f5c2e418a756ac99b78a8cf3e9baa2f877f98"
+    },
+    {
+     "path": "country-map/data/in.json",
+     "sha": "bc1b90be7e506f2bf47021801d526e3cd3085230a959c925a407b921a3b8c1e4"
+    },
+    {
+     "path": "country-map/data/index.json",
+     "sha": "0d9d6f37b079859af4d48e206635ca5e6525c7f3b760f44645032a74e008f02f"
+    },
+    {
+     "path": "country-map/data/ir.json",
+     "sha": "33d6a4cbaf59ab5f2e22e1bc930b0ffb000b691733561f4727b87caa4ee1c9c3"
+    },
+    {
+     "path": "country-map/data/it.json",
+     "sha": "5117225ad62f1d52cd27c3c6e29356a537ad518bcbb32bb64563ba2ee60cf3ba"
+    },
+    {
+     "path": "country-map/data/jp.json",
+     "sha": "a32c8874dec5c60cd14da85f267da742d0e9806f6dc41fcb70408bdb656c03e9"
+    },
+    {
+     "path": "country-map/data/kh.json",
+     "sha": "d611a5c7e8c8ba4800d23131a59509c201c275bf6617411d95c2cc6b2fe03c86"
+    },
+    {
+     "path": "country-map/data/kp.json",
+     "sha": "d793652b70eb72fa8db1e3835e72050bc30e7ed7c252962945b3033e8cb3adef"
+    },
+    {
+     "path": "country-map/data/kr.json",
+     "sha": "c7e2791c137ff7a64b8a3f6022ddc09ef27df30125bfd352fe8c483fa4d8fa39"
+    },
+    {
+     "path": "country-map/data/kz.json",
+     "sha": "4e3ba6519a3b33460611d8864ba4252a59f023e5583c5d65dc9726cce4ab664a"
+    },
+    {
+     "path": "country-map/data/la.json",
+     "sha": "2672d24079ee4ec4f5da877b890e46eb8cecf0773ea88d539587232eafe441e8"
+    },
+    {
+     "path": "country-map/data/mm.json",
+     "sha": "59bb7384b776fcec6e8dd1bf0be026058fbc1986df68bc643b27b444863602cf"
+    },
+    {
+     "path": "country-map/data/mn.json",
+     "sha": "f35f3a6d25d7d8dab9f9958f01b691f180dfc137d18df3226b929501feb4ac9c"
+    },
+    {
+     "path": "country-map/data/mx.json",
+     "sha": "83d4d02f92ad36fd89bc495cb8230e9eb4f0fb9a64c83ff128cf4f7db5c30ea9"
+    },
+    {
+     "path": "country-map/data/my.json",
+     "sha": "365b7e3f204ca2f6c2b4d6dba40e7fc08973e7f2fadbe4a8d96a86114912b05a"
+    },
+    {
+     "path": "country-map/data/ng.json",
+     "sha": "41508f10f5c14e41a9f002408e1cfd9cf48477e4deaa9824d9316687848817db"
+    },
+    {
+     "path": "country-map/data/nl.json",
+     "sha": "7e2acc07287e50db8d4de2140284b446ace8f72c133aab027757d845c1a62213"
+    },
+    {
+     "path": "country-map/data/no.json",
+     "sha": "5132685f541adc076e867bc4dc53b538c471d55ebe0765968332595d91442a3d"
+    },
+    {
+     "path": "country-map/data/nz.json",
+     "sha": "d4245d9e3681d2f64b7820c9c8f256eb6763f6fd71936cb557ba4473651f9287"
+    },
+    {
+     "path": "country-map/data/ph.json",
+     "sha": "3ffc32cb8cfd2dfbf635091899177ed68eaccfd3b5eb8244e96f6d836df7df41"
+    },
+    {
+     "path": "country-map/data/pk.json",
+     "sha": "fff93d5740f421e07e3a771e98444ef8dd1d2c63fefd792474e761f0f859d7ee"
+    },
+    {
+     "path": "country-map/data/pl.json",
+     "sha": "466c31b6564ab79749fddd4d646dffc266e7da7aa47b159a7ae7950da53d1603"
+    },
+    {
+     "path": "country-map/data/pt.json",
+     "sha": "f8ae80ae9cc660a1733d352f5b04f2973496c02c5db5b2ec6b2bc4c36e069a28"
+    },
+    {
+     "path": "country-map/data/ru.json",
+     "sha": "0f5b6e43c302a7a3d2148e23819b12f2fb78e98fea14fe2e9da7f8e8f2d4d396"
+    },
+    {
+     "path": "country-map/data/sa.json",
+     "sha": "747daa8b79dda9eee44880708d6c8e6f0d9c22434e658510f27e6be8769e9993"
+    },
+    {
+     "path": "country-map/data/se.json",
+     "sha": "4aa30b7ff00d8da98649f97119344d2b9d73fb910c39d4c691fe267e968b8ec6"
+    },
+    {
+     "path": "country-map/data/sg.json",
+     "sha": "16a162a23f8ce4da42ab6c59bae56b38fb665a945723097d8796401b61fefee3"
+    },
+    {
+     "path": "country-map/data/th.json",
+     "sha": "8f26b7d3ab7fdffce0af601df032b6c5e66e412797046e0171062c5c6002e7f7"
+    },
+    {
+     "path": "country-map/data/tr.json",
+     "sha": "8785bc7cb05ed600bfb9d36ae6ad82fd8c169219ea1ecad6d248c806d5dfd562"
+    },
+    {
+     "path": "country-map/data/tw.json",
+     "sha": "bd2df4a3d9677d257eab600b9692bb8a03b0419511f0ff0bc89bd60c379d2e90"
+    },
+    {
+     "path": "country-map/data/ua.json",
+     "sha": "d38bd2f639fef01fd80ba2c83f4e1fa3ef6fda417e211696ce790dd63712e0ee"
+    },
+    {
+     "path": "country-map/data/us.json",
+     "sha": "1509cbb2e7e15d0e15a4103326249a22db9c89af59fb2502bae3e1fab4210637"
+    },
+    {
+     "path": "country-map/data/vn.json",
+     "sha": "cbd158928c360e254c6c5c27b62ea0547a0482c5131c5718b72631222fbdbe91"
+    },
+    {
+     "path": "country-map/data/za.json",
+     "sha": "73b828cb31ea2befba5a9700a4e83bb9bdc023a162bf883f8ffce5f77e8e478c"
+    },
+    {
+     "path": "country-map/effect.html",
+     "sha": "ead77a46de90e808632a249fd6f541572f1138c6a3551d28a49729dc2093aed4"
+    },
+    {
+     "path": "country-map/effect.json",
+     "sha": "5c03a7c7d6651a6f7ec0588ae51381e47e2eb73c3c90d6b63ef9e79989fac864"
+    },
+    {
+     "path": "country-map/three-lite.js",
+     "sha": "78d9ee53dd4bc62b91fc0ca33d960e21e2e8795fb6941da0f81a2d0b68434457"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1693,9 +2861,9 @@
    "id": "danmaku",
    "name": "弹幕",
    "description": "一行文字就是一条弹幕，从画面一侧飘到另一侧；字号、颜色、速度都能调，轨道自动排开、互不重叠；背景透明，可以直接叠在视频上",
-   "file": "effects/danmaku-9990081d8e.zip",
-   "zipSha": "9990081d8e9599d8d5a1294e9509f540376879944b0d0a6f406ee64c1eb933d0",
-   "size": 218990,
+   "file": "effects/danmaku-09a4a2667f.zip",
+   "zipSha": "09a4a2667f39fa4874ddf9a00060ed708189ec52a628a3041eca1a2a95d1f7a6",
+   "size": 545987,
    "files": [
     {
      "path": "danmaku/effect.html",
@@ -1706,8 +2874,16 @@
      "sha": "cc8090911e2b3084cbd922c753ca57a229a8ff2bc7a4b1ea049477fa8d48af25"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1723,11 +2899,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1743,11 +2923,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1755,7 +2935,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1763,9 +2943,9 @@
    "id": "doc-highlight",
    "name": "文档荧光笔",
    "description": "一页文件 / 新闻原文，讲到哪句，那句被荧光笔划过、红框框住或下划线划出，镜头慢慢推向这一句。",
-   "file": "effects/doc-highlight-c603f7470c.zip",
-   "zipSha": "c603f7470c4ceeec176efd3de85ada78c42b293b9e996305cca912186fdfda24",
-   "size": 214614,
+   "file": "effects/doc-highlight-cb61718ac8.zip",
+   "zipSha": "cb61718ac8392fe2ffb881c21addd1df9b109f6ae0b827ae14e26713ba51353c",
+   "size": 541611,
    "files": [
     {
      "path": "doc-highlight/effect.html",
@@ -1776,8 +2956,16 @@
      "sha": "2d0b5b125502715c6f3d5643646251d9e51b3f171455fd000f76464305033865"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1793,11 +2981,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1813,11 +3005,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1825,7 +3017,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1833,9 +3025,9 @@
    "id": "donut-ring-load",
    "name": "环形数字加载",
    "description": "甜甜圈图从正上方顺时针一段接一段画出，中间总计往上数，右侧图例依序滑入；数据可在面板表格里改，也能导入 Excel",
-   "file": "effects/donut-ring-load-004600674b.zip",
-   "zipSha": "004600674beaeb0e0409f9c2b833b3d991b7b31079371a7a14e186eac2d6fb59",
-   "size": 570686,
+   "file": "effects/donut-ring-load-ec1901d58d.zip",
+   "zipSha": "ec1901d58df356d1a36eedeaf1319a9a64413a5f89801ca1e46220009f9de28f",
+   "size": 897683,
    "files": [
     {
      "path": "donut-ring-load/DrawSVGPlugin.min.js",
@@ -1858,8 +3050,16 @@
      "sha": "c9506197caf809a075b6dee1da0d36fb19da7158ffe8a88e7b0c96c5d8623c99"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1875,11 +3075,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1895,11 +3099,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1907,7 +3111,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1915,9 +3119,9 @@
    "id": "entity-chips",
    "name": "实体名牌（EntityChips）",
    "description": "人物/公司锚定牌,滑入后常驻",
-   "file": "effects/entity-chips-27446b1b37.zip",
-   "zipSha": "27446b1b376d6c4627565db762ee1fe210a1316a372bba1ef37801a3b5c7c5ed",
-   "size": 238072,
+   "file": "effects/entity-chips-dceb078022.zip",
+   "zipSha": "dceb0780224166cfee3381af8cc0255a49b80c9dc4d77872cebf4a4202bb3402",
+   "size": 565069,
    "files": [
     {
      "path": "entity-chips/bundle.js",
@@ -1932,8 +3136,16 @@
      "sha": "9d7bc0a9b1e7b23866abb4618e1fe75f1e0f357eabe0c99b77a1aeabdcd23529"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -1949,11 +3161,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -1969,11 +3185,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -1981,7 +3197,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -1989,9 +3205,9 @@
    "id": "era-ruler",
    "name": "时代刻度尺",
    "description": "底部一条黑色半透明刻度尺（每年一格、逢 5 年标年份），上面一张张时代卡从开始年铺到结束年，带皇冠和「年份 / ???」；镜头沿刻度尺平移。可以一个个排队出现，也可以把 ??? 一个个揭晓成答案（当前这张亮起、上方出现一行小字）。每张卡都能上传照片 / 视频当背景（人物、产品图），字压在上面。",
-   "file": "effects/era-ruler-c8cd84d3e5.zip",
-   "zipSha": "c8cd84d3e570362219a18d4c6f35af6258fd6d0dc93ca03c7940af960167535f",
-   "size": 219202,
+   "file": "effects/era-ruler-cd1ec5cdd2.zip",
+   "zipSha": "cd1ec5cdd28fdf123d7e869a847ea79d89f16757c2473bc3c378ff42e2766cf3",
+   "size": 546199,
    "files": [
     {
      "path": "era-ruler/effect.html",
@@ -2002,8 +3218,16 @@
      "sha": "9faaadceecd74ab0e725f7ef941868abb29de0afb2bf29fa6dabff21ba50463f"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2019,11 +3243,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2039,11 +3267,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2051,7 +3279,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2059,9 +3287,9 @@
    "id": "flag-badge-card",
    "name": "旗标名牌卡",
    "description": "公司 / 品牌 / 国家的名牌卡：圆形国旗 + 英文名 + 中文名 + 白色 logo 格，背景里有立方体、棱形、烟雾或光点从中间缓缓往外涌出、无限循环（公共模块「卡片背景动效」，可以关）。1~4 张并排，每张卡单独设国旗、名字、logo、底色和背景动效。4 种排版（竖牌 / 横牌 / 名片条 / 排名牌），底色 / 高亮 / 去色关键帧和焦点格卡片同一套。",
-   "file": "effects/flag-badge-card-909ac77cd4.zip",
-   "zipSha": "909ac77cd4b4db034a57e29909bc1857a415298a72245976b78ead890e4d28b2",
-   "size": 226789,
+   "file": "effects/flag-badge-card-4ddf7ca17b.zip",
+   "zipSha": "4ddf7ca17b6c07bb183b25674157c370d473f59bc0e79bfa5ce6214df81a4c3a",
+   "size": 553786,
    "files": [
     {
      "path": "flag-badge-card/effect.html",
@@ -2072,8 +3300,16 @@
      "sha": "3c2089f1145838d184ed21da039a48f5835e31d06f8735d85a7cc1e2b90a724b"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2089,11 +3325,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2109,11 +3349,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2121,7 +3361,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2129,9 +3369,9 @@
    "id": "flow-steps",
    "name": "流程步骤",
    "description": "一排编号卡片，箭头一段段画过去连起来；可以在最后画一条回到开头的循环线。讲到哪一步哪一步亮。",
-   "file": "effects/flow-steps-50748aa1b5.zip",
-   "zipSha": "50748aa1b5243cd1d5e2f229e69d0332e7fe705fc923d2088283fb0b89a71f8f",
-   "size": 213932,
+   "file": "effects/flow-steps-801b713d63.zip",
+   "zipSha": "801b713d639c5bb49e2da5db0d37062cf384657a86cc5433d7306eeb18ac5ad6",
+   "size": 540929,
    "files": [
     {
      "path": "flow-steps/effect.html",
@@ -2142,8 +3382,16 @@
      "sha": "c7971d2405cbd5a9923976a7e3bc083e722149ba310cc332d3c52dfb2e38cdcd"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2159,11 +3407,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2179,11 +3431,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2191,7 +3443,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2199,9 +3451,9 @@
    "id": "focus-slot-card",
    "name": "焦点格卡片",
    "description": "一张带细线边框的卡片：上面一行小字 + 大标题，中间一个「格子」，底部一行英文。格子里可以放会换字的文字（用文字转场，18 种转场任选，数字推荐「数字翻滚」）、照片、视频，或者空着留一个虚线框（导出时可透明）。5 种排版预设、底色色块、高亮 / 去色关键帧，和缝线标题卡同一套。",
-   "file": "effects/focus-slot-card-33bbd7f105.zip",
-   "zipSha": "33bbd7f1054964274ea26e58da28e33f454a62d067a0997d0cdb1ebdcb2def84",
-   "size": 225050,
+   "file": "effects/focus-slot-card-723ea1088d.zip",
+   "zipSha": "723ea1088d9427d017110a0267bcdcc30bab795c0a68e90b1ef1a5624b0b00d7",
+   "size": 552047,
    "files": [
     {
      "path": "focus-slot-card/effect.html",
@@ -2212,8 +3464,16 @@
      "sha": "7e8fded9b353f6faa379289a1dcaf2e44761611e008c7c7837855e7c1fe2507b"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2229,11 +3489,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2249,11 +3513,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2261,7 +3525,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2269,9 +3533,9 @@
    "id": "formula-bar",
    "name": "大公式条",
    "description": "一块面板中间一条公式（收入 − 成本 = 利润），每一项一个个砸下来；讲到哪一项哪一项高亮，其余压暗；项下面可以挂一行小注。",
-   "file": "effects/formula-bar-059f890012.zip",
-   "zipSha": "059f89001221e7667f2c1f303e3f8f2c699c76a8fa92876684e8811b5afe2889",
-   "size": 214207,
+   "file": "effects/formula-bar-5e27770fc1.zip",
+   "zipSha": "5e27770fc152cc1bdd556d31337201d1b20575422d02f068ddee9b793ee15389",
+   "size": 541204,
    "files": [
     {
      "path": "formula-bar/effect.html",
@@ -2282,8 +3546,16 @@
      "sha": "36494bc3039396cefb1c8982bac77970184a0e22dbc31265e3ea3d36e8703996"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2299,11 +3571,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2319,11 +3595,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2331,7 +3607,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2339,9 +3615,9 @@
    "id": "growth-curve",
    "name": "增长曲线（GrowthCurve）",
    "description": "平滑曲线动画画出+渐变面积,峰值滚动计数",
-   "file": "effects/growth-curve-262a145bb0.zip",
-   "zipSha": "262a145bb0e85447727770d5bdf172af11be5dafa6ce640505e8e363f2ce1f17",
-   "size": 240972,
+   "file": "effects/growth-curve-11fe4ae435.zip",
+   "zipSha": "11fe4ae4356e98a5abe40a3dd2fb0f660ea0c12a38f7f5a161e601568b37bf30",
+   "size": 567969,
    "files": [
     {
      "path": "growth-curve/bundle.js",
@@ -2356,8 +3632,16 @@
      "sha": "e108b48abecbd84b0f6e29f40d3813a2f1b36ec062030fe4af37832e04dff56f"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2373,11 +3657,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2393,11 +3681,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2405,7 +3693,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2413,9 +3701,9 @@
    "id": "hierarchy-tree",
    "name": "层级结构图",
    "description": "组织架构 / 业务板块那种层级结构图：顶层一张大卡（可放图片，图在左 / 中 / 右），下面一层层分出子卡，折线连接，逐层展开。每张卡都能单独打去色 / 高亮关键帧，也能让一整条链路跟着上级一起变；连线跟着两端卡片自动变亮 / 变暗。",
-   "file": "effects/hierarchy-tree-437c04f137.zip",
-   "zipSha": "437c04f137c4bca87065b7ac9e731d04e9216d3b4e03680b395e2756609370b6",
-   "size": 231529,
+   "file": "effects/hierarchy-tree-870967ad5f.zip",
+   "zipSha": "870967ad5f251a5ce81f920b6f6dd82be91eff8856b5eab2d3cf4899b20e8f83",
+   "size": 558526,
    "files": [
     {
      "path": "hierarchy-tree/effect.html",
@@ -2426,8 +3714,16 @@
      "sha": "bb33079b06552528b80addb6c722437e230729602f388c5118e99cd9373d2fa9"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2443,11 +3739,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2463,11 +3763,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2475,7 +3775,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2483,9 +3783,9 @@
    "id": "image-layer",
    "name": "单张图片",
    "description": "直接放一张图片（PNG 透明照常保留）：可裁剪、圆角、阴影，入场 / 出场有淡入淡出、左右上下飞、模糊溶解、缩放、弹出、旋转；位置 / 大小 / 旋转 / 关键帧 / 去色和其他效果一样。也可以把图片从电脑直接拖到素材时间线上，从播放头那一秒开始。",
-   "file": "effects/image-layer-721db5036d.zip",
-   "zipSha": "721db5036d654ed3505517394d6212c1a4b17ef7dc22f2044f18aef1866fe303",
-   "size": 211238,
+   "file": "effects/image-layer-d5dd7ab406.zip",
+   "zipSha": "d5dd7ab40673b60ac8db270a2ead241585579dd08efcc5429849817728819b69",
+   "size": 538235,
    "files": [
     {
      "path": "image-layer/effect.html",
@@ -2496,8 +3796,16 @@
      "sha": "cf76fc5e68d06d7bc421ab34fd939799e40f459dfcbedb774c416c1aa4a6addb"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2513,11 +3821,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2533,11 +3845,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2545,7 +3857,89 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
+    }
+   ]
+  },
+  {
+   "id": "media-array",
+   "name": "素材阵列",
+   "description": "上传一张图片 / 一段视频 / 一句文字，排成横 × 竖的阵列；可以做「1 个 → 5 个 → 10 个」的变化，所有个数都在指定区域里自动缩小排好。排列顺序、阵列角度、新增方式可调；位置 / 大小 / 旋转 / 关键帧 / 去色 · 高亮 / 不透明度和其他效果一样。",
+   "file": "effects/media-array-fbfd688216.zip",
+   "zipSha": "fbfd688216013ea709422fd04839663ff294d2babb9ea860d1cd8877bb3ff918",
+   "size": 547198,
+   "files": [
+    {
+     "path": "media-array/effect.html",
+     "sha": "f1734e24909318bf84e29185f7e296306a9421900296bb57e3ce875afefd2b6d"
+    },
+    {
+     "path": "media-array/effect.json",
+     "sha": "fac592f593a89a819eb7189f994ce838d5fc03f63f1bf88ea1a42f03d1d43961"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
+     "path": "_shared/fx-bg.js",
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
+    },
+    {
+     "path": "_shared/fx-caption.js",
+     "sha": "a9c736a822c0ee25f39fd64bb8dcf28a82e2dd66f22212854dcffa46fa466fa2"
+    },
+    {
+     "path": "_shared/fx-cardbg.js",
+     "sha": "8943682ed7fc9180f5956b819b0cbd0392d033a6507ed68dab5405323a8aa6cd"
+    },
+    {
+     "path": "_shared/fx-cards.js",
+     "sha": "13346cb858ee6cb73debd4762fc058bef54b1e27dda9c150dc3fca5dbcd9ed24"
+    },
+    {
+     "path": "_shared/fx-disc.js",
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
+    },
+    {
+     "path": "_shared/fx-explain.js",
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
+    },
+    {
+     "path": "_shared/fx-palettes.js",
+     "sha": "bc67a226ce42d34b572870ad0b38b5f7bbd833a3e270c96cd56af1a63431db65"
+    },
+    {
+     "path": "_shared/fx-point.js",
+     "sha": "f6928bbabd258067e7329c51cb26d50560dd9f7858af8aabcae9166c807c5661"
+    },
+    {
+     "path": "_shared/fx-ribbon.js",
+     "sha": "44ea99914c41a47bd6f9444237406ebe190aa7f0fb591abbbfa8a623873f7feb"
+    },
+    {
+     "path": "_shared/fx-skin.js",
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
+    },
+    {
+     "path": "_shared/fx-transition.js",
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
+    },
+    {
+     "path": "_shared/fx-video.js",
+     "sha": "870836f55195c4df8b4651b470d70aac9564193ded34b8e456424be0272df803"
+    },
+    {
+     "path": "_shared/view-controls.js",
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2553,9 +3947,9 @@
    "id": "odometer",
    "name": "翻牌计数器（Odometer）",
    "description": "每位数字滚轮到位",
-   "file": "effects/odometer-09f2cf06c1.zip",
-   "zipSha": "09f2cf06c1f37d3dfefe81b3bf2e293e3c70bbe4bcb4bbaa02dce5324975ef50",
-   "size": 238115,
+   "file": "effects/odometer-fd20648571.zip",
+   "zipSha": "fd20648571af536ce6631ce9bab74628300c9b38e2b66318a1e5853ec3afca16",
+   "size": 565112,
    "files": [
     {
      "path": "odometer/bundle.js",
@@ -2570,8 +3964,16 @@
      "sha": "19fc77ea9ca2690f6730ce0fefd6b6a3a9ac9d7ad411590b1c6db96d0c823225"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2587,11 +3989,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2607,11 +4013,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2619,7 +4025,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2627,9 +4033,9 @@
    "id": "people-fill",
    "name": "人群填充",
    "description": "空心人逐个被填充，支持半满状态",
-   "file": "effects/people-fill-a575b2a891.zip",
-   "zipSha": "a575b2a8913253cb22574b468e39e76b8fa7492e205a8af4a00db3079cbe75fb",
-   "size": 207581,
+   "file": "effects/people-fill-cbb7252732.zip",
+   "zipSha": "cbb72527327bbb06a0da30c50a861bb0ed43cc66e76db8cf352533af43f3e83b",
+   "size": 534578,
    "files": [
     {
      "path": "people-fill/effect.html",
@@ -2640,8 +4046,16 @@
      "sha": "aeaf5efaf7c6bfbbbd004b4f71d2239b220eb9c8cc7b009a9b90033a33de8d01"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2657,11 +4071,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2677,11 +4095,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2689,7 +4107,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2697,9 +4115,9 @@
    "id": "photo-stack-slide",
    "name": "照片堆叠滑入",
    "description": "一叠照片带着阴影、错开着从画外滑进来：后面的先到，最上面那张晚一步再加速追上，快对齐时错开收小，由快到慢缓停；数量、入画 / 出画方向、整体角度都能调",
-   "file": "effects/photo-stack-slide-e2be04470a.zip",
-   "zipSha": "e2be04470a0c7e1e25c4ecbdc0a588636a244fc99de7755261dd205095ccdd29",
-   "size": 214163,
+   "file": "effects/photo-stack-slide-8cf115b39e.zip",
+   "zipSha": "8cf115b39e67dcb092b9eb36e0b9347dc9bd6e6a3a07e7a7fdf0ac03a44ad64e",
+   "size": 541160,
    "files": [
     {
      "path": "photo-stack-slide/effect.html",
@@ -2710,8 +4128,16 @@
      "sha": "39ac236d99e3d546c629a3baea7a3d1910821ccf6a59614c11f1719ac364e137"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2727,11 +4153,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2747,11 +4177,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2759,7 +4189,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2767,9 +4197,9 @@
    "id": "pie-focus-split",
    "name": "饼图聚焦拆分",
    "description": "开场圆 + Logo → 扇形由快到慢扫出盖住 Logo → 某一块高亮变色 → 往外抽出 → 在它里面再切出一块子集",
-   "file": "effects/pie-focus-split-ecd8083158.zip",
-   "zipSha": "ecd8083158e287be6ae22e688d53fd804b741825a7978dbd43159de9cde8c427",
-   "size": 223913,
+   "file": "effects/pie-focus-split-4c05108ac7.zip",
+   "zipSha": "4c05108ac7d7920289c09d28b57d1366288cec1a7e8242e18320d89c5195d607",
+   "size": 550910,
    "files": [
     {
      "path": "pie-focus-split/effect.html",
@@ -2780,8 +4210,16 @@
      "sha": "994571073cf0f229c6a797d6c22b2eb78b79807631b7522ec8f9b7d2c23129f7"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2797,11 +4235,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2817,11 +4259,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2829,7 +4271,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2837,21 +4279,29 @@
    "id": "point-expand-cards",
    "name": "要点展开卡",
    "description": "要说明几点就出现几张灰色卡片；讲到哪一点，那张卡被颜色擦满亮起来；再讲细节时这张卡变高亮，旁边拉出一个虚线说明框，框里放圆头像、方图、文字要点、大数字或镂空窗口。",
-   "file": "effects/point-expand-cards-80feefa8f3.zip",
-   "zipSha": "80feefa8f336911f851ad663563e6a257c993cbbb0123a1532ef9686a8c0760f",
-   "size": 222977,
+   "file": "effects/point-expand-cards-8f30ee8a02.zip",
+   "zipSha": "8f30ee8a028f14c5ad36ffa6848553ee420dd8dd7a367e8130b6db23fde8f233",
+   "size": 550494,
    "files": [
     {
      "path": "point-expand-cards/effect.html",
-     "sha": "7aebdc6583d873cd7db2605ac382a7c072631792c5e272f6cf2d508b7e4bba2a"
+     "sha": "afc08877e9be69fb46ca14b4622bbdf3183f567e036111fd166360d0cdb14151"
     },
     {
      "path": "point-expand-cards/effect.json",
-     "sha": "baf963f724828e5c634ff27e50807eb991d9d64d97508fbd47860a0cd8ad0a19"
+     "sha": "54369769066e7358f27a7e63b4ee8e660f04b24bfd2c820034b2a3ce5d1d69e2"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
     },
     {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2867,11 +4317,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2887,11 +4341,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2899,7 +4353,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2907,9 +4361,9 @@
    "id": "quote-lockup",
    "name": "金句定格卡",
    "description": "逐字揭示金句，划掉旧说法、高亮重点，最后收走",
-   "file": "effects/quote-lockup-22da43d1e0.zip",
-   "zipSha": "22da43d1e00d6c5b09ca971272d6ef2e01209ec31e240e607c2082c0f264cfbe",
-   "size": 214905,
+   "file": "effects/quote-lockup-e38985144a.zip",
+   "zipSha": "e38985144a7a9e5e3f17ef6159fbccf2d6e921246a429a80f13d49a56372b52f",
+   "size": 541902,
    "files": [
     {
      "path": "quote-lockup/effect.html",
@@ -2920,8 +4374,16 @@
      "sha": "996145ad41c7c8eca6906bdcf4a3b329cde7b144e26b99904321bf0c8e8720e7"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -2937,11 +4399,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -2957,11 +4423,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -2969,7 +4435,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -2977,9 +4443,9 @@
    "id": "relation-graph",
    "name": "关系图",
    "description": "几个节点（方卡或圆卡）之间画带箭头的连线，线上写关系（持股 51%、供货、投资），可以有小圆点沿线流动表示资金 / 货物流向。",
-   "file": "effects/relation-graph-2d8fb52765.zip",
-   "zipSha": "2d8fb5276576228a1efce3dc07220f7dbe3dc60e5cf384915b1f9d3a7483222e",
-   "size": 230078,
+   "file": "effects/relation-graph-5b09056165.zip",
+   "zipSha": "5b09056165c3862cff503d74ae79dcfd9257a175b38809b027f592a60927b117",
+   "size": 557075,
    "files": [
     {
      "path": "relation-graph/effect.html",
@@ -2990,8 +4456,16 @@
      "sha": "2832d4c969b8bb6e2302296f05ae380b0534e1fa54f95f7390919502242fb5ac"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3007,11 +4481,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3027,11 +4505,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3039,7 +4517,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3047,9 +4525,9 @@
    "id": "restrict-card",
    "name": "限制卡",
    "description": "一张卡片（图片 / 视频 / 文字）先正常出现，然后变灰，再落下一个限制记号（叉 / 禁止圈 / 锁头 / 封条）。表达「限制使用、限制访问、限制观看、被禁止」。图片和视频上可以叠一段文字（有单独开关、能调字号和颜色）。",
-   "file": "effects/restrict-card-ed74219d47.zip",
-   "zipSha": "ed74219d47632e7eeda4877fa6d1076dfd460b24a8e7966f3665d59321c8f9dd",
-   "size": 220780,
+   "file": "effects/restrict-card-5c56a5c0c8.zip",
+   "zipSha": "5c56a5c0c80c7c60a5638a330d30f5e4f110e209cf6bc9bf0abce0b6e5bbf974",
+   "size": 547777,
    "files": [
     {
      "path": "restrict-card/effect.html",
@@ -3060,8 +4538,16 @@
      "sha": "1b3fdb5ead79f00ca8797d394368437e6fb5a9ae140028b097a5dda0646dceb6"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3077,11 +4563,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3097,11 +4587,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3109,7 +4599,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3117,9 +4607,9 @@
    "id": "ribbon-link-cards",
    "name": "丝带连接卡",
    "description": "几张带发光边框的卡片（方卡或圆卡），中间用「丝带」连起来：一张卡出现后，丝带从它身上（整条边，或卡里的头像 / logo 格子）长出去，连到下一张卡。每条丝带可以选三种样子：半透明光带 / 钞票流（一排排小钞票顺着丝带流动，颜色可选各国纸币色）/ 粗箭头。7 种排版：方卡 5 种（主卡 + 侧卡 / 人像 + 右侧卡 / 左中右三联 / 中心 + 四方 / 上下两卡）+ 圆卡 2 种（资金汇聚 / 左侧汇入）。人像框空着 = 镂空，剪辑时把口播视频垫在下面。每张卡单独打去色 / 高亮关键帧，丝带跟着两头的卡变亮变暗。丝带两头的顶点可以在预览里拖，什么时候开始在素材条的小旗子上拖。",
-   "file": "effects/ribbon-link-cards-4e4deba448.zip",
-   "zipSha": "4e4deba448be3fdd021da79a40c98d83d6b67e5d1d3dfecb38412145166f4575",
-   "size": 244629,
+   "file": "effects/ribbon-link-cards-7a117f4609.zip",
+   "zipSha": "7a117f4609d036f1cbfb28a1362769cc4731936db7905387ddb92fca3dd84340",
+   "size": 571626,
    "files": [
     {
      "path": "ribbon-link-cards/effect.html",
@@ -3130,8 +4620,16 @@
      "sha": "fd88b0a272316d9dad67964a02f8adf3772b1b7d9878d2a34305ffa5de8186fb"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3147,11 +4645,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3167,11 +4669,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3179,7 +4681,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3187,9 +4689,9 @@
    "id": "ring-carousel",
    "name": "3D 环形轮播（Ring Carousel）",
    "description": "多张卡片在 3D 空间里围成圆环缓慢自转，前大后小、背面隐藏；可指定一张「首图」开场正对居中",
-   "file": "effects/ring-carousel-7432bc0d22.zip",
-   "zipSha": "7432bc0d2254f4c0177e8d1bc4a9fb3ffd26a83207cc1c099f7bfc6bd78e60e6",
-   "size": 222455,
+   "file": "effects/ring-carousel-dbd1002e71.zip",
+   "zipSha": "dbd1002e71757d4cdd829a1f72f9b517e952ebc1f942e8bc02e7431841ad36c6",
+   "size": 549452,
    "files": [
     {
      "path": "ring-carousel/effect.html",
@@ -3200,8 +4702,16 @@
      "sha": "5b26e38a66522192ff28f2f8a610f4ef4094ac8603eee1af050b0c4737e95a28"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3217,11 +4727,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3237,11 +4751,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3249,7 +4763,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3257,21 +4771,29 @@
    "id": "round-flash-card",
    "name": "圆形闪光换色卡",
    "description": "圆形玻璃卡片：开场是一张偏暗的蓝色卡，闪一两下提示后亮起来，再从模糊到清晰换成另一种颜色、并出现人物。大字、英文、花体字、编号、图标、人物都能换；9 种排版（参考图 / 人物居中 / 人物在左 / 极简大字 / 环形文字 / 人名背景 / 人物单卡 / 文字单卡 / 多卡合一：2~6 张卡（每张自己选样式）靠近、糊掉，合成新卡片 C，或者留下其中一张）；可选绕着卡片转的透明丝带。去色 · 高亮关键帧、配色色块和旗标名牌卡、焦点格卡片同一套。",
-   "file": "effects/round-flash-card-c7bdd69ad3.zip",
-   "zipSha": "c7bdd69ad3838f652912b896af913a4e4c2dda17ba4cf22a176bfae21ddb0990",
-   "size": 237074,
+   "file": "effects/round-flash-card-8503696208.zip",
+   "zipSha": "8503696208c53f24c2570920aa0c16dab42322c34c9d637c697ebf64604a0d88",
+   "size": 582662,
    "files": [
     {
      "path": "round-flash-card/effect.html",
-     "sha": "e374215e309a9ae909d869e57591c57393c46746c7fbf523f8d61e9a4b80c2ba"
+     "sha": "1e119edef71f511082ad4d29472d35209c30c1afb18d0a5bf5dcbbae2060b611"
     },
     {
      "path": "round-flash-card/effect.json",
-     "sha": "4f3d751778210695c27eb1fe664b9aecd2c7ac26438ce6f1fe52c776261bc187"
+     "sha": "eaffd59850371348267badff250fd329ef3d1d8f70ec07269966a170e991dfa6"
+    },
+    {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
     },
     {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3287,11 +4809,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3307,11 +4833,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3319,7 +4845,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3327,9 +4853,9 @@
    "id": "stitch-title-card",
    "name": "缝线标题卡",
    "description": "一张四周带缝纫线的矩形卡片：左边大标题 + 英文副标题，右边放自己的图片（或视频）。默认是可调不透明度的黑底；可以一键「去色」让整张卡片（连图片）变成黑白，再用颜色关键帧把颜色加回来；也能用关键帧让卡片切换到高亮色。预览区右键拖动可以转 X / Y / Z 三轴",
-   "file": "effects/stitch-title-card-14f6f70852.zip",
-   "zipSha": "14f6f7085239999314cd7c769da170bf96c8fa25d8f01126d732819f19b4587b",
-   "size": 219550,
+   "file": "effects/stitch-title-card-afd245b733.zip",
+   "zipSha": "afd245b7335ce65e55bac03a78185b89ea300a39b08bb5b82f3051a5588b8eff",
+   "size": 546547,
    "files": [
     {
      "path": "stitch-title-card/effect.html",
@@ -3340,8 +4866,16 @@
      "sha": "0c625124806d16aec1785b0a4046eb25b064fe30304487e1df78660cd9e3080a"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3357,11 +4891,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3377,11 +4915,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3389,7 +4927,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3397,9 +4935,9 @@
    "id": "text-corridor",
    "name": "文字走廊",
    "description": "3D 透视走廊：地板、天花板、左右墙铺满重复文字，持续朝观者流动，消失点处有暗色渐层；背景透明，可无缝循环",
-   "file": "effects/text-corridor-943613caa5.zip",
-   "zipSha": "943613caa5b488d3bf6ccef2f4056ca29dc2d751e56b8effc616824185c06c69",
-   "size": 214891,
+   "file": "effects/text-corridor-a692f2fa0b.zip",
+   "zipSha": "a692f2fa0b4e2479f530c9c528386f1f121c4145322c9ea5843605d6b49a5c95",
+   "size": 541888,
    "files": [
     {
      "path": "text-corridor/effect.html",
@@ -3410,8 +4948,16 @@
      "sha": "a949abbdd1270b3a621d492ec6c70a01d40b58f0b6085ea361e731a8c2198382"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3427,11 +4973,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3447,11 +4997,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3459,7 +5009,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3467,9 +5017,9 @@
    "id": "text-transition",
    "name": "文字转场",
    "description": "一段一段文字依次出现，每两段之间可以各选一种转场（18 种，点开就有动态预览；包括「渐隐生长」上实下透的字；数字可以用「数字翻滚」像计数器一样滚）",
-   "file": "effects/text-transition-292cb751e9.zip",
-   "zipSha": "292cb751e91729650a3df6e0621724fe64c59b9cccacccac9692a042f40ec705",
-   "size": 213678,
+   "file": "effects/text-transition-6822c5973d.zip",
+   "zipSha": "6822c5973d0a3a081c46713ef7be46c85dbde9af9f7528c21263ec97848208fb",
+   "size": 540675,
    "files": [
     {
      "path": "text-transition/effect.html",
@@ -3480,8 +5030,16 @@
      "sha": "b4f543205efc709fa8b5eb85bc478551b8969debca51f5d4d204fc59f4f14d2c"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3497,11 +5055,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3517,11 +5079,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3529,7 +5091,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3537,9 +5099,9 @@
    "id": "timeline-axis",
    "name": "时间轴",
    "description": "一条横向时间轴从左往右画出来，每个时间点一张卡（上下交替），讲到哪一年哪一张亮起，其余压暗。",
-   "file": "effects/timeline-axis-5efab27a6b.zip",
-   "zipSha": "5efab27a6bc3b94cdd6a65b1a91b1240cf4622d90a3ccf2aeb6fbda7034320d3",
-   "size": 214373,
+   "file": "effects/timeline-axis-fa107c4548.zip",
+   "zipSha": "fa107c454893dac4a62df2abfa190b99f19c7a1c38380c779789de610a556fb8",
+   "size": 541370,
    "files": [
     {
      "path": "timeline-axis/effect.html",
@@ -3550,8 +5112,16 @@
      "sha": "82dcf444377838b2fdea1908accedf04a508deb46918e09017320e0083241f0f"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3567,11 +5137,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3587,11 +5161,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3599,7 +5173,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   },
@@ -3607,9 +5181,9 @@
    "id": "timeline-scroll-box",
    "name": "时间轴说明框",
    "description": "底部一条会滚动的时间轴，走到哪个时间节点，那个节点亮起来，从它上方的要点卡（或圆点）拉出一个虚线说明框，框里一项项弹出这一年发生了什么。两种滚动：停靠式 / 匀速式。",
-   "file": "effects/timeline-scroll-box-a34d8904ce.zip",
-   "zipSha": "a34d8904cec24f3a27c5da523037b1205ca07dbc0a0bf2454e8fa831095fcb46",
-   "size": 224954,
+   "file": "effects/timeline-scroll-box-bebb9b817f.zip",
+   "zipSha": "bebb9b817f347cabd1f568c460a8a3e5b1cb107efa2d25c6d35c15d86d0f00ce",
+   "size": 551951,
    "files": [
     {
      "path": "timeline-scroll-box/effect.html",
@@ -3620,8 +5194,16 @@
      "sha": "e139b2c5eab8954ba47aabb2631f83fb6fb5ef41fb4b13d73a111f27424fa2dc"
     },
     {
+     "path": "_shared/fx-arm-img.js",
+     "sha": "a6a100c7d6136b454ddb309c611f2c999cd20f6badc8596eeeb4fb8dd66ade85"
+    },
+    {
+     "path": "_shared/fx-arm.js",
+     "sha": "a46cb8a42ba2cd4752f0f5b28c9f6d2e542a813b07d4f3414309c3635948bbdd"
+    },
+    {
      "path": "_shared/fx-bg.js",
-     "sha": "fe2396ed89bb467dac0eab26f98fae3a7f4f082dab7227771c365217eba975b3"
+     "sha": "7705242679f2a4476ea777feb6a7ded9a61167dda52b49b44ac0444a8619406d"
     },
     {
      "path": "_shared/fx-caption.js",
@@ -3637,11 +5219,15 @@
     },
     {
      "path": "_shared/fx-disc.js",
-     "sha": "268a7b3a672396f5e5c12674d900608fb9e04798f078a20ca563a8c0ef103530"
+     "sha": "262b50c3f1912d29334261986394ec0519c92a211aa4945dbecc57bda6e0ecb6"
     },
     {
      "path": "_shared/fx-explain.js",
-     "sha": "e03ed0faca75e6599348e77d1c67921594aa16f87223d5c174a44c3d0b8ceaa6"
+     "sha": "6e7ae0269b60899dd0d2b42b65806956f0c6885d4b0da7ca2871beeb277c101e"
+    },
+    {
+     "path": "_shared/fx-matte.js",
+     "sha": "9b8793cb17e1022dc4f9b3463e90bbdcdbce9ad59248e9e8d9ccd6ce16e41e29"
     },
     {
      "path": "_shared/fx-palettes.js",
@@ -3657,11 +5243,11 @@
     },
     {
      "path": "_shared/fx-skin.js",
-     "sha": "586d5bdd7d61e03a7eea6ffece431dc6678ebab8c707dd88633ae5c521df021f"
+     "sha": "4d529bb0ac5dfa351982e6b3861f50c5a41425b4e830c543d639e59d73e1e604"
     },
     {
      "path": "_shared/fx-transition.js",
-     "sha": "fbb7ae5adb7cafe2f5b838166f512b0393de15906a7acf6aca48559a47dabb07"
+     "sha": "0b7fa14a7bfc0f86318cf5a5f99ba88f732eb2ab671dba87c6116583834795bc"
     },
     {
      "path": "_shared/fx-video.js",
@@ -3669,7 +5255,7 @@
     },
     {
      "path": "_shared/view-controls.js",
-     "sha": "bc8c63fdfc10923a26c0ec4a93ba4a563fff5503bfe10337c85ce597b7f21f49"
+     "sha": "8df4a50f2d1e1a74658875cf69b0a15acab27d8ee3ab0af17cd33c4225e67b15"
     }
    ]
   }
